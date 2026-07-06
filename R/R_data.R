@@ -1,20 +1,21 @@
-#list_raw <- read.csv(here::here("data", "raw", "lists", "salve-publico-exportacao-fichas-planilha26-03-2026-13-05-15.csv"), encoding = "UTF8") 
-#list_simple <- read.table(here::here("data", "processed", "lists", "salve-squamata-simplified.txt"), h = T, sep = "\t")
+#list_raw <- read.csv(here::here("data", "raw", "lists", "salve-publico-exportacao-fichas-planilha28-06-2026-20-49-24.csv"), encoding = "UTF8") 
+#list_simple <- read.table(here::here("data", "processed", "lists", "salve-simplified.txt"), h = T, sep = "\t")
+#list_br <- read.table(here::here("data", "processed", "lists", "salve-taxonomy-reviewed.txt"), h = T, sep = "\t")
 
-list <- read.table(here::here("data", "processed", "lists", "salve-squamata-taxonomy-reviewed.txt"), h = T, sep = "\t")
-end <- read.table(here::here("data", "raw", "lists", "endemics.csv"), h = T, sep = ",")
-
-#tree_raw <- ape::read.tree(here::here("data", "raw","phylogeny", "main_title.tre")) #phylogenetic tree (title et al 2024)
-#tree_pruned <- ape::read.tree(here::here("data", "processed","phylogeny", "title_br.tre")) #pruned to SALVE species
-tree <- ape::read.tree(here::here("data", "processed","phylogeny", "title_br.tre")) #pruned to SALVE species
+#list <- read.table(here::here("data", "processed", "lists", "salve-squamata-reviewed.txt"), h = T, sep = "\t") #790 29-06
+list <- read.table(here::here("data", "processed", "lists", "list_traits.txt"), h = T, sep = "\t") #790 29-06
+end <- read.table(here::here("data", "processed", "lists", "cerrado_endemics_list.txt"), h = T, sep = "\t") #125 29-06
 
 #repttraits_raw <- read.csv(here::here("data", "raw","traits", "repttraits-raw.csv"))
 #squambase_raw <- read.csv(here::here("data", "raw","traits", "squambase-raw.csv"))
 
-repttraits_br <- read.table(here::here("data", "processed","traits", "repttraits-br.txt"), header = TRUE)
-squambase_br <- read.table(here::here("data", "processed","traits", "squambase-br.txt"), header = TRUE)
+repttraits_br <- read.table(here::here("data", "processed","traits", "repttraits-br.txt"), header = TRUE) #790 29-06
+squambase_br <- read.table(here::here("data", "processed","traits", "squambase-br.txt"), header = TRUE) #790 29-06
 
-traits <- read.table(here::here("data", "processed", "traits", "traits_merge.csv"), header = TRUE, sep = ",")
+#traits <- read.table(here::here("data", "processed", "traits", "traits_merge.csv"), header = TRUE, sep = ",")
+
+#tree_raw <- ape::read.tree(here::here("data", "raw","phylogeny", "main_title.tre")) #phylogenetic tree (title et al 2024)
+tree <- ape::read.tree(here::here("data", "processed","phylogeny", "title_br.tre")) #pruned to SALVE species
 
 # distribution ------------------------------------------------------------
 #db <- read.table(here::here("data", "processed", "distribution", "salve-combined.csv"), header = TRUE, sep = ",")

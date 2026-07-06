@@ -1,0 +1,20 @@
+I checked the species listed in the SALVE system and compared the list with that provided in the Reptile Database for Squamata species occurring in Brazil. 
+
+Three species included in SALVE are not regarded as occurring in Brazil according to the Reptile Database:
+
+- Apostolepis ambiniger: removed from our analyses following Entiauspe-Neto et al (2021)
+- Philodryas patagoniensis: removed from our analyses following Di Pietro et al. (2026)
+
+- Neusticurus medemi: kept in our analyses following Marques-Souza et al (2018)
+- Plica plica: kept in our analyses following Ribeiro-Junior and Amaral (2016)
+
+References:
+
+Di Pietro D.O., Sánchez J., Poljak S. & Alcalde L. (2026) Morphological and molecular variation reveal cryptic diversity in the racer Philodryas patagoniensis (Girard, 1858) (Squamata: Colubridae). Vertebrate Zoology 76: 93-119. https://doi.org/10.3897/vz.76.e169219
+
+Entiauspe-Neto O.M., Koch C., Harvey M.B., Colli G.R., Guedes T.B. (2021) Redescription of Apostolepis ambiniger (Peters, 1869) (Serpentes: Dipsadidae: Elapomorphini). Vertebrate Zoology 71: 231-251. https://doi.org/10.3897/vz.71.e65097
+
+Marques-Souza S., Prates I., Fouquet A., et al. Reconquering the water: Evolution and systematics of South and Central American aquatic lizards (Gymnophthalmidae). Zool Scr. 2018;47:255–265. https://doi.org/10.1111/zsc.12273
+
+Ribeiro-Júnior, M., & Amaral, S. (2016). Diversity, distribution, and conservation of lizards (Reptilia: Squamata) in the Brazilian Amazonia. Neotropical Biodiversity, 2(1), 195–421. https://doi.org/10.1080/23766808.2016.1236769
+

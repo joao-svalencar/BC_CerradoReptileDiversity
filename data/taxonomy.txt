@@ -1,0 +1,76 @@
+Nomenclature harmonization for SALVE (ICMBio) species list and species distributions
+
+"not_found" cases:
+
+Dactyloa neglecta - manually updated to Anolis neglectus
+
+
+"ambiguous" cases:
+
+Anisolepis undulatus - updated to Urostrophus undulatus
+Corallus hortulanus - updated to Corallus hortulana
+Norops auratus - updated to Anolis auratus
+Taeniophallus occipitalis - updated to Adelphostigma occipitalis
+Leposternon microcephalum - updated to Leposternon microcephalus
+
+
+"merge" cases:
+
+Liotyphlops beui and Liotyphlops sousai - merged into Liotyphlops ternetzii. I kept the threat status and biome occurrences of L. beui for being more inclusive.
+
+
+"updated" cases:
+
+Amphisbaena ibijara was synonymized with Amphisbaena frontalis. I added Amazonia to the biome occurences of Amphisbaena frontalis, now including Amazonia, Caatinga and Cerrado
+
+Amphisbaena lumbricalis was synonymized with Amphisbaena carvalhoi. I kept the threat status of A. lumbricalis for being the less threatened (LC)
+
+Amphisbaena trachura was synonymized with Amphisbaena darwinii. I kept the biome occurrences of Amphisbaena trachura for being more inclusive
+
+Anisolepis species are now included in Urostrophus.
+
+Norops and Dactyloa species are now included in Anolis.
+
+Apostolepis phillipsi was corrected to Apostolepis phillipsae
+
+Apostolepis tertulianobeui was synonymized with Apostolepis assimilis. No change was needed besides the exclusion of A. tertulianobeui from the species list
+
+Chironius scurrulus was corrected to Chironius scurrula
+
+Echinanthera amoena was corrected to Amnisiophis amoenus
+
+Epictia collaris is now included in Habrophallos.
+
+Leptomicrurus narducci was corrected to Leptomicrurus narduccii
+
+Philodryas georgeboulengeri is now renamed as Xenoxybelis boulengeri.
+
+Philodryas viridissima is now Chlorosoma viridissimum.
+
+Phrynonax polylepis was renamed as Phrynonax sexcarinatus after revalidation. polylepis became a junior synonym.
+
+Siagonodon acutirostris is now included in Trilepida.
+
+Taeniophallus species are now included in Dibernardia with excepetion of T. quadriocellatus which is Adelphostigma quadriocellata; T. Brevirostris and T. nicagus remains as Taeniophallus
+
+Thamnodynastes almae and Thamnodynastes phoenix are now included in Dryophylax.
+
+Thamnodynastes rutilus is now included in Mesotes
+
+Varzea altamazonica and Varzea bistriata are now included in Mabuya. 
+
+
+
+#####
+Cerrado endemics taxonomic review: 
+We started with a list of 129 endemic squamates (Vieira-Alencar et al 2025).
+With letsRept all unmatched names were automatically updated as follow:
+
+Apostolepis barrioi was synonymized with A. dimidiata and removed from the list of endemics (multiple records in the Atlantic Forest)
+
+Apostolepis cerradoensis, A. tertulianobeui and Phalotris cerradensis were synonimized with A. albicollaris, A. assimilis and P. concolor respectively. As these species were already listed as endemics, the former were just removed from the list.
+
+Siagonodon acutirostris is now Trilepida acutirostris: updated nomenclature
+Thamnodynastes rutilus is now Mesotes rutilus: updated nomenclature
+
+Our list of endemic species ended with 125 species after nomenclatural review (May, 4th, 2026)

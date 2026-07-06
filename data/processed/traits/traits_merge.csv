@@ -1,0 +1,792 @@
+family,genus,species,activity,limbs,reproduction,habitat,biomes,major_biome_gard,Seasonality.Precipitation..coefficient.of.variation...100.,cerrado_endemic,phylogeny,distribution
+Gymnophthalmidae,Acratosaura,Acratosaura mentalis,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,CA_CE_AF,Deserts & Xeric Shrublands,34.24,no,yes,yes
+Gymnophthalmidae,Acratosaura,Acratosaura spinosa,NA,4 well developed limbs,oviparous,Savanna,CA,Deserts & Xeric Shrublands,26.2,no,yes,yes
+Dipsadidae,Adelphostigma,Adelphostigma occipitalis,Nocturnal,limbless,oviparous,Forest,AM_CA_CE_AF_PP_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Adelphostigma,Adelphostigma quadriocellata,NA,limbless,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,0.6,no,no,yes
+Gymnophthalmidae,Alexandresaurus,Alexandresaurus camacan,NA,4 well developed limbs,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,20.77,no,yes,yes
+Alopoglossidae,Alopoglossus,Alopoglossus amazonius,NA,4 well developed limbs,NA,NA,AM,NA,NA,no,no,yes
+Alopoglossidae,Alopoglossus,Alopoglossus angulatus,Diurnal,4 well developed limbs,oviparous,Forest_Wetlands,AM,Tropical & Subtropical Moist Broadleaf Forests,12.47,no,yes,yes
+Alopoglossidae,Alopoglossus,Alopoglossus atriventris,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.09,no,yes,yes
+Alopoglossidae,Alopoglossus,Alopoglossus avilapiresae,NA,4 well developed limbs,NA,NA,AM,NA,NA,no,no,yes
+Alopoglossidae,Alopoglossus,Alopoglossus brevifrontalis,Diurnal,4 well developed limbs,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,14.09,no,yes,yes
+Alopoglossidae,Alopoglossus,Alopoglossus buckleyi,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,13.05,no,yes,yes
+Alopoglossidae,Alopoglossus,Alopoglossus collii,NA,4 well developed limbs,NA,NA,AM,NA,NA,yes,no,yes
+Alopoglossidae,Alopoglossus,Alopoglossus meloi,NA,4 well developed limbs,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,13.15,no,no,yes
+Alopoglossidae,Alopoglossus,Alopoglossus theodorusi,NA,4 well developed limbs,NA,NA,AM,NA,NA,no,no,yes
+Gymnophthalmidae,Amapasaurus,Amapasaurus tetradactylus,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,19.83,no,yes,yes
+Teiidae,Ameiva,Ameiva ameiva,Diurnal,4 well developed limbs,oviparous,Forest_Savanna_Shrubland,AM_CA_CE_AF_PP_PT,Tropical & Subtropical Moist Broadleaf Forests,17.14,no,yes,yes
+Teiidae,Ameiva,Ameiva jacuba,NA,4 well developed limbs,oviparous,NA,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",12.98,yes,yes,yes
+Teiidae,Ameiva,Ameiva parecis,Diurnal,4 well developed limbs,oviparous,Grassland,AM_CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",11.75,yes,yes,yes
+Teiidae,Ameivula,Ameivula cipoensis,Diurnal,4 well developed limbs,oviparous,NA,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",22.85,yes,no,yes
+Teiidae,Ameivula,Ameivula confusioniba,Diurnal,4 well developed limbs,oviparous,Grassland_Savanna,CA_CE,Deserts & Xeric Shrublands,28.08,no,no,yes
+Teiidae,Ameivula,Ameivula jalapensis,Diurnal,4 well developed limbs,oviparous,Savanna_Shrubland,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",19.12,yes,no,yes
+Teiidae,Ameivula,Ameivula mumbuca,Diurnal,4 well developed limbs,oviparous,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",18.6,yes,yes,yes
+Teiidae,Ameivula,Ameivula nativo,NA,4 well developed limbs,oviparous,Shrubland,AF,Tropical & Subtropical Moist Broadleaf Forests,21.34,no,no,yes
+Teiidae,Ameivula,Ameivula nigrigula,Diurnal,4 well developed limbs,oviparous,Grassland,CA_CE,Deserts & Xeric Shrublands,35.78,no,no,yes
+Teiidae,Ameivula,Ameivula ocellifera,Diurnal,4 well developed limbs,oviparous,Savanna,AM_CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,18.76,no,yes,yes
+Teiidae,Ameivula,Ameivula pyrrhogularis,Diurnal,4 well developed limbs,oviparous,Savanna,CA,Deserts & Xeric Shrublands,38.92,no,no,yes
+Teiidae,Ameivula,Ameivula xacriaba,NA,4 well developed limbs,oviparous,NA,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",25.79,yes,no,yes
+Typhlopidae,Amerotyphlops,Amerotyphlops amoipira,Nocturnal,limbless,oviparous,Forest,AM_CA_CE_AF,Deserts & Xeric Shrublands,NA,no,no,yes
+Typhlopidae,Amerotyphlops,Amerotyphlops arenensis,Nocturnal,limbless,oviparous,Desert_Rocky,CA_CE_AF,Deserts & Xeric Shrublands,NA,no,no,yes
+Typhlopidae,Amerotyphlops,Amerotyphlops brongersmianus,Nocturnal,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF_PP_PT,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Typhlopidae,Amerotyphlops,Amerotyphlops minuisquamus,Nocturnal,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Typhlopidae,Amerotyphlops,Amerotyphlops paucisquamus,NA,limbless,oviparous,Forest,AM_CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Typhlopidae,Amerotyphlops,Amerotyphlops reticulatus,NA,limbless,oviparous,Forest_Grassland_Savanna_Shrubland,AM_CA_CE,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Typhlopidae,Amerotyphlops,Amerotyphlops yonenagae,NA,limbless,oviparous,Forest,CA,Deserts & Xeric Shrublands,NA,no,no,yes
+Dipsadidae,Amnesteophis,Amnesteophis melanauchen,NA,limbless,viviparous,NA,unknown,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,no
+Dipsadidae,Amnisiophis ,Amnisiophis amoenus,NA,limbless,oviparous,NA,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena absaberi,NA,limbless,NA,Savanna,PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena acangaoba,NA,limbless,NA,NA,CA,NA,NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena acrobeles,NA,limbless,NA,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena alba,Cathemeral,limbless,oviparous,Forest_Grassland_Savanna_Shrubland,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,17.37,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena anaemariae,NA,limbless,oviparous,Savanna,CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",17.27,yes,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena anomala,Diurnal,limbless,oviparous,Forest,AM_CA_CE,Tropical & Subtropical Moist Broadleaf Forests,38.92,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena arda,NA,limbless,NA,Forest,CE,Tropical & Subtropical Dry Broadleaf Forests,NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena arenaria,NA,limbless,NA,Shrubland,CA,Deserts & Xeric Shrublands,NA,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena arenicola,NA,limbless,NA,NA,AF,NA,NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena bahiana,NA,limbless,NA,Forest,CA_AF,Deserts & Xeric Shrublands,NA,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena bedai,NA,limbless,NA,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena bilabialata,NA,limbless,NA,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena brasiliana,NA,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,12.55,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena brevis,NA,limbless,NA,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena caetitensis,NA,limbless,NA,NA,CA,Tropical & Subtropical Dry Broadleaf Forests,NA,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena caiari,NA,limbless,oviparous,Forest_Savanna,AM,Tropical & Subtropical Moist Broadleaf Forests,9.8,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena camura,Nocturnal,limbless,oviparous,Forest_Savanna,CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",20.34,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena carli,NA,limbless,NA,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena carvalhoi,NA,limbless,NA,Savanna_Shrubland,CA_AF,Deserts & Xeric Shrublands,NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena crisae,NA,limbless,NA,Savanna,CE,Tropical & Subtropical Moist Broadleaf Forests,NA,yes,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena cuiabana,NA,limbless,oviparous,Savanna,AM_CE,Tropical & Subtropical Dry Broadleaf Forests,14.11,yes,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena cunhai,NA,limbless,oviparous,Forest_Grassland,AM,Tropical & Subtropical Moist Broadleaf Forests,9.95,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena darwinii,NA,limbless,oviparous,NA,CE_AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",21.7,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena dubia,Nocturnal,limbless,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,17.88,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena filiformis,NA,limbless,NA,NA,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena frontalis,NA,limbless,NA,Forest_Shrubland,AM_CA_CE,Deserts & Xeric Shrublands,NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena fuliginosa,Nocturnal,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,15.9,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena hastata,Diurnal,limbless,oviparous,Savanna,CA_CE,Deserts & Xeric Shrublands,41.61,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena heathi,NA,limbless,oviparous,Savanna_Shrubland,CA_AF,Deserts & Xeric Shrublands,42.97,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena hiata,NA,limbless,NA,Forest_Savanna,PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena hogei,NA,limbless,NA,Forest,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena hoogmoedi,NA,limbless,NA,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena ignatiana,NA,limbless,oviparous,Forest,CA_AF,Deserts & Xeric Shrublands,43.96,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena kingii,NA,limbless,oviparous,Grassland_Savanna,AF_PP,"Temperate Grasslands, Savannas & Shrublands",23.6,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena kiriri,NA,limbless,NA,NA,CA,Deserts & Xeric Shrublands,NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena kraoh,NA,limbless,oviparous,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",17.46,yes,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena leeseri,NA,limbless,oviparous,Savanna,AM_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",18.2,yes,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena leucocephala,NA,limbless,NA,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena littoralis,NA,limbless,NA,Shrubland,CA_AF,Deserts & Xeric Shrublands,NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena longinqua,NA,limbless,NA,NA,CA,NA,NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena maranhensis,NA,limbless,NA,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena mebengokre,NA,limbless,NA,NA,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena mertensii,NA,limbless,oviparous,Forest_Savanna,CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",19.36,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena metallurga,NA,limbless,NA,NA,AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena miringoera,NA,limbless,NA,Savanna,AM_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena mitchelli,NA,limbless,NA,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena mongoyo,NA,limbless,NA,NA,AF,NA,NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena munoai,NA,limbless,oviparous,Grassland,PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",21.69,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena nana,NA,limbless,NA,NA,AF_PP,NA,NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena neglecta,NA,limbless,NA,NA,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena nigricauda,NA,limbless,oviparous,Shrubland,AF,Tropical & Subtropical Moist Broadleaf Forests,24.39,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena persephone,NA,limbless,NA,NA,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena pretrei,NA,limbless,NA,Savanna_Shrubland,CA_CE_AF,Deserts & Xeric Shrublands,NA,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena prunicolor,NA,limbless,NA,Forest_Grassland_Savanna,CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena ridleyi,NA,limbless,NA,NA,AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena roberti,NA,limbless,oviparous,Savanna,CA_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",18.48,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena sanctaeritae,NA,limbless,NA,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena saxosa,NA,limbless,oviparous,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",16.26,yes,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena silvestrii,NA,limbless,oviparous,Forest_Savanna,AM_CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",14.98,yes,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena slevini,Nocturnal,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,13.91,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena steindachneri,NA,limbless,NA,Savanna,AM_CE_PT,Tropical & Subtropical Dry Broadleaf Forests,NA,yes,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena supernumeraria,NA,limbless,NA,Shrubland,CA_AF,Deserts & Xeric Shrublands,NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena talisiae,NA,limbless,NA,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena tiaraju,NA,limbless,NA,NA,AF,NA,NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena tragorrhectes,NA,limbless,NA,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena uroxena,NA,limbless,NA,Savanna,CA,Deserts & Xeric Shrublands,NA,no,yes,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena vanzolinii,NA,limbless,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,21.43,no,no,yes
+Amphisbaenidae,Amphisbaena,Amphisbaena vermicularis,NA,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",25.88,no,yes,yes
+Aniliidae,Anilius,Anilius scytale,Nocturnal,limbless,viviparous,Forest_Savanna_Wetlands,AM_CA_CE,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dactyloidae,Anolis,Anolis auratus,Diurnal,4 well developed limbs,oviparous,Grassland_Savanna,AM,Tropical & Subtropical Moist Broadleaf Forests,16.26,no,yes,yes
+Dactyloidae,Anolis,Anolis bombiceps,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.65,no,yes,yes
+Dactyloidae,Anolis,Anolis brasiliensis,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,AM_CA_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",16.23,no,yes,yes
+Dactyloidae,Anolis,Anolis chrysolepis,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,14.2,no,yes,yes
+Dactyloidae,Anolis,Anolis dissimilis,NA,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.43,no,yes,yes
+Dactyloidae,Anolis,Anolis fuscoauratus,Diurnal,4 well developed limbs,oviparous,Forest,AM_CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,15.63,no,yes,yes
+Dactyloidae,Anolis,Anolis meridionalis,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,AM_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",16.35,yes,yes,yes
+Dactyloidae,Anolis,Anolis nasofrontalis,Diurnal,4 well developed limbs,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,23.85,no,yes,yes
+Dactyloidae,Anolis,Anolis neglectus,NA,4 well developed limbs,NA,NA,AF,NA,NA,no,no,yes
+Dactyloidae,Anolis,Anolis ortonii,Diurnal,4 well developed limbs,oviparous,Forest,AM_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,13.11,no,yes,yes
+Dactyloidae,Anolis,Anolis phyllorhinus,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,9.95,no,yes,yes
+Dactyloidae,Anolis,Anolis planiceps,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,15.48,no,yes,yes
+Dactyloidae,Anolis,Anolis pseudotigrinus,Diurnal,4 well developed limbs,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,28.25,no,yes,yes
+Dactyloidae,Anolis,Anolis punctatus,Diurnal,4 well developed limbs,oviparous,Forest,AM_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,13.92,no,yes,yes
+Dactyloidae,Anolis,Anolis scypheus,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,12.38,no,yes,yes
+Dactyloidae,Anolis,Anolis tandai,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,10.53,no,yes,yes
+Dactyloidae,Anolis,Anolis trachyderma,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.63,no,yes,yes
+Dactyloidae,Anolis,Anolis transversalis,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.16,no,yes,yes
+Gymnophthalmidae,Anotosaura,Anotosaura collaris,Diurnal,4 well developed limbs,oviparous,Forest,CA,Deserts & Xeric Shrublands,33.9,no,yes,yes
+Gymnophthalmidae,Anotosaura,Anotosaura vanzolinia,Diurnal,4 well developed limbs,oviparous,Savanna,CA_AF,Deserts & Xeric Shrublands,45.32,no,yes,yes
+Dipsadidae,Apostolepis,Apostolepis adhara,Diurnal,limbless,NA,Grassland_Savanna_Shrubland,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Dipsadidae,Apostolepis,Apostolepis albicollaris,NA,limbless,oviparous,Forest,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,yes,yes
+Dipsadidae,Apostolepis,Apostolepis ambiniger,NA,limbless,oviparous,Forest_Savanna,CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,no,yes
+Dipsadidae,Apostolepis,Apostolepis arenaria,NA,limbless,oviparous,Shrubland,CA,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,no,yes
+Dipsadidae,Apostolepis,Apostolepis assimilis,NA,limbless,oviparous,Forest_Savanna,CA_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Dipsadidae,Apostolepis,Apostolepis borellii,NA,limbless,NA,Forest,PT,Flooded Grassleands & Savannas,NA,no,no,yes
+Dipsadidae,Apostolepis,Apostolepis cearensis,NA,limbless,oviparous,Forest_Shrubland,CA_CE_AF,Deserts & Xeric Shrublands,0.4,no,yes,yes
+Dipsadidae,Apostolepis,Apostolepis christineae,NA,limbless,oviparous,Savanna,AM_CE,Tropical & Subtropical Dry Broadleaf Forests,0.3,yes,no,yes
+Dipsadidae,Apostolepis,Apostolepis dimidiata,Diurnal,limbless,oviparous,Savanna,CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Apostolepis,Apostolepis flavotorquata,Nocturnal,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Dipsadidae,Apostolepis,Apostolepis gaboi,NA,limbless,oviparous,Shrubland,CA_CE,Tropical & Subtropical Dry Broadleaf Forests,0.3,no,no,yes
+Dipsadidae,Apostolepis,Apostolepis goiasensis,Nocturnal,limbless,oviparous,Forest_Savanna_Shrubland,AM_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,no,yes
+Dipsadidae,Apostolepis,Apostolepis intermedia,Nocturnal,limbless,oviparous,Savanna,AM_CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,no,yes
+Dipsadidae,Apostolepis,Apostolepis kikoi,NA,limbless,NA,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Dipsadidae,Apostolepis,Apostolepis lineata,Diurnal,limbless,oviparous,Forest_Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Dipsadidae,Apostolepis,Apostolepis longicaudata,Diurnal,limbless,oviparous,Savanna,AM_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,no,yes
+Dipsadidae,Apostolepis,Apostolepis nelsonjorgei,Diurnal,limbless,oviparous,Savanna,AM_CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,no,yes
+Dipsadidae,Apostolepis,Apostolepis nigrolineata,Diurnal,limbless,oviparous,Grassland_Savanna,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Apostolepis,Apostolepis nigroterminata,Diurnal,limbless,oviparous,Forest,AM_CE_PT,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Apostolepis,Apostolepis phillipsae,Diurnal,limbless,oviparous,Forest,AM,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,yes,yes,yes
+Dipsadidae,Apostolepis,Apostolepis polylepis,Diurnal,limbless,oviparous,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Dipsadidae,Apostolepis,Apostolepis quinquelineata,NA,NA,NA,NA,AM,NA,NA,no,no,yes
+Dipsadidae,Apostolepis,Apostolepis quirogai,NA,limbless,oviparous,Forest_Savanna,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Apostolepis,Apostolepis sanctaeritae,NA,limbless,oviparous,Forest_Shrubland,CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Dipsadidae,Apostolepis,Apostolepis serrana,NA,limbless,oviparous,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,no,yes
+Dipsadidae,Apostolepis,Apostolepis striata,Nocturnal,limbless,oviparous,Savanna,AM,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,no,yes
+Dipsadidae,Apostolepis,Apostolepis thalesdelemai,NA,limbless,NA,Forest,CA,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Dipsadidae,Apostolepis,Apostolepis vittata,Nocturnal,limbless,oviparous,Savanna,CE,Tropical & Subtropical Dry Broadleaf Forests,0.3,yes,no,yes
+Gymnophthalmidae,Arthrosaura,Arthrosaura kockii,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,17.91,no,yes,yes
+Gymnophthalmidae,Arthrosaura,Arthrosaura reticulata,Diurnal,4 well developed limbs,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,12.94,no,yes,yes
+Gymnophthalmidae,Arthrosaura,Arthrosaura versteegii,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,AM,Tropical & Subtropical Moist Broadleaf Forests,18.61,no,no,yes
+Mabuyidae,Aspronema,Aspronema dorsivittatum,Diurnal,4 well developed limbs,viviparous,Forest_Grassland_Savanna_Shrubland,CE_AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",20.2,no,yes,yes
+Dipsadidae,Atractus,Atractus aboiporu,NA,limbless,NA,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Dipsadidae,Atractus,Atractus akerios,NA,limbless,NA,NA,AM,NA,NA,no,no,yes
+Dipsadidae,Atractus,Atractus albuquerquei,NA,limbless,oviparous,Forest_Savanna,AM_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,yes,yes,yes
+Dipsadidae,Atractus,Atractus alphonsehogei,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,no,yes
+Dipsadidae,Atractus,Atractus altagratiae,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Atractus,Atractus badius,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Atractus,Atractus boimirim,NA,limbless,NA,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Dipsadidae,Atractus,Atractus caete,NA,limbless,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,no,yes
+Dipsadidae,Atractus,Atractus caxiuana,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,no,yes
+Dipsadidae,Atractus,Atractus collaris,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.1,no,no,yes
+Dipsadidae,Atractus,Atractus dapsilis,NA,limbless,NA,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Dipsadidae,Atractus,Atractus edioi,NA,limbless,oviparous,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,no,yes
+Dipsadidae,Atractus,Atractus elaps,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Atractus,Atractus emmeli,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Atractus,Atractus flammigerus,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Atractus,Atractus francoi,NA,limbless,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Atractus,Atractus guentheri,NA,limbless,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.1,no,no,yes
+Dipsadidae,Atractus,Atractus hoogmoedi,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.7,no,no,yes
+Dipsadidae,Atractus,Atractus insipidus,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Atractus,Atractus latifrons,NA,limbless,oviparous,Forest,AM_CE_PT,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Atractus,Atractus maculatus,NA,limbless,oviparous,Forest,AF,Deserts & Xeric Shrublands,0.2,no,no,yes
+Dipsadidae,Atractus,Atractus major,NA,limbless,oviparous,Forest_Grassland_Shrubland,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Atractus,Atractus natans,NA,limbless,oviparous,Forest_Savanna,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Atractus,Atractus nawa,NA,limbless,NA,NA,AM,NA,NA,no,no,yes
+Dipsadidae,Atractus,Atractus pantostictus,NA,limbless,oviparous,Forest_Savanna,AM_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Dipsadidae,Atractus,Atractus paraguayensis,NA,limbless,oviparous,Forest_Savanna,AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.1,no,no,yes
+Dipsadidae,Atractus,Atractus poeppigi,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Atractus,Atractus potschi,NA,limbless,oviparous,Forest_Shrubland,CA_AF,Deserts & Xeric Shrublands,0.2,no,no,yes
+Dipsadidae,Atractus,Atractus reticulatus,NA,limbless,oviparous,Forest_Grassland_Savanna,CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Atractus,Atractus riveroi,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.7,no,no,yes
+Dipsadidae,Atractus,Atractus ronnie,NA,limbless,oviparous,Forest,CA,Deserts & Xeric Shrublands,0.9,no,no,yes
+Dipsadidae,Atractus,Atractus serranus,NA,limbless,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Atractus,Atractus snethlageae,NA,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,no,yes
+Dipsadidae,Atractus,Atractus spinalis,NA,limbless,oviparous,Rocky_Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,yes,no,yes
+Dipsadidae,Atractus,Atractus stygius,NA,limbless,NA,NA,AM_CE,NA,NA,yes,no,yes
+Dipsadidae,Atractus,Atractus surucucu,NA,limbless,oviparous,Savanna,AM,Tropical & Subtropical Moist Broadleaf Forests,0.1,no,no,yes
+Dipsadidae,Atractus,Atractus tartarus,NA,limbless,NA,NA,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Dipsadidae,Atractus,Atractus thalesdelemai,NA,limbless,oviparous,Grassland,AF,Tropical & Subtropical Moist Broadleaf Forests,0.1,no,no,yes
+Dipsadidae,Atractus,Atractus torquatus,NA,limbless,oviparous,Forest_Savanna,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Atractus,Atractus trefauti,NA,limbless,NA,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Dipsadidae,Atractus,Atractus trihedrurus,NA,limbless,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Atractus,Atractus trilineatus,NA,limbless,oviparous,Forest_Savanna,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,no,yes
+Dipsadidae,Atractus,Atractus zebrinus,NA,limbless,oviparous,Forest,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Atractus,Atractus zidoki,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Gymnophthalmidae,Bachia,Bachia bresslaui,Diurnal,reduced,oviparous,Savanna,AM_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",17.74,yes,yes,yes
+Gymnophthalmidae,Bachia,Bachia cacerensis,NA,reduced,oviparous,Savanna,PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",14.52,yes,no,yes
+Gymnophthalmidae,Bachia,Bachia didactyla,NA,reduced,oviparous,Savanna,AM_CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",12.39,yes,no,yes
+Gymnophthalmidae,Bachia,Bachia dorbignyi,NA,reduced,oviparous,Forest_Savanna,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,12.78,no,yes,yes
+Gymnophthalmidae,Bachia,Bachia flavescens,Diurnal,reduced,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,14.24,no,yes,yes
+Gymnophthalmidae,Bachia,Bachia geralista,Cathemeral,reduced,oviparous,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",25.89,yes,no,yes
+Gymnophthalmidae,Bachia,Bachia micromela,Diurnal,reduced,oviparous,Forest_Savanna,CE,Tropical & Subtropical Moist Broadleaf Forests,15.25,yes,no,yes
+Gymnophthalmidae,Bachia,Bachia oxyrhina,NA,limbless,oviparous,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",18.38,yes,no,yes
+Gymnophthalmidae,Bachia,Bachia panoplia,Diurnal,reduced,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,12.29,no,yes,yes
+Gymnophthalmidae,Bachia,Bachia peruana,Diurnal,reduced,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,12.34,no,yes,yes
+Gymnophthalmidae,Bachia,Bachia psamophila,Diurnal,reduced,oviparous,Shrubland,CE,Tropical & Subtropical Moist Broadleaf Forests,14.95,yes,no,yes
+Gymnophthalmidae,Bachia,Bachia pyburni,Diurnal,reduced,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,10.32,no,no,yes
+Gymnophthalmidae,Bachia,Bachia remota,Diurnal,reduced,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,19.38,no,no,yes
+Gymnophthalmidae,Bachia,Bachia scaea,Diurnal,reduced,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,9.71,no,yes,yes
+Gymnophthalmidae,Bachia,Bachia scolecoides,NA,reduced,oviparous,Savanna,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,12.76,no,yes,yes
+Gymnophthalmidae,Bachia,Bachia trisanale,Diurnal,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.37,no,yes,yes
+Boidae,Boa,Boa constrictor,Nocturnal,limbless,viviparous,Forest_Savanna,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Dipsadidae,Boiruna,Boiruna maculata,NA,limbless,oviparous,Desert_Forest_Savanna_Shrubland,AM_CE_AF_PP_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Boiruna,Boiruna sertaneja,NA,limbless,oviparous,Savanna_Shrubland,CA_CE_AF,Deserts & Xeric Shrublands,0.4,no,yes,yes
+Viperidae,Bothrocophias,Bothrocophias hyoprora,NA,limbless,viviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Viperidae,Bothrocophias,Bothrocophias microphthalmus,NA,limbless,viviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Viperidae,Bothrops,Bothrops alcatraz,Nocturnal,limbless,viviparous,Forest,AF,NA,NA,no,yes,yes
+Viperidae,Bothrops,Bothrops alternatus,Cathemeral,limbless,viviparous,Forest_Savanna_Wetlands,CE_AF_PP_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Viperidae,Bothrops,Bothrops atrox,Nocturnal,limbless,viviparous,Forest_Wetlands,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Viperidae,Bothrops,Bothrops bilineatus,NA,limbless,viviparous,Forest_Wetlands,AM_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Viperidae,Bothrops,Bothrops brazili,NA,limbless,viviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Viperidae,Bothrops,Bothrops cotiara,NA,limbless,viviparous,Forest_Savanna,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.1,no,yes,yes
+Viperidae,Bothrops,Bothrops diporus,NA,limbless,viviparous,Forest_Grassland_Savanna,AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Viperidae,Bothrops,Bothrops erythromelas,NA,limbless,viviparous,Forest_Grassland_Rocky,CA_CE_AF,Deserts & Xeric Shrublands,0.4,no,yes,yes
+Viperidae,Bothrops,Bothrops fonsecai,NA,limbless,viviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Viperidae,Bothrops,Bothrops germanoi,NA,limbless,NA,NA,AF,NA,NA,no,no,yes
+Viperidae,Bothrops,Bothrops insularis,NA,limbless,viviparous,Forest_Grassland,AF,NA,NA,no,yes,yes
+Viperidae,Bothrops,Bothrops itapetiningae,NA,limbless,viviparous,Grassland,CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Viperidae,Bothrops,Bothrops jabrensis,NA,limbless,NA,NA,CA,NA,NA,no,no,yes
+Viperidae,Bothrops,Bothrops jararaca,Nocturnal,limbless,viviparous,Forest_Savanna,CA_CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Viperidae,Bothrops,Bothrops jararacussu,NA,limbless,viviparous,Forest,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Viperidae,Bothrops,Bothrops leucurus,NA,limbless,viviparous,Forest_Shrubland,CA_AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Viperidae,Bothrops,Bothrops lutzi,NA,limbless,viviparous,Grassland_Shrubland,CA_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,no,yes,yes
+Viperidae,Bothrops,Bothrops marajoensis,NA,limbless,viviparous,Forest_Grassland,AM,Tropical & Subtropical Moist Broadleaf Forests,0.8,no,yes,yes
+Viperidae,Bothrops,Bothrops marmoratus,NA,limbless,viviparous,Savanna,CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Viperidae,Bothrops,Bothrops mattogrossensis,NA,limbless,viviparous,Forest_Savanna,AM_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Viperidae,Bothrops,Bothrops moojeni,NA,limbless,viviparous,Savanna,AM_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,yes,yes,yes
+Viperidae,Bothrops,Bothrops muriciensis,NA,limbless,viviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,no,yes
+Viperidae,Bothrops,Bothrops neuwiedi,Cathemeral,limbless,viviparous,Forest_Grassland_Savanna_Shrubland,CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Viperidae,Bothrops,Bothrops oligobalius,NA,limbless,NA,NA,AM,NA,NA,no,no,yes
+Viperidae,Bothrops,Bothrops otavioi,Nocturnal,limbless,viviparous,Forest,AF,NA,NA,no,no,yes
+Viperidae,Bothrops,Bothrops pauloensis,NA,limbless,viviparous,Savanna,CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Viperidae,Bothrops,Bothrops pirajai,NA,limbless,viviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Viperidae,Bothrops,Bothrops pubescens,NA,limbless,viviparous,Forest,AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.1,no,yes,yes
+Viperidae,Bothrops,Bothrops sazimai,NA,limbless,NA,NA,AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Viperidae,Bothrops,Bothrops taeniatus,NA,limbless,viviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Mabuyidae,Brasiliscincus,Brasiliscincus agilis,Diurnal,4 well developed limbs,viviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,25.15,no,yes,yes
+Mabuyidae,Brasiliscincus,Brasiliscincus caissara,NA,4 well developed limbs,viviparous,Shrubland,AF,Tropical & Subtropical Moist Broadleaf Forests,14.15,no,yes,yes
+Mabuyidae,Brasiliscincus,Brasiliscincus heathi,Diurnal,4 well developed limbs,viviparous,Savanna,CA_CE_AF,Deserts & Xeric Shrublands,30.16,no,yes,yes
+Dipsadidae,Caaeteboia,Caaeteboia amarali,Diurnal,limbless,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Caaeteboia,Caaeteboia gaeli,NA,limbless,NA,NA,CA_AF,NA,NA,no,no,yes
+Dipsadidae,Calamodontophis,Calamodontophis paucidens,NA,limbless,viviparous,Grassland,PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.1,no,yes,yes
+Dipsadidae,Calamodontophis,Calamodontophis ronaldoi,NA,limbless,viviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.1,no,no,yes
+Gymnophthalmidae,Calyptommatus,Calyptommatus confusionibus,Nocturnal,limbless,oviparous,Shrubland,CA_CE,Deserts & Xeric Shrublands,27.24,no,yes,yes
+Gymnophthalmidae,Calyptommatus,Calyptommatus leiolepis,Nocturnal,hindlimbs only,oviparous,Forest,CA_CE,Deserts & Xeric Shrublands,39.37,no,yes,yes
+Gymnophthalmidae,Calyptommatus,Calyptommatus nicterus,Nocturnal,hindlimbs only,oviparous,Savanna,CA,Deserts & Xeric Shrublands,38.53,no,yes,yes
+Gymnophthalmidae,Calyptommatus,Calyptommatus sinebrachiatus,Nocturnal,hindlimbs only,oviparous,Savanna,CA,Deserts & Xeric Shrublands,41.59,no,yes,yes
+Gymnophthalmidae,Caparaonia,Caparaonia itaiquara,Diurnal,4 well developed limbs,oviparous,Forest,AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",20.99,no,yes,yes
+Dipsadidae,Cercophis,Cercophis auratus,NA,limbless,oviparous,Forest,AM_AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,no
+Gymnophthalmidae,Cercosaura,Cercosaura anordosquama,NA,4 well developed limbs,NA,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,12.98,no,no,yes
+Gymnophthalmidae,Cercosaura,Cercosaura argulus,Cathemeral,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,12.8,no,yes,yes
+Gymnophthalmidae,Cercosaura,Cercosaura bassleri,Cathemeral,4 well developed limbs,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,10.74,no,yes,yes
+Gymnophthalmidae,Cercosaura,Cercosaura eigenmanni,Diurnal,4 well developed limbs,oviparous,Forest,AM_CE_PT,Tropical & Subtropical Moist Broadleaf Forests,11.74,no,yes,yes
+Gymnophthalmidae,Cercosaura,Cercosaura ocellata,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,16.17,no,yes,yes
+Gymnophthalmidae,Cercosaura,Cercosaura olivacea,NA,4 well developed limbs,oviparous,NA,AM_CA_CE_AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",21.88,no,no,yes
+Gymnophthalmidae,Cercosaura,Cercosaura oshaughnessyi,Diurnal,4 well developed limbs,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,12.07,no,yes,yes
+Gymnophthalmidae,Cercosaura,Cercosaura parkeri,Diurnal,4 well developed limbs,oviparous,Forest,AM_CE_PT,Tropical & Subtropical Moist Broadleaf Forests,13.75,no,yes,yes
+Gymnophthalmidae,Cercosaura,Cercosaura quadrilineata,NA,4 well developed limbs,oviparous,Forest,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,19.89,no,yes,yes
+Gymnophthalmidae,Cercosaura,Cercosaura schreibersii,Diurnal,4 well developed limbs,oviparous,Forest_Grassland_Savanna_Shrubland,AM_CE_AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",18.46,no,yes,yes
+Sphaerodactylidae,Chatogekko,Chatogekko amazonicus,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,13.05,no,yes,yes
+Colubridae,Chironius,Chironius bicarinatus,Diurnal,limbless,oviparous,Forest,CA_CE_AF_PP_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Colubridae,Chironius,Chironius brazili,NA,limbless,NA,NA,CE_AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,yes,yes
+Colubridae,Chironius,Chironius carinatus,Diurnal,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Colubridae,Chironius,Chironius diamantina,Diurnal,limbless,oviparous,NA,CA,Deserts & Xeric Shrublands,NA,no,yes,yes
+Colubridae,Chironius,Chironius dixoni,Diurnal,limbless,oviparous,Forest_Grassland,AM_CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,no,yes,yes
+Colubridae,Chironius,Chironius exoletus,Diurnal,limbless,oviparous,Forest,AM_CA_CE_AF_PP_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Colubridae,Chironius,Chironius flavolineatus,Diurnal,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Colubridae,Chironius,Chironius foveatus,Diurnal,limbless,oviparous,Forest,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Colubridae,Chironius,Chironius fuscus,Diurnal,limbless,oviparous,Forest_Savanna,AM_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Colubridae,Chironius,Chironius gouveai,NA,limbless,oviparous,NA,AF_PP,NA,NA,no,no,yes
+Colubridae,Chironius,Chironius laevicollis,Diurnal,limbless,oviparous,Forest,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Colubridae,Chironius,Chironius maculoventris,Diurnal,limbless,oviparous,Forest_Savanna_Shrubland,PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,no,yes,yes
+Colubridae,Chironius,Chironius multiventris,Diurnal,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Colubridae,Chironius,Chironius quadricarinatus,Diurnal,limbless,oviparous,Forest,CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Colubridae,Chironius,Chironius scurrula,Diurnal,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Chlorosoma,Chlorosoma dunupyana,NA,limbless,NA,NA,AM,NA,NA,no,no,yes
+Dipsadidae,Chlorosoma,Chlorosoma laticeps,Diurnal,limbless,oviparous,NA,AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,no,yes
+Dipsadidae,Chlorosoma,Chlorosoma viridissimum,Diurnal,limbless,oviparous,Desert_Shrubland,AM_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Clelia,Clelia clelia,Nocturnal,limbless,oviparous,Forest,AM_CE_PT,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Dipsadidae,Clelia,Clelia hussami,NA,limbless,oviparous,Forest_Savanna,AF,Tropical & Subtropical Moist Broadleaf Forests,0.1,no,no,yes
+Dipsadidae,Clelia,Clelia plumbea,NA,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF_PP_PT,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Teiidae,Cnemidophorus,Cnemidophorus cryptus,Diurnal,4 well developed limbs,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,17.17,no,yes,yes
+Teiidae,Cnemidophorus,Cnemidophorus gramivagus,Diurnal,4 well developed limbs,oviparous,Savanna,AM,"Tropical & Subtropical Grasslands, Savannas & Shrublands",14.41,no,yes,yes
+Teiidae,Cnemidophorus,Cnemidophorus lemniscatus,Diurnal,4 well developed limbs,oviparous,Forest_Savanna_Shrubland,AM,Tropical & Subtropical Moist Broadleaf Forests,16.57,no,yes,yes
+Sphaerodactylidae,Coleodactylus,Coleodactylus brachystoma,Diurnal,4 well developed limbs,oviparous,Savanna,AM_CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",17.37,yes,yes,yes
+Sphaerodactylidae,Coleodactylus,Coleodactylus elizae,Diurnal,4 well developed limbs,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,18.74,no,yes,yes
+Sphaerodactylidae,Coleodactylus,Coleodactylus meridionalis,Diurnal,4 well developed limbs,oviparous,Forest,AM_CA_CE_AF,Deserts & Xeric Shrublands,31.73,no,yes,yes
+Sphaerodactylidae,Coleodactylus,Coleodactylus natalensis,Diurnal,4 well developed limbs,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,32.1,no,yes,yes
+Sphaerodactylidae,Coleodactylus,Coleodactylus septentrionalis,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,AM,Tropical & Subtropical Moist Broadleaf Forests,18.37,no,yes,yes
+Gymnophthalmidae,Colobodactylus,Colobodactylus dalcyanus,NA,4 well developed limbs,oviparous,Forest_Rocky,AF,Tropical & Subtropical Moist Broadleaf Forests,17.53,no,yes,yes
+Gymnophthalmidae,Colobodactylus,Colobodactylus taunayi,NA,4 well developed limbs,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,15.14,no,yes,yes
+Gymnophthalmidae,Colobosaura,Colobosaura modesta,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,AM_CA_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",20.36,yes,yes,yes
+Gymnophthalmidae,Colobosauroides,Colobosauroides carvalhoi,Diurnal,4 well developed limbs,oviparous,Savanna,CA_CE,Deserts & Xeric Shrublands,32.59,no,yes,yes
+Gymnophthalmidae,Colobosauroides,Colobosauroides cearensis,Diurnal,4 well developed limbs,oviparous,Savanna_Shrubland,CA,Deserts & Xeric Shrublands,40.03,no,yes,yes
+Teiidae,Contomastix,Contomastix lacertoides,Diurnal,4 well developed limbs,oviparous,Savanna_Shrubland,AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",22.52,no,yes,yes
+Teiidae,Contomastix,Contomastix vacariensis,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,18.7,no,yes,yes
+Mabuyidae,Copeoglossum,Copeoglossum arajara,Diurnal,4 well developed limbs,viviparous,Savanna,CA,Deserts & Xeric Shrublands,36.01,no,yes,yes
+Mabuyidae,Copeoglossum,Copeoglossum nigropunctatum,Diurnal,4 well developed limbs,viviparous,Forest_Savanna,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,16.43,no,yes,yes
+Boidae,Corallus,Corallus batesii,Nocturnal,limbless,viviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Boidae,Corallus,Corallus caninus,Nocturnal,limbless,viviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Boidae,Corallus,Corallus cropanii,Nocturnal,limbless,viviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Boidae,Corallus,Corallus hortulana,Nocturnal,limbless,viviparous,Forest_Savanna,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Coronelaps,Coronelaps lepidus,NA,limbless,oviparous,Forest,CA_CE_AF,Deserts & Xeric Shrublands,0.3,no,no,yes
+Teiidae,Crocodilurus,Crocodilurus amazonicus,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.53,no,yes,yes
+Viperidae,Crotalus,Crotalus durissus,Nocturnal,limbless,viviparous,Forest_Grassland_Rocky_Savanna_Shrubland,AM_CA_CE_AF_PP_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Colubridae,Dendrophidion,Dendrophidion atlantica,NA,limbless,oviparous,Forest,CA_AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Colubridae,Dendrophidion,Dendrophidion dendrophis,NA,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Dibernardia,Dibernardia affinis,NA,limbless,oviparous,NA,CA_CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Dipsadidae,Dibernardia,Dibernardia bilineata,NA,limbless,oviparous,NA,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Dibernardia,Dibernardia persimilis,NA,limbless,oviparous,NA,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Dibernardia,Dibernardia poecilopogon,NA,limbless,oviparous,NA,AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.1,no,no,yes
+Diploglossidae,Diploglossus,Diploglossus fasciatus,Diurnal,4 well developed limbs,NA,Forest,AM_AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Diploglossidae,Diploglossus,Diploglossus lessonae,Diurnal,4 well developed limbs,oviparous,Forest,CA_AF,Deserts & Xeric Shrublands,36.84,no,yes,yes
+Dipsadidae,Dipsas,Dipsas albifrons,Nocturnal,limbless,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Dipsas,Dipsas alternans,Nocturnal,limbless,oviparous,Forest,AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Dipsas,Dipsas bothropoides,NA,limbless,NA,NA,AF,NA,NA,no,no,yes
+Dipsadidae,Dipsas,Dipsas bucephala,Nocturnal,limbless,oviparous,Forest_Savanna,AM_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Dipsas,Dipsas catesbyi,Nocturnal,limbless,oviparous,Forest,AM_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Dipsas,Dipsas copei,Nocturnal,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Dipsadidae,Dipsas,Dipsas indica,Nocturnal,limbless,oviparous,Forest,AM_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Dipsas,Dipsas lavillai,Nocturnal,limbless,oviparous,Forest,PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,no,yes
+Dipsadidae,Dipsas,Dipsas mikanii,Nocturnal,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,no,yes,yes
+Dipsadidae,Dipsas,Dipsas neuwiedi,Nocturnal,limbless,oviparous,Forest_Savanna,CA_CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Dipsas,Dipsas pavonina,Nocturnal,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Dipsas,Dipsas sazimai,Nocturnal,limbless,oviparous,Forest,CA_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,no,yes
+Dipsadidae,Dipsas,Dipsas turgida,NA,limbless,oviparous,Grassland_Savanna,AM_CE_AF_PP_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Dipsas,Dipsas variegata,Nocturnal,limbless,oviparous,Forest,AM_CA_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Dipsas,Dipsas ventrimaculata,Nocturnal,limbless,oviparous,Forest_Savanna,CE_AF_PP_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Ditaxodon,Ditaxodon taeniatus,NA,limbless,oviparous,Forest,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Teiidae,Dracaena,Dracaena guianensis,Diurnal,4 well developed limbs,oviparous,Forest_Wetlands,AM,Tropical & Subtropical Moist Broadleaf Forests,12.3,no,yes,yes
+Teiidae,Dracaena,Dracaena paraguayensis,Diurnal,4 well developed limbs,oviparous,Savanna,CE_PT,Flooded Grassleands & Savannas,15.94,no,no,yes
+Dipsadidae,Drepanoides,Drepanoides anomalus,NA,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Gymnophthalmidae,Dryadosaura,Dryadosaura nordestina,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,CA_AF,Deserts & Xeric Shrublands,35.88,no,yes,yes
+Colubridae,Drymarchon,Drymarchon corais,Diurnal,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Colubridae,Drymobius,Drymobius rhombifer,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Colubridae,Drymoluber,Drymoluber brazili,NA,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,yes,yes,yes
+Colubridae,Drymoluber,Drymoluber dichrous,NA,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Dryophylax,Dryophylax almae,NA,limbless,viviparous,NA,CA_AF,Deserts & Xeric Shrublands,0.6,no,no,yes
+Dipsadidae,Dryophylax,Dryophylax chaquensis,Nocturnal,limbless,viviparous,NA,CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,no,yes
+Dipsadidae,Dryophylax,Dryophylax hypoconia,NA,limbless,viviparous,NA,CA_CE_AF_PP_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Dryophylax,Dryophylax nattereri,NA,limbless,NA,NA,CA_CE_AF_PP,NA,NA,no,no,yes
+Dipsadidae,Dryophylax,Dryophylax phoenix,NA,limbless,NA,NA,CA_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,no,no,yes
+Dipsadidae,Dryophylax,Dryophylax ramonriveroi,NA,limbless,viviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,no,yes
+Dipsadidae,Echinanthera,Echinanthera cephalomaculata,NA,limbless,oviparous,Forest,CA_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,no,yes
+Dipsadidae,Echinanthera,Echinanthera cephalostriata,NA,limbless,oviparous,Forest,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Echinanthera,Echinanthera cyanopleura,NA,limbless,oviparous,Forest,AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Echinanthera,Echinanthera melanostigma,NA,limbless,oviparous,Forest_Savanna,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Echinanthera,Echinanthera undulata,NA,limbless,oviparous,Forest_Shrubland,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Gymnophthalmidae,Ecpleopus,Ecpleopus gaudichaudii,NA,4 well developed limbs,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,18.95,no,yes,yes
+Dipsadidae,Elapomorphus,Elapomorphus quinquelineatus,NA,limbless,oviparous,Forest,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Elapomorphus,Elapomorphus wuchereri,NA,limbless,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Hoplocercidae,Enyalioides,Enyalioides laticeps,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.88,no,yes,yes
+Hoplocercidae,Enyalioides,Enyalioides palpebralis,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.62,no,yes,yes
+Leiosauridae,Enyalius,Enyalius bibronii,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,CA_CE_AF,Deserts & Xeric Shrublands,32.83,no,yes,yes
+Leiosauridae,Enyalius,Enyalius bilineatus,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,CA_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",19.77,no,yes,yes
+Leiosauridae,Enyalius,Enyalius boulengeri,NA,4 well developed limbs,oviparous,NA,AF,Tropical & Subtropical Moist Broadleaf Forests,24.76,no,yes,yes
+Leiosauridae,Enyalius,Enyalius brasiliensis,Cathemeral,4 well developed limbs,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,19.97,no,yes,yes
+Leiosauridae,Enyalius,Enyalius capetinga,NA,4 well developed limbs,oviparous,NA,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",17.28,yes,yes,yes
+Leiosauridae,Enyalius,Enyalius catenatus,Diurnal,4 well developed limbs,oviparous,Forest,CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,30.88,no,yes,yes
+Leiosauridae,Enyalius,Enyalius erythroceneus,Diurnal,4 well developed limbs,oviparous,Forest_Grassland,CA,Deserts & Xeric Shrublands,26.2,no,yes,yes
+Leiosauridae,Enyalius,Enyalius iheringii,Diurnal,4 well developed limbs,oviparous,Forest,AF_PP,Tropical & Subtropical Moist Broadleaf Forests,18.59,no,yes,yes
+Leiosauridae,Enyalius,Enyalius leechii,Diurnal,4 well developed limbs,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,12.28,no,yes,yes
+Leiosauridae,Enyalius,Enyalius perditus,Diurnal,4 well developed limbs,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,18.81,no,no,yes
+Leiosauridae,Enyalius,Enyalius pictus,NA,4 well developed limbs,oviparous,Forest_Savanna,CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,30,no,yes,yes
+Boidae,Epicrates,Epicrates assisi,Nocturnal,limbless,viviparous,Forest_Savanna,CA_CE_AF,Deserts & Xeric Shrublands,0.4,no,yes,yes
+Boidae,Epicrates,Epicrates cenchria,Nocturnal,limbless,viviparous,Forest,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Boidae,Epicrates,Epicrates crassus,Nocturnal,limbless,viviparous,Forest_Grassland_Savanna,AM_CA_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Boidae,Epicrates,Epicrates maurus,Nocturnal,limbless,viviparous,Forest_Savanna,AM,Tropical & Subtropical Moist Broadleaf Forests,0.5,no,yes,yes
+Leptotyphlopidae,Epictia,Epictia albifrons,NA,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Leptotyphlopidae,Epictia,Epictia borapeliotes,NA,limbless,oviparous,Shrubland,CA_AF,Deserts & Xeric Shrublands,NA,no,no,yes
+Leptotyphlopidae,Epictia,Epictia clinorostris,NA,limbless,oviparous,Forest,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Leptotyphlopidae,Epictia,Epictia munoai,NA,limbless,oviparous,Forest_Grassland,AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,no,no,yes
+Leptotyphlopidae,Epictia,Epictia striatula,NA,limbless,oviparous,Forest,AM,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,no,no,yes
+Leptotyphlopidae,Epictia,Epictia vellardi,NA,limbless,oviparous,Savanna,PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,no,no,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus aenigma,NA,limbless,oviparous,NA,AM,NA,NA,no,no,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus aesculapii,NA,limbless,oviparous,Forest,AM_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus almadensis,NA,limbless,oviparous,Forest_Grassland_Savanna_Shrubland,AM_CA_CE_AF_PP_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus atraventer,NA,limbless,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus breviceps,NA,limbless,oviparous,Forest_Wetlands,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus carajasensis,NA,limbless,oviparous,Savanna,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,no,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus cobella,NA,limbless,oviparous,Forest_Savanna_Wetlands,AM,Tropical & Subtropical Moist Broadleaf Forests,0.5,no,yes,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus dorsocorallinus,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus frenatus,NA,limbless,oviparous,Forest_Grassland_Savanna,CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,no,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus jaegeri,NA,limbless,oviparous,Forest_Grassland_Shrubland_Wetlands,AM_CE_AF_PP_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus macrosomus,NA,limbless,NA,NA,AM_CA_CE_AF_PT,NA,NA,no,no,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus maryellenae,NA,limbless,oviparous,Grassland_Savanna,CA_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,yes,yes,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus miliaris,NA,limbless,oviparous,Forest_Wetlands,AM_CA_CE_AF_PP_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus mossoroensis,NA,limbless,oviparous,Shrubland,CA_CE_AF,Deserts & Xeric Shrublands,0.4,no,yes,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus oligolepis,NA,limbless,NA,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus poecilogyrus,NA,limbless,oviparous,Forest,AM_CA_CE_AF_PP_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus pygmaeus,NA,limbless,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus reginae,NA,limbless,oviparous,Forest_Savanna_Wetlands,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus rochai,NA,limbless,NA,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus semiaureus,NA,limbless,oviparous,Forest_Grassland_Savanna_Shrubland,AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.1,no,no,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus taeniogaster,NA,limbless,oviparous,Forest_Savanna_Wetlands,AM_CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus trebbaui,NA,limbless,oviparous,Forest_Shrubland,AM,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.4,no,no,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus typhlus,NA,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Erythrolamprus,Erythrolamprus viridis,NA,limbless,oviparous,Forest,CA_CE_AF,Deserts & Xeric Shrublands,0.4,no,no,yes
+Boidae,Eunectes,Eunectes deschauenseei,Nocturnal,limbless,viviparous,Savanna_Wetlands,AM,Tropical & Subtropical Moist Broadleaf Forests,0.6,no,no,yes
+Boidae,Eunectes,Eunectes murinus,Cathemeral,limbless,viviparous,Forest_Savanna_Wetlands,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Boidae,Eunectes,Eunectes notaeus,Diurnal,limbless,viviparous,Grassland_Savanna_Wetlands,CE_AF_PP_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Tropiduridae,Eurolophosaurus,Eurolophosaurus amathites,Diurnal,4 well developed limbs,oviparous,Shrubland,CA,Deserts & Xeric Shrublands,41.28,no,yes,yes
+Tropiduridae,Eurolophosaurus,Eurolophosaurus divaricatus,Diurnal,4 well developed limbs,oviparous,Savanna,CA_CE,Deserts & Xeric Shrublands,41.46,no,yes,yes
+Tropiduridae,Eurolophosaurus,Eurolophosaurus nanuzae,Diurnal,4 well developed limbs,oviparous,Shrubland,CA_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",25.63,yes,yes,yes
+Dipsadidae,Eutrachelophis,Eutrachelophis papilio,NA,limbless,NA,Forest,AM,NA,0.3,no,no,yes
+Mabuyidae,Exila,Exila nigropalmata,Diurnal,4 well developed limbs,NA,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.51,no,yes,yes
+Teiidae,Glaucomastix,Glaucomastix abaetensis,Diurnal,4 well developed limbs,oviparous,NA,AF,Tropical & Subtropical Moist Broadleaf Forests,17.36,no,no,yes
+Teiidae,Glaucomastix,Glaucomastix cyanura,NA,4 well developed limbs,oviparous,NA,CA,Deserts & Xeric Shrublands,36.66,no,no,yes
+Teiidae,Glaucomastix,Glaucomastix itabaianensis,NA,4 well developed limbs,oviparous,NA,AF,Tropical & Subtropical Moist Broadleaf Forests,17.95,no,no,yes
+Teiidae,Glaucomastix,Glaucomastix littoralis,Diurnal,4 well developed limbs,oviparous,NA,AF,Tropical & Subtropical Moist Broadleaf Forests,16.53,no,no,yes
+Teiidae,Glaucomastix,Glaucomastix venetacauda,Diurnal,4 well developed limbs,oviparous,Savanna,CA,Deserts & Xeric Shrublands,30.05,no,yes,yes
+Dipsadidae,Gomesophis,Gomesophis brasiliensis,NA,limbless,viviparous,Savanna_Wetlands,CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Sphaerodactylidae,Gonatodes,Gonatodes annularis,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,15.88,no,yes,yes
+Sphaerodactylidae,Gonatodes,Gonatodes eladioi,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,12.46,no,yes,yes
+Sphaerodactylidae,Gonatodes,Gonatodes hasemani,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,10.91,no,yes,yes
+Sphaerodactylidae,Gonatodes,Gonatodes humeralis,NA,4 well developed limbs,oviparous,Forest,AM_CA_CE_PT,Tropical & Subtropical Moist Broadleaf Forests,13.59,no,yes,yes
+Sphaerodactylidae,Gonatodes,Gonatodes nascimentoi,NA,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,16.79,no,no,yes
+Sphaerodactylidae,Gonatodes,Gonatodes tapajonicus,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,10.8,no,no,yes
+Phyllodactylidae,Gymnodactylus,Gymnodactylus amarali,Nocturnal,4 well developed limbs,oviparous,Savanna,AM_CA_CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",24.67,yes,yes,yes
+Phyllodactylidae,Gymnodactylus,Gymnodactylus darwinii,Nocturnal,4 well developed limbs,oviparous,Forest_Shrubland,CA_AF,Tropical & Subtropical Moist Broadleaf Forests,19.15,no,yes,yes
+Phyllodactylidae,Gymnodactylus,Gymnodactylus geckoides,Cathemeral,4 well developed limbs,oviparous,Savanna,CA_CE_AF,Deserts & Xeric Shrublands,37.7,no,yes,yes
+Phyllodactylidae,Gymnodactylus,Gymnodactylus guttulatus,NA,4 well developed limbs,oviparous,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",23.52,yes,no,yes
+Phyllodactylidae,Gymnodactylus,Gymnodactylus vanzolinii,Nocturnal,4 well developed limbs,oviparous,Rocky_Savanna,CA,Deserts & Xeric Shrublands,26.2,no,no,yes
+Gymnophthalmidae,Gymnophthalmus,Gymnophthalmus leucomystax,Diurnal,4 well developed limbs,oviparous,Savanna,AM,"Tropical & Subtropical Grasslands, Savannas & Shrublands",18.8,no,yes,yes
+Gymnophthalmidae,Gymnophthalmus,Gymnophthalmus underwoodi,Diurnal,4 well developed limbs,oviparous,Grassland,AM,Tropical & Subtropical Moist Broadleaf Forests,16.37,no,yes,yes
+Gymnophthalmidae,Gymnophthalmus,Gymnophthalmus vanzoi,Diurnal,4 well developed limbs,oviparous,Forest,AM,"Tropical & Subtropical Grasslands, Savannas & Shrublands",21.45,no,yes,yes
+Leptotyphlopidae,Habrophallos,Habrophallos collaris,NA,limbless,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Dipsadidae,Helicops,Helicops acangussu,NA,limbless,oviparous,NA,AM,NA,NA,no,no,yes
+Dipsadidae,Helicops,Helicops angulatus,NA,limbless,bimodal,Forest_Wetlands,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Dipsadidae,Helicops,Helicops apiaka,NA,limbless,viviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Helicops,Helicops boitata,NA,limbless,NA,NA,PT,NA,NA,yes,no,yes
+Dipsadidae,Helicops,Helicops carinicaudus,NA,limbless,viviparous,Wetlands,AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Helicops,Helicops gomesi,NA,limbless,oviparous,Forest_Savanna,CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Dipsadidae,Helicops,Helicops hagmanni,NA,limbless,oviparous,Forest_Wetlands,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Helicops,Helicops infrataeniatus,NA,limbless,viviparous,Forest_Grassland_Savanna,CE_AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Helicops,Helicops leopardinus,NA,limbless,viviparous,Forest_Savanna_Wetlands,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Helicops,Helicops modestus,NA,limbless,viviparous,Savanna_Wetlands,CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Helicops,Helicops nentur,NA,limbless,viviparous,NA,CA_AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Dipsadidae,Helicops,Helicops phantasma,NA,limbless,viviparous,NA,CE,NA,NA,yes,no,yes
+Dipsadidae,Helicops,Helicops polylepis,NA,limbless,viviparous,Forest_Wetlands,AM_CE_PT,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Helicops,Helicops tapajonicus,NA,limbless,viviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.5,no,no,yes
+Dipsadidae,Helicops,Helicops trivittatus,NA,limbless,viviparous,Forest_Wetlands,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Helicops,Helicops yacu,NA,limbless,viviparous,Forest_Wetlands,AM,Tropical & Subtropical Moist Broadleaf Forests,0.1,no,no,yes
+Gekkonidae,Hemidactylus,Hemidactylus agrius,Nocturnal,4 well developed limbs,oviparous,Savanna,CA_CE_AF,Deserts & Xeric Shrublands,39.79,no,yes,yes
+Gekkonidae,Hemidactylus,Hemidactylus brasilianus,Nocturnal,4 well developed limbs,oviparous,Savanna,CA_CE_AF,Deserts & Xeric Shrublands,31.81,no,yes,yes
+Gekkonidae,Hemidactylus,Hemidactylus palaichthus,Nocturnal,4 well developed limbs,oviparous,Forest_Savanna,AM,Tropical & Subtropical Moist Broadleaf Forests,14.32,no,yes,yes
+Gymnophthalmidae,Heterodactylus,Heterodactylus imbricatus,NA,4 well developed limbs,oviparous,Forest_Savanna,AF,Tropical & Subtropical Moist Broadleaf Forests,18.85,no,yes,yes
+Gymnophthalmidae,Heterodactylus,Heterodactylus lundii,NA,4 well developed limbs,oviparous,Savanna,CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",21.4,yes,no,yes
+Gymnophthalmidae,Heterodactylus,Heterodactylus septentrionalis,NA,4 well developed limbs,oviparous,Rocky_Savanna,CA,Deserts & Xeric Shrublands,26.2,no,no,yes
+Phyllodactylidae,Homonota,Homonota uruguayensis,Cathemeral,4 well developed limbs,oviparous,Grassland_Rocky,PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",20.7,no,yes,yes
+Hoplocercidae,Hoplocercus,Hoplocercus spinosus,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,AM_CA_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",14.74,yes,yes,yes
+Dipsadidae,Hydrodynastes,Hydrodynastes bicinctus,NA,limbless,oviparous,Forest_Wetlands,AM_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Hydrodynastes,Hydrodynastes gigas,Diurnal,limbless,oviparous,Forest_Grassland_Savanna_Shrubland_Wetlands,AM_CE_AF_PP_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Hydrops,Hydrops caesurus,NA,limbless,oviparous,Wetlands,CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.1,no,no,yes
+Dipsadidae,Hydrops,Hydrops martii,NA,limbless,oviparous,Forest_Wetlands,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,no,yes
+Dipsadidae,Hydrops,Hydrops triangularis,NA,limbless,oviparous,Forest_Savanna_Wetlands,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Iguanidae,Iguana,Iguana iguana,Diurnal,4 well developed limbs,oviparous,Forest,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,17.13,no,yes,yes
+Dipsadidae,Imantodes,Imantodes cenchoa,Nocturnal,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Dipsadidae,Imantodes,Imantodes lentiferus,Nocturnal,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Gymnophthalmidae,Iphisa,Iphisa elegans,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,14.96,no,yes,yes
+Teiidae,Kentropyx,Kentropyx altamazonica,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.65,no,yes,yes
+Teiidae,Kentropyx,Kentropyx calcarata,Diurnal,4 well developed limbs,oviparous,Forest,AM_CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,15.84,no,yes,yes
+Teiidae,Kentropyx,Kentropyx paulensis,Diurnal,4 well developed limbs,oviparous,Savanna,AM_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",17.52,yes,yes,yes
+Teiidae,Kentropyx,Kentropyx pelviceps,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,10.27,no,yes,yes
+Teiidae,Kentropyx,Kentropyx striata,Diurnal,4 well developed limbs,oviparous,Savanna_Wetlands,AM,Tropical & Subtropical Moist Broadleaf Forests,16.16,no,yes,yes
+Teiidae,Kentropyx,Kentropyx vanzoi,Diurnal,4 well developed limbs,oviparous,Savanna,AM_CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",13.81,yes,yes,yes
+Teiidae,Kentropyx,Kentropyx viridistriga,Diurnal,4 well developed limbs,oviparous,Forest_Savanna_Shrubland,PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",17.23,no,yes,yes
+Viperidae,Lachesis,Lachesis muta,Nocturnal,limbless,oviparous,Forest,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Sphaerodactylidae,Lepidoblepharis,Lepidoblepharis heyerorum,Cathemeral,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,12.6,no,no,yes
+Sphaerodactylidae,Lepidoblepharis,Lepidoblepharis hoogmoedi,NA,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,9.24,no,no,yes
+Gymnophthalmidae,Leposoma,Leposoma annectans,NA,4 well developed limbs,NA,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,18.37,no,yes,yes
+Gymnophthalmidae,Leposoma,Leposoma baturitensis,NA,4 well developed limbs,oviparous,Forest,CA_AF,Deserts & Xeric Shrublands,39.44,no,yes,yes
+Gymnophthalmidae,Leposoma,Leposoma nanodactylus,NA,4 well developed limbs,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,19.21,no,yes,yes
+Gymnophthalmidae,Leposoma,Leposoma puk,Diurnal,4 well developed limbs,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,19.35,no,yes,yes
+Gymnophthalmidae,Leposoma,Leposoma scincoides,NA,4 well developed limbs,oviparous,Forest,CA_AF,Tropical & Subtropical Moist Broadleaf Forests,23.25,no,yes,yes
+Gymnophthalmidae,Leposoma,Leposoma sinepollex,NA,4 well developed limbs,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,21.19,no,yes,yes
+Amphisbaenidae,Leposternon,Leposternon cerradensis,NA,limbless,NA,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Amphisbaenidae,Leposternon,Leposternon infraorbitale,NA,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Amphisbaenidae,Leposternon,Leposternon kisteumacheri,NA,limbless,NA,Forest,CA_AF,Deserts & Xeric Shrublands,NA,no,no,yes
+Amphisbaenidae,Leposternon,Leposternon maximus,NA,limbless,NA,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Amphisbaenidae,Leposternon,Leposternon microcephalus,NA,limbless,oviparous,Forest_Grassland_Savanna,CA_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,no,yes,yes
+Amphisbaenidae,Leposternon,Leposternon mineiro,NA,limbless,NA,NA,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Amphisbaenidae,Leposternon,Leposternon octostegum,NA,limbless,NA,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Amphisbaenidae,Leposternon,Leposternon polystegum,Diurnal,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Amphisbaenidae,Leposternon,Leposternon scutigerum,NA,limbless,NA,NA,AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Amphisbaenidae,Leposternon,Leposternon wuchereri,NA,limbless,NA,Forest,CA_AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Dipsadidae,Leptodeira,Leptodeira annulata,Nocturnal,limbless,oviparous,Forest,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Dipsadidae,Leptodeira,Leptodeira ashmeadii,NA,limbless,NA,NA,AM,NA,NA,no,no,yes
+Dipsadidae,Leptodeira,Leptodeira pulchriceps,NA,limbless,NA,NA,CE_AF_PT,NA,NA,no,no,yes
+Dipsadidae,Leptodeira,Leptodeira tarairiu,NA,limbless,NA,NA,CA_CE_AF,NA,NA,no,no,yes
+Elapidae,Leptomicrurus,Leptomicrurus collaris,NA,limbless,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,no,yes
+Elapidae,Leptomicrurus,Leptomicrurus narduccii,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Elapidae,Leptomicrurus,Leptomicrurus scutiventris,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.1,no,no,yes
+Colubridae,Leptophis,Leptophis ahaetulla,Diurnal,limbless,oviparous,Forest,AM_CA_CE_AF_PP_PT,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Colubridae,Leptophis,Leptophis dibernardoi,NA,limbless,oviparous,NA,CA_CE_AF,NA,NA,no,no,yes
+Colubridae,Leptophis,Leptophis liocercus,NA,limbless,oviparous,NA,CA_CE_AF,NA,NA,no,no,yes
+Colubridae,Leptophis,Leptophis marginatus,NA,limbless,oviparous,NA,AM_CE_AF_PP_PT,NA,NA,no,no,yes
+Colubridae,Leptophis,Leptophis nigromarginatus,NA,limbless,NA,NA,AM,NA,NA,no,no,yes
+Dipsadidae,Lioheterophis,Lioheterophis iheringi,NA,limbless,oviparous,Shrubland,CA,Deserts & Xeric Shrublands,0.7,no,no,yes
+Liolaemidae,Liolaemus,Liolaemus arambarensis,Diurnal,4 well developed limbs,oviparous,Shrubland,PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",19.26,no,yes,yes
+Liolaemidae,Liolaemus,Liolaemus lutzae,Diurnal,4 well developed limbs,oviparous,Shrubland,AF,Tropical & Subtropical Moist Broadleaf Forests,17.24,no,yes,yes
+Liolaemidae,Liolaemus,Liolaemus occipitalis,Diurnal,4 well developed limbs,oviparous,Shrubland,AF_PP,Tropical & Subtropical Moist Broadleaf Forests,20.09,no,yes,yes
+Anomalepididae,Liotyphlops,Liotyphlops caissara,NA,limbless,NA,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Anomalepididae,Liotyphlops,Liotyphlops schubarti,NA,limbless,oviparous,NA,AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Anomalepididae,Liotyphlops,Liotyphlops taylori,NA,limbless,oviparous,NA,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Anomalepididae,Liotyphlops,Liotyphlops ternetzii,NA,limbless,oviparous,Forest_Savanna_Shrubland,AM_CA_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,no,yes,yes
+Anomalepididae,Liotyphlops,Liotyphlops trefauti,NA,limbless,oviparous,Forest,CA_AF,Deserts & Xeric Shrublands,NA,no,no,yes
+Anomalepididae,Liotyphlops,Liotyphlops wilderi,NA,limbless,oviparous,Forest_Savanna,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Gymnophthalmidae,Loxopholis,Loxopholis ferreirai,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.19,no,yes,yes
+Gymnophthalmidae,Loxopholis,Loxopholis guianense,Cathemeral,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,16.88,no,yes,yes
+Gymnophthalmidae,Loxopholis,Loxopholis osvaldoi,Diurnal,4 well developed limbs,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,11.44,no,yes,yes
+Gymnophthalmidae,Loxopholis,Loxopholis percarinatum,Cathemeral,4 well developed limbs,oviparous,Forest_Wetlands,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,13.3,no,yes,yes
+Gymnophthalmidae,Loxopholis,Loxopholis snethlageae,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,10.07,no,no,yes
+Gekkonidae,Lygodactylus,Lygodactylus klugei,Diurnal,4 well developed limbs,oviparous,Savanna,CA_CE_AF,Deserts & Xeric Shrublands,40.92,no,yes,yes
+Gekkonidae,Lygodactylus,Lygodactylus wetzeli,NA,4 well developed limbs,oviparous,Savanna,CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",19.37,no,yes,yes
+Dipsadidae,Lygophis,Lygophis anomalus,Diurnal,limbless,oviparous,Savanna,AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.1,no,yes,yes
+Dipsadidae,Lygophis,Lygophis dilepis,NA,limbless,oviparous,Forest,CA_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,no,yes,yes
+Dipsadidae,Lygophis,Lygophis flavifrenatus,NA,limbless,oviparous,Savanna,CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.1,no,yes,yes
+Dipsadidae,Lygophis,Lygophis lineatus,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.5,no,yes,yes
+Dipsadidae,Lygophis,Lygophis meridionalis,NA,limbless,oviparous,Savanna,AM_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Lygophis,Lygophis paucidens,NA,limbless,oviparous,Savanna,AM_CA_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,yes,yes,yes
+Mabuyidae,Mabuya,Mabuya altamazonica,Diurnal,4 well developed limbs,viviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.5,no,yes,yes
+Mabuyidae,Mabuya,Mabuya bistriata,Diurnal,4 well developed limbs,viviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,13.38,no,yes,yes
+Mabuyidae,Manciola,Manciola guaporicola,Diurnal,4 well developed limbs,viviparous,Savanna,AM_CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",16.79,yes,yes,yes
+Gymnophthalmidae,Marinussaurus,Marinussaurus curupira,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.14,no,yes,yes
+Colubridae,Mastigodryas,Mastigodryas boddaerti,Diurnal,limbless,oviparous,Forest,AM_CA_CE_PT,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Colubridae,Mastigodryas,Mastigodryas moratoi,Diurnal,limbless,oviparous,Forest_Savanna,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Colubridae,Mastigodryas,Mastigodryas pleei,Diurnal,limbless,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,no,yes
+Amphisbaenidae,Mesobaena,Mesobaena rhachicephala,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,13.67,no,no,yes
+Dipsadidae,Mesotes,Mesotes rutilus,NA,limbless,viviparous,NA,CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Dipsadidae,Mesotes,Mesotes strigatus,NA,limbless,viviparous,NA,CE_AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Gymnophthalmidae,Micrablepharus,Micrablepharus atticolus,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,AM_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",15.72,yes,yes,yes
+Gymnophthalmidae,Micrablepharus,Micrablepharus maximiliani,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,AM_CA_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",20.56,no,yes,yes
+Elapidae,Micrurus,Micrurus albicinctus,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Elapidae,Micrurus,Micrurus altirostris,NA,limbless,oviparous,Forest,CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.1,no,yes,yes
+Elapidae,Micrurus,Micrurus annellatus,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Elapidae,Micrurus,Micrurus averyi,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,no,yes
+Elapidae,Micrurus,Micrurus boicora,NA,limbless,NA,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Elapidae,Micrurus,Micrurus brasiliensis,NA,limbless,oviparous,Forest,CA_CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Elapidae,Micrurus,Micrurus corallinus,NA,limbless,oviparous,Forest,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Elapidae,Micrurus,Micrurus decoratus,NA,limbless,oviparous,Forest,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Elapidae,Micrurus,Micrurus diana,NA,limbless,oviparous,Forest,AM_CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,no,yes
+Elapidae,Micrurus,Micrurus diutius,NA,limbless,NA,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Elapidae,Micrurus,Micrurus filiformis,NA,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,no,yes
+Elapidae,Micrurus,Micrurus frontalis,NA,limbless,oviparous,Forest,CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Elapidae,Micrurus,Micrurus hemprichii,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Elapidae,Micrurus,Micrurus ibiboboca,NA,limbless,oviparous,Forest_Savanna_Shrubland,AM_CA_CE_AF,Deserts & Xeric Shrublands,0.4,no,yes,yes
+Elapidae,Micrurus,Micrurus isozonus,NA,limbless,oviparous,Forest_Savanna_Shrubland,AM,Tropical & Subtropical Moist Broadleaf Forests,0.5,no,no,yes
+Elapidae,Micrurus,Micrurus langsdorffi,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.1,no,no,yes
+Elapidae,Micrurus,Micrurus lemniscatus,NA,limbless,oviparous,Forest_Savanna_Shrubland,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Elapidae,Micrurus,Micrurus mipartitus,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.5,no,yes,yes
+Elapidae,Micrurus,Micrurus nattereri,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Elapidae,Micrurus,Micrurus pacaraimae,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,no,yes
+Elapidae,Micrurus,Micrurus paraensis,NA,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,no,yes
+Elapidae,Micrurus,Micrurus potyguara,NA,limbless,NA,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Elapidae,Micrurus,Micrurus psyches,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Elapidae,Micrurus,Micrurus putumayensis,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.1,no,no,yes
+Elapidae,Micrurus,Micrurus pyrrhocryptus,NA,limbless,oviparous,Forest_Savanna_Shrubland,PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Elapidae,Micrurus,Micrurus remotus,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Elapidae,Micrurus,Micrurus silviae,NA,limbless,oviparous,Savanna,AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.1,no,no,yes
+Elapidae,Micrurus,Micrurus spixii,NA,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Elapidae,Micrurus,Micrurus surinamensis,NA,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Elapidae,Micrurus,Micrurus tikuna,NA,limbless,NA,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Elapidae,Micrurus,Micrurus tricolor,NA,limbless,oviparous,Savanna,CE_PT,NA,NA,yes,no,yes
+Dipsadidae,Mussurana,Mussurana bicolor,NA,limbless,oviparous,Forest,CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Mussurana,Mussurana montana,NA,limbless,oviparous,Grassland,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Mussurana,Mussurana quimi,NA,limbless,oviparous,Forest,CA_CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Gymnophthalmidae,Neusticurus,Neusticurus arekuna,NA,4 well developed limbs,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,15.76,no,no,yes
+Gymnophthalmidae,Neusticurus,Neusticurus bicarinatus,Diurnal,4 well developed limbs,oviparous,Forest_Wetlands,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,13.44,no,yes,yes
+Gymnophthalmidae,Neusticurus,Neusticurus medemi,Diurnal,4 well developed limbs,oviparous,Forest_Wetlands,AM,Tropical & Subtropical Moist Broadleaf Forests,10.07,no,yes,yes
+Gymnophthalmidae,Neusticurus,Neusticurus racenisi,Diurnal,4 well developed limbs,oviparous,Forest_Wetlands,AM,Tropical & Subtropical Moist Broadleaf Forests,14.88,no,yes,yes
+Gymnophthalmidae,Neusticurus,Neusticurus surinamensis,NA,4 well developed limbs,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,17.02,no,yes,yes
+Dipsadidae,Ninia,Ninia hudsoni,NA,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Gymnophthalmidae,Nothobachia,Nothobachia ablephara,Cathemeral,reduced,oviparous,Forest_Savanna,CA_CE,Deserts & Xeric Shrublands,40.15,no,yes,yes
+Mabuyidae,Notomabuya,Notomabuya frenata,Diurnal,4 well developed limbs,viviparous,Forest_Savanna,AM_CA_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",17.79,no,yes,yes
+Diploglossidae,Ophiodes,Ophiodes enso,NA,limbless,NA,NA,PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,no,no,yes
+Diploglossidae,Ophiodes,Ophiodes fragilis,NA,hindlimbs only,viviparous,Forest,CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,19.54,no,no,yes
+Diploglossidae,Ophiodes,Ophiodes striatus,Diurnal,hindlimbs only,viviparous,Forest_Grassland,AM_CA_CE_AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",18.53,no,yes,yes
+Colubridae,Oxybelis,Oxybelis aeneus,Diurnal,limbless,oviparous,Forest,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Colubridae,Oxybelis,Oxybelis fulgidus,Diurnal,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Dipsadidae,Oxyrhopus,Oxyrhopus clathratus,NA,limbless,oviparous,Forest,CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Oxyrhopus,Oxyrhopus formosus,NA,limbless,oviparous,Forest,AM_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Oxyrhopus,Oxyrhopus guibei,NA,limbless,oviparous,Forest,AM_CA_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Oxyrhopus,Oxyrhopus melanogenys,NA,limbless,oviparous,Forest,AM_CA_CE,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Oxyrhopus,Oxyrhopus occipitalis,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,no
+Dipsadidae,Oxyrhopus,Oxyrhopus petolarius,NA,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Dipsadidae,Oxyrhopus,Oxyrhopus rhombifer,NA,limbless,oviparous,Grassland_Savanna_Shrubland,AM_CA_CE_AF_PP_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,no,yes,yes
+Dipsadidae,Oxyrhopus,Oxyrhopus trigeminus,NA,limbless,oviparous,Grassland_Savanna_Shrubland,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Oxyrhopus,Oxyrhopus vanidicus,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Colubridae,Palusophis,Palusophis bifossatus,NA,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF_PP_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Mabuyidae,Panopa,Panopa carvalhoi,Diurnal,4 well developed limbs,viviparous,Forest_Savanna,AM,Tropical & Subtropical Moist Broadleaf Forests,15.05,no,yes,yes
+Dipsadidae,Paraphimophis,Paraphimophis rusticus,NA,limbless,oviparous,NA,CE_AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Phalotris,Phalotris concolor,NA,limbless,oviparous,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,yes,no,yes
+Dipsadidae,Phalotris,Phalotris labiomaculatus,NA,limbless,oviparous,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,no,yes
+Dipsadidae,Phalotris,Phalotris lativittatus,NA,limbless,oviparous,Grassland_Savanna,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,yes,yes,yes
+Dipsadidae,Phalotris,Phalotris lemniscatus,NA,limbless,oviparous,Forest_Grassland,AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.1,no,yes,yes
+Dipsadidae,Phalotris,Phalotris matogrossensis,NA,limbless,oviparous,Forest_Savanna,CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Dipsadidae,Phalotris,Phalotris mertensi,NA,limbless,oviparous,Savanna,CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Dipsadidae,Phalotris,Phalotris multipunctatus,NA,limbless,oviparous,Savanna,CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,no,yes
+Dipsadidae,Phalotris,Phalotris nasutus,NA,limbless,oviparous,Grassland_Savanna,AM_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Dipsadidae,Phalotris,Phalotris reticulatus,NA,limbless,NA,Grassland,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Dipsadidae,Phalotris,Phalotris tricolor,NA,limbless,oviparous,Forest_Shrubland,CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,no,yes
+Dipsadidae,Philodryas,Philodryas aestiva,NA,limbless,oviparous,Forest,CA_CE_AF_PP_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Philodryas,Philodryas agassizii,Diurnal,limbless,oviparous,Forest,CA_CE_AF_PP_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Philodryas,Philodryas arnaldoi,Diurnal,limbless,oviparous,Forest,CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Philodryas,Philodryas livida,Diurnal,limbless,oviparous,Shrubland,CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,no,yes
+Dipsadidae,Philodryas,Philodryas mattogrossensis,Diurnal,limbless,oviparous,Forest,CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Dipsadidae,Philodryas,Philodryas nattereri,Diurnal,limbless,oviparous,Savanna,AM_CA_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,no,yes,yes
+Dipsadidae,Philodryas,Philodryas olfersii,Diurnal,limbless,oviparous,Forest,AM_CA_CE_AF_PP_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Philodryas,Philodryas patagoniensis,Diurnal,limbless,oviparous,Savanna,AM_CA_CE_AF_PP_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Philodryas,Philodryas psammophidea,NA,limbless,oviparous,Savanna,CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Phimophis,Phimophis guerini,NA,limbless,oviparous,Grassland_Savanna,AM_CA_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Phimophis,Phimophis guianensis,NA,limbless,oviparous,Savanna_Shrubland,AM,Tropical & Subtropical Moist Broadleaf Forests,0.5,no,yes,yes
+Colubridae,Phrynonax,Phrynonax sexcarinatus,Diurnal,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Phyllodactylidae,Phyllopezus,Phyllopezus lutzae,Nocturnal,4 well developed limbs,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,33.18,no,yes,yes
+Phyllodactylidae,Phyllopezus,Phyllopezus periosus,Nocturnal,4 well developed limbs,oviparous,Savanna,CA_AF,Deserts & Xeric Shrublands,42.42,no,yes,yes
+Phyllodactylidae,Phyllopezus,Phyllopezus pollicaris,Cathemeral,4 well developed limbs,oviparous,Forest_Savanna,AM_CA_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",28.96,no,yes,yes
+Phyllodactylidae,Phyllopezus,Phyllopezus przewalskii,NA,4 well developed limbs,oviparous,NA,CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",18.82,no,yes,yes
+Gymnophthalmidae,Placosoma,Placosoma cipoense,NA,4 well developed limbs,oviparous,Savanna,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,22.97,yes,no,yes
+Gymnophthalmidae,Placosoma,Placosoma cordylinum,NA,4 well developed limbs,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,17.53,no,yes,yes
+Gymnophthalmidae,Placosoma,Placosoma glabellum,NA,4 well developed limbs,oviparous,Forest,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,16.83,no,yes,yes
+Gymnophthalmidae,Placosoma,Placosoma limaverdorum,Diurnal,4 well developed limbs,oviparous,Forest,CA,Deserts & Xeric Shrublands,39.2,no,no,yes
+Tropiduridae,Plica,Plica plica,Diurnal,4 well developed limbs,oviparous,Forest,AM_PT,Tropical & Subtropical Moist Broadleaf Forests,13.07,no,yes,yes
+Tropiduridae,Plica,Plica umbra,Diurnal,4 well developed limbs,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,12.83,no,yes,yes
+Polychrotidae,Polychrus,Polychrus acutirostris,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,19.28,no,yes,yes
+Polychrotidae,Polychrus,Polychrus liogaster,Diurnal,4 well developed limbs,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,11.98,no,yes,yes
+Polychrotidae,Polychrus,Polychrus marmoratus,Diurnal,4 well developed limbs,oviparous,Forest,AM_CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,14.3,no,yes,yes
+Gymnophthalmidae,Potamites,Potamites ecpleopus,Diurnal,4 well developed limbs,oviparous,Forest_Wetlands,AM,Tropical & Subtropical Moist Broadleaf Forests,12.02,no,yes,yes
+Gymnophthalmidae,Potamites,Potamites juruazensis,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.55,no,yes,yes
+Gymnophthalmidae,Procellosaurinus,Procellosaurinus erythrocercus,Diurnal,4 well developed limbs,oviparous,Savanna,CA_CE,Deserts & Xeric Shrublands,34.61,no,yes,yes
+Gymnophthalmidae,Procellosaurinus,Procellosaurinus tetradactylus,Diurnal,4 well developed limbs,oviparous,Savanna,CA,Deserts & Xeric Shrublands,38.36,no,yes,yes
+Dipsadidae,Pseudoboa,Pseudoboa coronata,NA,limbless,oviparous,Forest,AM_CE_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Pseudoboa,Pseudoboa haasi,NA,limbless,oviparous,Forest,CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.1,no,no,yes
+Dipsadidae,Pseudoboa,Pseudoboa martinsi,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Pseudoboa,Pseudoboa neuwiedii,NA,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Dipsadidae,Pseudoboa,Pseudoboa nigra,NA,limbless,oviparous,Forest_Grassland_Savanna,AM_CA_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Pseudoboa,Pseudoboa serrana,NA,limbless,oviparous,Forest_Grassland,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Pseudoeryx,Pseudoeryx plicatilis,NA,limbless,oviparous,Forest_Savanna_Wetlands,AM_CE_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Sphaerodactylidae,Pseudogonatodes,Pseudogonatodes gasconi,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.53,no,no,yes
+Sphaerodactylidae,Pseudogonatodes,Pseudogonatodes guianensis,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,13.39,no,yes,yes
+Gymnophthalmidae,Psilops,Psilops mucugensis,Diurnal,4 well developed limbs,oviparous,NA,CA,Deserts & Xeric Shrublands,33.78,no,yes,yes
+Gymnophthalmidae,Psilops,Psilops paeminosus,Diurnal,4 well developed limbs,oviparous,Savanna,CA_CE_AF,Deserts & Xeric Shrublands,39.31,no,yes,yes
+Gymnophthalmidae,Psilops,Psilops seductus,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",21.79,yes,yes,yes
+Dipsadidae,Psomophis,Psomophis genimaculatus,NA,limbless,oviparous,Forest_Savanna,CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,no,yes,yes
+Dipsadidae,Psomophis,Psomophis joberti,NA,limbless,oviparous,Grassland_Savanna,AM_CA_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,no,yes,yes
+Dipsadidae,Psomophis,Psomophis obtusus,NA,limbless,oviparous,Forest_Savanna,PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.1,no,yes,yes
+Mabuyidae,Psychosaura,Psychosaura agmosticha,Diurnal,4 well developed limbs,viviparous,Savanna,CA_AF,Deserts & Xeric Shrublands,32.5,no,yes,yes
+Mabuyidae,Psychosaura,Psychosaura macrorhyncha,Diurnal,4 well developed limbs,viviparous,Forest,CA_AF,Tropical & Subtropical Moist Broadleaf Forests,21.32,no,yes,yes
+Dipsadidae,Ptychophis,Ptychophis flavovirgatus,NA,limbless,viviparous,Forest_Wetlands,AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Rhachidelus,Rhachidelus brazili,NA,limbless,oviparous,Forest_Savanna,CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Gymnophthalmidae,Rhachisaurus,Rhachisaurus brachylepis,NA,4 well developed limbs,oviparous,Forest,CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",25.4,yes,yes,yes
+Colubridae,Rhinobothryum,Rhinobothryum lentiginosum,Nocturnal,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Gymnophthalmidae,Riolama,Riolama grandis,NA,4 well developed limbs,NA,NA,AM,NA,NA,no,no,yes
+Gymnophthalmidae,Riolama,Riolama stellata,NA,4 well developed limbs,NA,NA,AM,NA,NA,no,no,yes
+Dipsadidae,Rodriguesophis,Rodriguesophis chui,NA,limbless,NA,Shrubland,CA,Deserts & Xeric Shrublands,0.3,no,no,yes
+Dipsadidae,Rodriguesophis,Rodriguesophis iglesiasi,NA,limbless,oviparous,Grassland_Savanna_Shrubland,CA_CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,no,yes,yes
+Dipsadidae,Rodriguesophis,Rodriguesophis scriptorcibatus,NA,limbless,NA,Shrubland,CA_CE,Deserts & Xeric Shrublands,0.3,no,no,yes
+Gymnophthalmidae,Rondonops,Rondonops biscutatus,Diurnal,4 well developed limbs,oviparous,NA,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,10.57,no,no,yes
+Gymnophthalmidae,Rondonops,Rondonops xanthomystax,Diurnal,4 well developed limbs,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,10.42,no,no,yes
+Teiidae,Salvator,Salvator duseni,Diurnal,4 well developed limbs,NA,Savanna,CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",18.08,yes,yes,yes
+Teiidae,Salvator,Salvator merianae,Diurnal,4 well developed limbs,oviparous,Forest_Shrubland,AM_CA_CE_AF_PP_PT,Tropical & Subtropical Moist Broadleaf Forests,20.04,no,yes,yes
+Gymnophthalmidae,Scriptosaura,Scriptosaura catimbau,Diurnal,limbless,oviparous,Savanna,CA,Deserts & Xeric Shrublands,46.49,no,yes,yes
+Leptotyphlopidae,Siagonodon,Siagonodon cupinensis,NA,limbless,oviparous,Shrubland,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Leptotyphlopidae,Siagonodon,Siagonodon septemstriatus,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Dipsadidae,Sibon,Sibon nebulatus,Nocturnal,limbless,oviparous,Forest,AM_CA_AF,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Colubridae,Simophis,Simophis rhinostoma,NA,limbless,oviparous,Forest_Savanna,CA_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Dipsadidae,Siphlophis,Siphlophis cervinus,Nocturnal,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Siphlophis,Siphlophis compressus,Nocturnal,limbless,oviparous,Forest,AM_CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Siphlophis,Siphlophis leucocephalus,Nocturnal,limbless,oviparous,Forest_Savanna,CA_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,no,yes
+Dipsadidae,Siphlophis,Siphlophis longicaudatus,Nocturnal,limbless,oviparous,Forest,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Siphlophis,Siphlophis pulcher,Nocturnal,limbless,oviparous,Forest_Savanna_Shrubland,AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Siphlophis,Siphlophis worontzowi,Nocturnal,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Sordellina,Sordellina punctata,NA,limbless,viviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Colubridae,Spilotes,Spilotes pullatus,Diurnal,limbless,oviparous,Forest_Savanna,AM_CA_CE_AF_PP_PT,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Colubridae,Spilotes,Spilotes sulphureus,Diurnal,limbless,oviparous,Forest,AM_CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Tropiduridae,Stenocercus,Stenocercus albolineatus,Diurnal,4 well developed limbs,oviparous,NA,AM_CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",12.28,yes,yes,yes
+Tropiduridae,Stenocercus,Stenocercus azureus,Diurnal,4 well developed limbs,oviparous,Grassland,CE_AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",22.06,no,yes,yes
+Tropiduridae,Stenocercus,Stenocercus caducus,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,AM_CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",16.93,no,yes,yes
+Tropiduridae,Stenocercus,Stenocercus canastra,NA,4 well developed limbs,oviparous,NA,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",14.24,yes,no,yes
+Tropiduridae,Stenocercus,Stenocercus dumerilii,Diurnal,4 well developed limbs,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,19.7,no,yes,yes
+Tropiduridae,Stenocercus,Stenocercus fimbriatus,NA,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,12.01,no,no,yes
+Tropiduridae,Stenocercus,Stenocercus quinarius,NA,4 well developed limbs,NA,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",20.63,yes,yes,yes
+Tropiduridae,Stenocercus,Stenocercus roseiventris,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,13.42,no,yes,yes
+Tropiduridae,Stenocercus,Stenocercus sinesaccus,NA,4 well developed limbs,oviparous,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",14.5,yes,yes,yes
+Tropiduridae,Stenocercus,Stenocercus squarrosus,Diurnal,4 well developed limbs,oviparous,Savanna,CA_CE,Deserts & Xeric Shrublands,29.79,no,yes,yes
+Tropiduridae,Stenocercus,Stenocercus tricristatus,NA,4 well developed limbs,NA,NA,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,no,no,no
+Gymnophthalmidae,Stenolepis,Stenolepis ridleyi,NA,4 well developed limbs,oviparous,Forest_Savanna,CA_AF,Deserts & Xeric Shrublands,48.62,no,yes,yes
+Tropiduridae,Strobilurus,Strobilurus torquatus,Diurnal,4 well developed limbs,oviparous,Forest,CA_AF,Deserts & Xeric Shrublands,39.23,no,yes,yes
+Dipsadidae,Tachymenis,Tachymenis ocellata,NA,limbless,viviparous,NA,PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.1,no,no,yes
+Dipsadidae,Taeniophallus,Taeniophallus brevirostris,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Taeniophallus,Taeniophallus nicagus,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Colubridae,Tantilla,Tantilla boipiranga,NA,limbless,oviparous,Forest_Savanna_Rocky,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,no,yes
+Colubridae,Tantilla,Tantilla melanocephala,NA,limbless,oviparous,Forest,AM_CA_CE_AF_PP_PT,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Teiidae,Teius,Teius oculatus,Diurnal,4 well developed limbs,oviparous,Forest_Grassland_Shrubland,CE_AF_PP,"Temperate Grasslands, Savannas & Shrublands",22.35,no,no,yes
+Teiidae,Teius,Teius teyou,Diurnal,4 well developed limbs,oviparous,Forest_Savanna_Shrubland,PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",22.93,no,yes,yes
+Dipsadidae,Thamnodynastes,Thamnodynastes longicaudus,Nocturnal,limbless,viviparous,Forest_Grassland,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Dipsadidae,Thamnodynastes,Thamnodynastes pallidus,NA,limbless,viviparous,Forest_Shrubland,AM_CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Thamnodynastes,Thamnodynastes sertanejo,NA,limbless,viviparous,Shrubland,CA_CE_AF,Deserts & Xeric Shrublands,0.3,no,no,yes
+Dipsadidae,Thamnodynastes,Thamnodynastes silvai,Nocturnal,limbless,viviparous,Grassland,AM,NA,NA,no,no,yes
+Phyllodactylidae,Thecadactylus,Thecadactylus rapicauda,Nocturnal,4 well developed limbs,oviparous,Forest_Savanna,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,14.39,no,yes,yes
+Phyllodactylidae,Thecadactylus,Thecadactylus solimoensis,Nocturnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.08,no,yes,yes
+Dipsadidae,Tomodon,Tomodon dorsatus,NA,limbless,viviparous,Forest,CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Mabuyidae,Trachylepis,Trachylepis atlantica,Diurnal,4 well developed limbs,oviparous,Savanna,AF,Tropical & Subtropical Moist Broadleaf Forests,25.42,no,yes,yes
+Gymnophthalmidae,Tretioscincus,Tretioscincus agilis,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,19.8,no,yes,yes
+Gymnophthalmidae,Tretioscincus,Tretioscincus oriximinensis,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,AM,Tropical & Subtropical Moist Broadleaf Forests,11.67,no,yes,yes
+Leptotyphlopidae,Trilepida,Trilepida acutirostris,NA,limbless,NA,NA,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Leptotyphlopidae,Trilepida,Trilepida brasiliensis,NA,limbless,oviparous,Savanna_Shrubland,CA_CE_PT,Tropical & Subtropical Moist Broadleaf Forests,NA,yes,yes,yes
+Leptotyphlopidae,Trilepida,Trilepida dimidiata,NA,limbless,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Leptotyphlopidae,Trilepida,Trilepida fuliginosa,NA,limbless,oviparous,Savanna,AM_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Leptotyphlopidae,Trilepida,Trilepida jani,NA,limbless,oviparous,Grassland,CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,no,yes
+Leptotyphlopidae,Trilepida,Trilepida koppesi,NA,limbless,oviparous,Grassland_Savanna,CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",NA,yes,yes,yes
+Leptotyphlopidae,Trilepida,Trilepida macrolepis,NA,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Leptotyphlopidae,Trilepida,Trilepida salgueiroi,Nocturnal,limbless,oviparous,Forest_Shrubland,CE_AF,Tropical & Subtropical Moist Broadleaf Forests,NA,no,no,yes
+Dipsadidae,Tropidodryas,Tropidodryas serra,Diurnal,limbless,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Tropidodryas,Tropidodryas striaticeps,Diurnal,limbless,oviparous,Forest,CA_CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Tropidophiidae,Tropidophis,Tropidophis grapiuna,Nocturnal,limbless,viviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Tropidophiidae,Tropidophis,Tropidophis paucisquamis,Nocturnal,limbless,viviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,no,yes
+Tropidophiidae,Tropidophis,Tropidophis preciosus,Nocturnal,limbless,viviparous,Grassland_Savanna,CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,yes,no,yes
+Tropiduridae,Tropidurus,Tropidurus callathelys,Diurnal,4 well developed limbs,oviparous,Forest_Savanna_Rocky,AM,Tropical & Subtropical Moist Broadleaf Forests,12.21,yes,yes,yes
+Tropiduridae,Tropidurus,Tropidurus catalanensis,Diurnal,4 well developed limbs,oviparous,Forest_Rocky,AF_PP,Tropical & Subtropical Moist Broadleaf Forests,20.36,no,yes,yes
+Tropiduridae,Tropidurus,Tropidurus chromatops,Diurnal,4 well developed limbs,oviparous,Forest_Rocky_Savanna_Shrubland,AM,Tropical & Subtropical Dry Broadleaf Forests,12,yes,yes,yes
+Tropiduridae,Tropidurus,Tropidurus cocorobensis,Diurnal,4 well developed limbs,oviparous,Savanna,CA,Deserts & Xeric Shrublands,39.68,no,yes,yes
+Tropiduridae,Tropidurus,Tropidurus erythrocephalus,Diurnal,4 well developed limbs,oviparous,Forest_Rocky_Shrubland,CA,Deserts & Xeric Shrublands,35.2,no,yes,yes
+Tropiduridae,Tropidurus,Tropidurus etheridgei,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,CA_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",17.33,no,yes,yes
+Tropiduridae,Tropidurus,Tropidurus helenae,Diurnal,4 well developed limbs,oviparous,Savanna,CA,Deserts & Xeric Shrublands,30.39,no,yes,yes
+Tropiduridae,Tropidurus,Tropidurus hispidus,Diurnal,4 well developed limbs,oviparous,Rocky_Savanna,AM_CA_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,23.02,no,yes,yes
+Tropiduridae,Tropidurus,Tropidurus hygomi,Diurnal,4 well developed limbs,oviparous,Forest_Shrubland,AF,Tropical & Subtropical Moist Broadleaf Forests,18.82,no,yes,yes
+Tropiduridae,Tropidurus,Tropidurus imbituba,Diurnal,4 well developed limbs,oviparous,Forest_Grassland,AF,Tropical & Subtropical Moist Broadleaf Forests,20.71,no,yes,yes
+Tropiduridae,Tropidurus,Tropidurus insulanus,NA,4 well developed limbs,oviparous,Savanna,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,10.85,no,yes,yes
+Tropiduridae,Tropidurus,Tropidurus itambere,Diurnal,4 well developed limbs,oviparous,Savanna,AM_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",18.72,yes,yes,yes
+Tropiduridae,Tropidurus,Tropidurus jaguaribanus,Diurnal,4 well developed limbs,oviparous,Rocky_Shrubland,CA,Deserts & Xeric Shrublands,36.93,no,yes,yes
+Tropiduridae,Tropidurus,Tropidurus lagunablanca,Diurnal,4 well developed limbs,oviparous,NA,AM_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",17.74,no,yes,yes
+Tropiduridae,Tropidurus,Tropidurus montanus,Diurnal,4 well developed limbs,oviparous,Savanna,CA_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",28.93,yes,yes,yes
+Tropiduridae,Tropidurus,Tropidurus mucujensis,NA,4 well developed limbs,oviparous,Savanna,CA,Deserts & Xeric Shrublands,26.2,no,yes,yes
+Tropiduridae,Tropidurus,Tropidurus oreadicus,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,AM_CA_CE_PT,Tropical & Subtropical Moist Broadleaf Forests,16.5,yes,yes,yes
+Tropiduridae,Tropidurus,Tropidurus pinima,Diurnal,4 well developed limbs,oviparous,Savanna,CA,Deserts & Xeric Shrublands,34.89,no,yes,yes
+Tropiduridae,Tropidurus,Tropidurus psammonastes,Diurnal,4 well developed limbs,oviparous,Savanna,CA_CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",40.45,no,yes,yes
+Tropiduridae,Tropidurus,Tropidurus semitaeniatus,Diurnal,4 well developed limbs,oviparous,Rocky_Shrubland,CA_CE_AF,Deserts & Xeric Shrublands,34.3,no,yes,yes
+Tropiduridae,Tropidurus,Tropidurus sertanejo,Diurnal,4 well developed limbs,oviparous,NA,CA,Deserts & Xeric Shrublands,32.87,no,yes,yes
+Tropiduridae,Tropidurus,Tropidurus torquatus,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,AM_CA_CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",21.25,no,yes,yes
+Teiidae,Tupinambis,Tupinambis cryptus,Diurnal,4 well developed limbs,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,17.31,no,yes,yes
+Teiidae,Tupinambis,Tupinambis cuzcoensis,Diurnal,4 well developed limbs,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,12.77,no,no,yes
+Teiidae,Tupinambis,Tupinambis longilineus,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.18,no,yes,yes
+Teiidae,Tupinambis,Tupinambis matipu,Diurnal,4 well developed limbs,oviparous,NA,AM_CE_PT,Tropical & Subtropical Moist Broadleaf Forests,13.82,yes,no,yes
+Teiidae,Tupinambis,Tupinambis palustris,NA,4 well developed limbs,oviparous,Savanna,AF,Tropical & Subtropical Moist Broadleaf Forests,18.44,no,no,yes
+Teiidae,Tupinambis,Tupinambis quadrilineatus,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,AM_CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",18.31,yes,yes,yes
+Teiidae,Tupinambis,Tupinambis teguixin,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,AM_CA_CE,Tropical & Subtropical Moist Broadleaf Forests,13.25,no,yes,yes
+Anomalepididae,Typhlophis,Typhlophis squamosus,NA,limbless,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,NA,no,yes,yes
+Tropiduridae,Uracentron,Uracentron azureum,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,AM,Tropical & Subtropical Moist Broadleaf Forests,12.78,no,no,yes
+Tropiduridae,Uracentron,Uracentron flaviceps,Diurnal,4 well developed limbs,oviparous,Forest,AM,Tropical & Subtropical Moist Broadleaf Forests,11.65,no,yes,yes
+Tropiduridae,Uranoscodon,Uranoscodon superciliosus,Diurnal,4 well developed limbs,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,12.7,no,yes,yes
+Leiosauridae,Urostrophus,Urostrophus grilli,NA,4 well developed limbs,oviparous,Forest_Grassland,CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,18.94,no,yes,yes
+Leiosauridae,Urostrophus,Urostrophus longicauda,Diurnal,4 well developed limbs,oviparous,Grassland,AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",22.74,no,yes,yes
+Leiosauridae,Urostrophus,Urostrophus undulatus,NA,4 well developed limbs,oviparous,Grassland_Savanna,PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",21.22,no,no,yes
+Leiosauridae,Anisolepis,Urostrophus vautieri,Diurnal,4 well developed limbs,oviparous,Forest_Savanna,CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,18.4,no,yes,yes
+Gymnophthalmidae,Vanzosaura,Vanzosaura multiscutata,Diurnal,4 well developed limbs,oviparous,Savanna,CA_CE_AF,Deserts & Xeric Shrublands,35.67,no,yes,yes
+Gymnophthalmidae,Vanzosaura,Vanzosaura rubricauda,Diurnal,4 well developed limbs,oviparous,Savanna,CE_AF_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",21.15,no,yes,yes
+Gymnophthalmidae,Vanzosaura,Vanzosaura savanicola,Diurnal,4 well developed limbs,oviparous,Savanna,CE,"Tropical & Subtropical Grasslands, Savannas & Shrublands",22.19,yes,no,yes
+Dipsadidae,Xenodon,Xenodon dorbignyi,NA,limbless,oviparous,Forest_Grassland,AF_PP,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.1,no,yes,yes
+Dipsadidae,Xenodon,Xenodon guentheri,NA,limbless,oviparous,Forest,AF,Tropical & Subtropical Moist Broadleaf Forests,0.1,no,yes,yes
+Dipsadidae,Xenodon,Xenodon histricus,NA,limbless,oviparous,Grassland_Savanna,CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Xenodon,Xenodon matogrossensis,NA,limbless,oviparous,Savanna_Wetlands,CE_PT,Flooded Grassleands & Savannas,0.2,yes,yes,yes
+Dipsadidae,Xenodon,Xenodon merremii,NA,limbless,oviparous,NA,AM_CA_CE_AF_PP_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Xenodon,Xenodon nattereri,NA,limbless,oviparous,Grassland_Savanna,AM_CA_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,yes,yes,yes
+Dipsadidae,Xenodon,Xenodon neuwiedii,NA,limbless,oviparous,Forest,CE_AF_PP,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Xenodon,Xenodon pulcher,NA,limbless,oviparous,Forest_Savanna_Shrubland,PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,no,yes,yes
+Dipsadidae,Xenodon,Xenodon rabdocephalus,NA,limbless,oviparous,Forest,AM_CE_AF_PT,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Dipsadidae,Xenodon,Xenodon severus,NA,limbless,oviparous,Forest,AM_CE,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Xenodon,Xenodon werneri,NA,limbless,oviparous,Forest_Wetlands,AM,Tropical & Subtropical Moist Broadleaf Forests,0.4,no,yes,yes
+Dipsadidae,Xenopholis,Xenopholis scalaris,NA,limbless,oviparous,Forest,AM_CE_AF,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Xenopholis,Xenopholis undulatus,NA,limbless,oviparous,Savanna,CA_CE_AF,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.2,no,yes,yes
+Dipsadidae,Xenopholis,Xenopholis werdingorum,NA,limbless,oviparous,Forest_Savanna,CE_PT,"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.3,no,no,yes
+Dipsadidae,Xenoxybelis,Xenoxybelis argenteus,Diurnal,limbless,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
+Dipsadidae,Xenoxybelis,Xenoxybelis boulengeri,Diurnal,limbless,oviparous,NA,AM,Tropical & Subtropical Moist Broadleaf Forests,0.2,no,yes,yes
+Dipsadidae,Zonateres,Zonateres lanei,NA,limbless,viviparous,Forest,AM_CE_PT,Tropical & Subtropical Moist Broadleaf Forests,0.3,no,yes,yes
