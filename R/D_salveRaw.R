@@ -23,42 +23,49 @@ write.table(list_raw, here::here("data","processed", "lists", "salve-squamata-si
             row.names = FALSE)
 
 # loading and simplifying SALVE database ----------------------------------
-dataFiles <- c(dir(here::here("data", "distribution", "salve-raw")))
+dataFiles <- c(dir(here::here("data", "raw", "distribution", "salve-raw")))
+dataFiles <- c(dir(here::here("data", "raw", "distribution", "salve-raw-testudines_crocodylia")))
 
-my_data <- read.csv(here::here("data", "distribution", "salve-raw", dataFiles[1]))
+my_data <- read.csv(here::here("data", "raw", "distribution", "salve-raw-testudines_crocodylia", dataFiles[1]))
 
 for(i in 2:length(dataFiles))
 {
-  my_data2 <- read.csv(here::here("data", "distribution", "salve-raw", dataFiles[i]))
+  my_data2 <- read.csv(here::here("data", "raw", "distribution", "salve-raw-testudines_crocodylia", dataFiles[i]))
   my_data <- as.data.frame(rbind(my_data, my_data2))
 }
 
 names(my_data)
 
-db <- my_data[,c(4,5,7,10,11)] #especie, latitude, longitude
+db <- my_data[,c(4,5,7,10,11)]
 names(db) <- c("order", "family", "species", "latitude", "longitude")
 str(db)
 head(db)
 
 unique(db$order)
-
-db <- db[db$order %in% c("Squamata", "Serpentes"),]
-db$order[db$order == "Serpentes"] <- "Squamata"
-
-db <- db[,-1]
-
-# proceed to select only unique records -----------------------------------
-db$unique <- paste(db$family, db$species, db$latitude, db$longitude, sep=",")
+length(unique(db$species)) 
 
 head(db)
+head(db_reviewed)
 
-uniquerec <- data.frame(unique(db$unique)) #Seleciona combinacoes unicas de spp+lat+long da coluna combinada
-#100976 unique records
+db_reptiles_br <- rbind(db, db_reviewed)
+
+
+# proceed to select only unique records -----------------------------------
+db_reptiles_br$unique <- paste(db_reptiles_br$order,
+                               db_reptiles_br$family,
+                               db_reptiles_br$species,
+                               db_reptiles_br$latitude,
+                               db_reptiles_br$longitude, sep=",")
+
+head(db_reptiles_br)
+
+uniquerec <- data.frame(unique(db_reptiles_br$unique)) #Seleciona combinacoes unicas de spp+lat+long da coluna combinada
+#141385 unique records
 
 head(uniquerec)
 
-db_unique <- tidyr::separate(data=uniquerec, col="unique.db.unique.", 
-                             into=c("family","species", "latitude", "longitude"), sep=",",
+db_unique <- tidyr::separate(data=uniquerec, col="unique.db_reptiles_br.unique.", 
+                             into=c("order","family","species", "latitude", "longitude"), sep=",",
                              convert=TRUE) #funcao de separacao
 
 head(db_unique)
@@ -66,7 +73,7 @@ db_unique <- db_unique[order(db_unique$species),]
 
 ###########################################################################
 # save unique records database --------------------------------------------
-write.csv(db_unique, here::here("data", "distribution", "salve-combined.csv"), row.names = FALSE)
+write.csv(db_unique, here::here("data", "processed","distribution", "reptiles_salve.csv"), row.names = FALSE)
 ###########################################################################
 
 

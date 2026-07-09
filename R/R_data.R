@@ -6,14 +6,12 @@ list_br <- read.table(here::here("data", "processed", "lists", "br_reptiles.txt"
 
 #end <- read.table(here::here("data", "processed", "lists", "cerrado_endemics_list.txt"), h = T, sep = "\t") #125 29-06 from Vieira-Alencar et al 2023 with current nomenclature
 
-#tree_raw <- ape::read.tree(here::here("data", "raw","phylogeny", "main_title.tre")) #phylogenetic tree (title et al 2024)
-tree <- ape::read.tree(here::here("data", "processed","phylogeny", "title_br.tre")) #pruned to SALVE species
-
 # distribution ------------------------------------------------------------
-#db <- read.table(here::here("data", "processed", "distribution", "salve-combined.csv"), header = TRUE, sep = ",")
-db_reviewed <- read.table(here::here("data", "processed", "distribution", "db_reviewed.csv"), header = TRUE, sep = ",")
+#db_reviewed <- read.table(here::here("data", "processed", "distribution", "db_reviewed.csv"), header = TRUE, sep = ",") #only squamata: nomenclature ok
+db_reptiles <- read.table(here::here("data", "processed","distribution", "reptiles_salve.csv"), header = TRUE, sep = ",") #"all" BR reptiles: nomenclature ok
 
 # shapes ------------------------------------------------------------------
 brazil <- sf::st_read(here::here("data", "raw", "shapes", "brazil.shp"))
 biomas <- sf::st_read(here::here("data", "raw", "shapes", "biomas.shp"))
 #grid <- sf::st_read(here::here("data", "processed", "shapes", "grid.shp"))
+
