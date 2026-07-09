@@ -60,10 +60,9 @@ Thamnodynastes rutilus is now included in Mesotes
 Varzea altamazonica and Varzea bistriata are now included in Mabuya. 
 
 
-
 #####
 Cerrado endemics taxonomic review: 
-We started with a list of 129 endemic squamates (Vieira-Alencar et al 2025).
+We started with a list of 129 endemic squamates (Vieira-Alencar et al 2023).
 With letsRept all unmatched names were automatically updated as follow:
 
 Apostolepis barrioi was synonymized with A. dimidiata and removed from the list of endemics (multiple records in the Atlantic Forest)
