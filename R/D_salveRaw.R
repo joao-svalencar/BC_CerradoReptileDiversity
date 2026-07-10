@@ -63,7 +63,7 @@ db_reptiles_br$unique <- paste(db_reptiles_br$order,
 head(db_reptiles_br)
 
 uniquerec <- data.frame(unique(db_reptiles_br$unique)) #Seleciona combinacoes unicas de spp+lat+long da coluna combinada
-#140626 unique records
+#144415 unique records
 
 head(uniquerec)
 

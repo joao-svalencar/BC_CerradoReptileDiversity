@@ -39,8 +39,9 @@ Species not previously considered to occur in the Cerrado (according to SALVE), 
 "Micrurus carvalhoi": plenty of records within the biome.
 "Oxyrhopus melanogenys": five records within the Cerrado near the Amazonian border. Min distance 20km, further records ~100km away from the border
 
-
 Records of Chironius xaraes and C. laurenti were extracted from Figure 9 of Sudré et al. (2026) using QGIS georeferencer
+
+Testudines dataset were merged with the records extracted from TTWG 2025 (see R/D_sampleTestudinesTTWG.R). PS.: Still seems incomplete compared to the book's maps.
 
 References:
 

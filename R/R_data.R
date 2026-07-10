@@ -11,6 +11,8 @@ list_br <- read.table(here::here("data", "processed", "lists", "br_reptiles.txt"
 #db_reviewed <- read.table(here::here("data", "processed", "distribution", "db_reviewed.csv"), header = TRUE, sep = ",") #only squamata: nomenclature ok
 
 db_reptiles_br <- read.table(here::here("data", "processed","distribution", "reptiles_salve.csv"), header = TRUE, sep = ",") # 830 BR reptiles: nomenclature ok
+db_testudines <- read.table(here::here("data", "raw","distribution", "testudines.csv"), header = TRUE, sep = ",")
+
 
 # shapes ------------------------------------------------------------------
 brazil <- sf::st_read(here::here("data", "raw", "shapes", "brazil.shp"))
