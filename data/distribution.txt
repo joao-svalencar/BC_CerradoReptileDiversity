@@ -18,9 +18,27 @@ Most are introduced species or does not have proof of occurrence in the Brazilia
 
 Species of Testudines discarded from occurence in the Cerrado even though SALVE consider them as present:
 
-"Caretta caretta", "Chelonia mnydas", "Dermochelys coriacea", "Eretmochelys imbricata", "Lepidochelys olivacea", "Platemys platycephala"
+"Caretta caretta", "Chelonia mydas", "Dermochelys coriacea", "Eretmochelys imbricata", "Lepidochelys olivacea", "Platemys platycephala"
 
 Most are marine species or do not have records in the Cerrado
+
+Species with marginal records in the Cerrado not considered to occur in the Biome in our analyses:
+
+
+"Apostolepis nigrolineata": one marginal record with the bulk of records in the Amazon
+"Copeoglossum arajara": one marginal record with the bulk of records in the Caatinga
+"Helicops nentur": one marginal record with the bulk of records in the Atlantic Forest
+"Tropidurus sertanejo": very restricted range within the Caatinga but records fall in the Cerrado shapefile. Authors describe locations as Caatinga only.
+"Zonateris lanei": three very marginal records in contact with the Pantanal fall within the Cerrado shapefile.
+
+Species not previously considered to occur in the Cerrado (according to SALVE), but with records within the biome:
+
+"Ameivula pyrrhogularis": two records in the Cerrado. Min distance ~50km, Max distance ~110km from the nearest border with Caatinga
+"Amphisbaena darwinii": three records in the Cerrado. One in Paraná and two in São Paulo. 
+"Colobosauroides cearensis": two records ~50km away from the border with the Caatinga in northern Piauí
+"Micrurus carvalhoi": plenty of records within the biome.
+"Oxyrhopus melanogenys": five records within the Cerrado near the Amazonian border. Min distance 20km, further records ~100km away from the border
+
 
 Records of Chironius xaraes and C. laurenti were extracted from Figure 9 of Sudré et al. (2026) using QGIS georeferencer
 
