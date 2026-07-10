@@ -22,7 +22,7 @@ Species of Testudines discarded from occurence in the Cerrado even though SALVE 
 
 Most are marine species or do not have records in the Cerrado
 
-Records of Chironius xaraes were extracted from Figure 9 of Sudré et al. (2026) using QGIS georeferencer
+Records of Chironius xaraes and C. laurenti were extracted from Figure 9 of Sudré et al. (2026) using QGIS georeferencer
 
 References:
 

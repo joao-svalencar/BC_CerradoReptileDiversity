@@ -3,7 +3,7 @@ reptCompare(list$species, filter = "review") # all nomenclature up to date
 
 # RDB Brazilian species check ---------------------------------------------
 link <- reptAdvancedSearch(location = "Brazil")
-br_species <- reptSpecies(link, taxonomicInfo = FALSE, cores = 9)
+br_species <- reptSpecies(link, taxonomicInfo = TRUE, cores = 9)
 
 missing <- br_species[!br_species$species %in% list_br$species,]
 
@@ -142,6 +142,8 @@ list_br$cerrado_sp[list_br$species %in% drop_cerrado_turtles] <- "no"
 table(list_br$cerrado_sp) # 434/882 = 49.2%
 
 # saving final Brazilian reptile list -------------------------------------
+list_br <- list_br[!list_br$species %in% c("Apostolepis ambiniger", "Philodryas patagoniensis"),]
+
 write.table(list_br, here::here("data", "processed", "lists", "br_reptiles.txt"),
             fileEncoding = "UTF8",
             sep= "\t",
@@ -153,11 +155,26 @@ write.table(list_br, here::here("data", "processed", "lists", "br_reptiles.txt")
 
 list_cerrado <- list_br[list_br$cerrado_sp =="yes",]
 
-table(list_cerrado$cerrado_endemic) #127/434 = 29.2% reptiles
+table(list_cerrado$cerrado_endemic) #127/432 = 29.3% reptiles
 
 table(list_cerrado$cerrado_endemic, list_cerrado$order)
 
-127/(127+283) #127/410 = 30.9% Squamata
+127/(127+281) #127/410 = 31.1% Squamata
 
 list_cerrado[list_cerrado$order=="Crocodylia",] # ok
 list_cerrado[list_cerrado$order=="Testudines",] # review
+
+head(list_cerrado)
+head(br_species)
+
+cerrado_rdb <- list_br_rdb[list_br_rdb$species %in% list_cerrado$species, c(2, 3, 5, 6)] #suborder,family, species, year
+head(cerrado_rdb)
+
+list_cerrado <- merge(list_cerrado, cerrado_rdb, by = "species")
+
+head(list_cerrado)
+
+list_cerrado <- list_cerrado[,c(2, 7, 8, 1, 9, 4, 5, 6)]
+
+head(list_cerrado)
+
