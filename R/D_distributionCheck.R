@@ -12,8 +12,6 @@ list_br$biomes[list_br$species=="Amnesteophis melanauchen"] <- NA
 list_br$biomes[list_br$species=="Oxyrhopus occipitalis"] <- NA
 list_br$biomes[list_br$species=="Anolis sericeus"] <- NA
 
-write.csv(db_reptiles_br, here::here("data", "processed","distribution", "reptiles_salve_cerrado.csv"), row.names = FALSE)
-
 
 # species in the Cerrado not considered in SALVE --------------------------
 cerrado_check <- c("Ameivula pyrrhogularis", #ok
@@ -23,7 +21,6 @@ cerrado_check <- c("Ameivula pyrrhogularis", #ok
   "Oxyrhopus melanogenys") #ok
 
 list_br$cerrado_sp[list_br$species %in% cerrado_check] <- "yes"
-
 
 # merging testudines distribution from TTWG to SALVE ----------------------
 names(db_testudines)

@@ -139,7 +139,7 @@ drop_cerrado_turtles <- c("Caretta caretta", "Chelonia mnydas", "Dermochelys cor
 
 list_br$cerrado_sp[list_br$species %in% drop_cerrado_turtles] <- "no"
 
-table(list_br$cerrado_sp) # 434/882 = 49.2%
+table(list_br$cerrado_sp) # 436/880 = 49.5%
 
 # saving final Brazilian reptile list -------------------------------------
 list_br <- list_br[!list_br$species %in% c("Apostolepis ambiniger", "Philodryas patagoniensis"),]
@@ -184,7 +184,7 @@ list_cerrado <- list_br[list_br$cerrado_sp =="yes",]
 
 table(list_cerrado$cerrado_endemic) #127/436 = 29.1% reptiles
 
-table(list_cerrado$cerrado_endemic, list_cerrado$order)
+table(list_cerrado$cerrado_endemic, list_cerrado$suborder)
 
 127/(127+286) #127/410 = 30.7% Squamata
 
@@ -196,4 +196,12 @@ a <- list_br[,c(4, 7)]
 
 db_reptiles_br <- merge(db_reptiles_br, a, by = "species", all.x = TRUE)
 head(db_reptiles_br)
+
+write.csv(db_reptiles_br, here::here("data", "processed","distribution", "reptiles_salve_cerrado.csv"), row.names = FALSE)
+
+
+# ENDEMISM ----------------------------------------------------------------
+new_endemics <- list_cerrado[list_cerrado$cerrado_endemic=="yes" & list_cerrado$year >= 2010,] #described since Nogueira et al 2010
+
+
 

@@ -28,6 +28,7 @@ Species with marginal records in the Cerrado not considered to occur in the Biom
 "Apostolepis nigrolineata": one marginal record with the bulk of records in the Amazon
 "Copeoglossum arajara": one marginal record with the bulk of records in the Caatinga
 "Helicops nentur": one marginal record with the bulk of records in the Atlantic Forest
+"Platemys platycephala": one marginal record in Mato Grosso
 "Tropidurus sertanejo": very restricted range within the Caatinga but records fall in the Cerrado shapefile. Authors describe locations as Caatinga only.
 "Zonateris lanei": three very marginal records in contact with the Pantanal fall within the Cerrado shapefile.
 
@@ -41,7 +42,7 @@ Species not previously considered to occur in the Cerrado (according to SALVE), 
 
 Records of Chironius xaraes and C. laurenti were extracted from Figure 9 of Sudré et al. (2026) using QGIS georeferencer
 
-Testudines dataset were merged with the records extracted from TTWG 2025 (see R/D_sampleTestudinesTTWG.R). PS.: Still seems incomplete compared to the book's maps.
+Testudines dataset were merged with the records extracted from TTWG 2025 (see R/D_sampleTestudinesTTWG.R).
 
 References:
 
