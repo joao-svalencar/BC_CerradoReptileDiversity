@@ -40,7 +40,11 @@ Species not previously considered to occur in the Cerrado (according to SALVE), 
 "Micrurus carvalhoi": plenty of records within the biome.
 "Oxyrhopus melanogenys": five records within the Cerrado near the Amazonian border. Min distance 20km, further records ~100km away from the border
 
+Updated distributions:
+
 Records of Chironius xaraes and C. laurenti were extracted from Figure 9 of Sudré et al. (2026) using QGIS georeferencer
+
+New records of Enyalius capetinga were extracted from Figure X of Ishihara et al. (2022) using QGIS georeferencer
 
 Testudines dataset were merged with the records extracted from TTWG 2025 (see R/D_sampleTestudinesTTWG.R).
 
@@ -49,6 +53,8 @@ References:
 Di Pietro D.O., Sánchez J., Poljak S. & Alcalde L. (2026) Morphological and molecular variation reveal cryptic diversity in the racer Philodryas patagoniensis (Girard, 1858) (Squamata: Colubridae). Vertebrate Zoology 76: 93-119. https://doi.org/10.3897/vz.76.e169219
 
 Entiauspe-Neto O.M., Koch C., Harvey M.B., Colli G.R., Guedes T.B. (2021) Redescription of Apostolepis ambiniger (Peters, 1869) (Serpentes: Dipsadidae: Elapomorphini). Vertebrate Zoology 71: 231-251. https://doi.org/10.3897/vz.71.e65097
+
+Ishihara, M.A., Domingos, F.M.C.B., Gomides, S.C., Novelli, I.A., Colli, G.R. & Vargas, S.M. (2022) Genetic structure of Enyalius capetinga (Squamata, Liosauridae) in Central Cerrado and transitional areas between the Cerrado an the Atlantic Forest, with updated geographic distribution. Genetica, 150, 367–377. https://doi.org/10.1007/s10709-022-00170-w
 
 Marques-Souza S., Prates I., Fouquet A., et al. Reconquering the water: Evolution and systematics of South and Central American aquatic lizards (Gymnophthalmidae). Zool Scr. 2018;47:255–265. https://doi.org/10.1111/zsc.12273
 

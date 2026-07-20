@@ -19,7 +19,7 @@ cerrado <- biomas[biomas$Bioma == "Cerrado", ]
 
 grid <- sf::st_make_grid(
   sf::st_as_sfc(sf::st_bbox(cerrado)),
-  cellsize = c(0.5, 0.5),
+  cellsize = c(1, 1),
   square = TRUE)
 
 #plot(st_geometry(grid), add = TRUE)
