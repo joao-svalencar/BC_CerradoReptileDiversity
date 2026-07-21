@@ -1,4 +1,3 @@
-
 # calculating weighted  degree centrality (WDC) ---------------------------
 
 wdc <- function(pa_matrix, interest_bioma = "Cerrado") {
@@ -25,14 +24,12 @@ wdc <- function(pa_matrix, interest_bioma = "Cerrado") {
 
 # permutation test --------------------------------------------------------
 observed_sharing_cerrado <- wdc(pa_matrix, "Cerrado")
-cat("Observed sharing in Cerrado (Sum of Jaccard indices):", observed_sharing_cerrado, "\n")
+cat("Observed sharing in Cerrado (Sum of Bray-Curstis indices):", observed_sharing_cerrado, "\n")
 
 set.seed(42)
 n_permutations <- 10000
 
 null_sharing_cerrado <- numeric(n_permutations)
-
-
 
 library(vegan)
 

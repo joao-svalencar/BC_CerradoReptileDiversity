@@ -19,6 +19,6 @@ db_reptiles_br <- read.table(here::here("data", "processed","distribution", "rep
 
 # shapes ------------------------------------------------------------------
 brazil <- sf::st_read(here::here("data", "raw", "shapes", "brazil.shp"))
-biomas <- sf::st_read(here::here("data", "raw", "shapes", "biomas.shp"))
+biomes <- sf::st_read(here::here("data", "raw", "shapes", "biomas.shp"))
 #grid <- sf::st_read(here::here("data", "processed", "shapes", "grid.shp"))
 
