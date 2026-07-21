@@ -35,9 +35,10 @@ library(vegan)
 #jaccard to calculate the distance/similarity amongst biomes
 dist_pa <- vegdist(pa_matrix, method = "jaccard")
 sim_pa <- as.matrix(1- dist_pa)
-sim_pa <- (round(sim_pa, digits = 3)*100)
+sim_pa <- (round(sim_pa, digits = 3))
 
-cerrado_sharing <- sim_pa["Cerrado",]
+sim_pa <- cbind(sim_pa, TOTAL = rowSums(sim_pa))
+sim_pa
 
 # NDMS with prop matrix
 nmds_res <- metaMDS(prop_matrix, distance = "bray", k = 2, trymax = 100)

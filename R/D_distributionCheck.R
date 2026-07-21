@@ -1,5 +1,5 @@
 # Script to check and merge distribution information ----------------------
-head(db_reptiles)
+head(db_reptiles_br)
 
 length(unique(db_reptiles_br$species)) #840/880 species 95.4% - missing 40 species
 
@@ -8,19 +8,19 @@ length(unique(db_reptiles_br$species)) #840/880 species 95.4% - missing 40 speci
 missing <- list_br[!list_br$species %in% unique(db_reptiles_br$species),]
 missing #only species not occurring in the Cerrado are missing for the database at the moment (July 10th 2026). a.k.a.: not urgent
 
-list_br$biomes[list_br$species=="Amnesteophis melanauchen"] <- NA
-list_br$biomes[list_br$species=="Oxyrhopus occipitalis"] <- NA
-list_br$biomes[list_br$species=="Anolis sericeus"] <- NA
+# list_br$biomes[list_br$species=="Amnesteophis melanauchen"] <- NA
+# list_br$biomes[list_br$species=="Oxyrhopus occipitalis"] <- NA
+# list_br$biomes[list_br$species=="Anolis sericeus"] <- NA
 
 
 # species in the Cerrado not considered in SALVE --------------------------
-cerrado_check <- c("Ameivula pyrrhogularis", #ok
-  "Amphisbaena darwinii", #ok
-  "Colobosauroides cearensis", #ok
-  "Micrurus carvalhoi", #ok
-  "Oxyrhopus melanogenys") #ok
-
-list_br$cerrado_sp[list_br$species %in% cerrado_check] <- "yes"
+# cerrado_check <- c("Ameivula pyrrhogularis", #ok
+#   "Amphisbaena darwinii", #ok
+#   "Colobosauroides cearensis", #ok
+#   "Micrurus carvalhoi", #ok
+#   "Oxyrhopus melanogenys") #ok
+# 
+# list_br$cerrado_sp[list_br$species %in% cerrado_check] <- "yes"
 
 # merging testudines distribution from TTWG to SALVE ----------------------
 names(db_testudines)
