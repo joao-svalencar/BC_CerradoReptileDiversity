@@ -8,7 +8,7 @@ db_reptiles_br <- merge(db_reptiles_br, a, by = "species", all.x = TRUE)
 head(db_reptiles_br)
 
 db_cerrado <- db_reptiles_br[db_reptiles_br$cerrado_sp=="yes",]
-db_cerrado <- db_reptiles_br[db_reptiles_br$cerrado_endemic=="yes",] #for endemics only
+#db_cerrado <- db_reptiles_br[db_reptiles_br$cerrado_endemic=="yes",] #for endemics only
 
 length(unique(db_cerrado$species)) #436 species OK
 length(unique(db_cerrado$species)) #127 endemic species OK
@@ -30,11 +30,17 @@ grid <- sf::st_make_grid(
 grid_cerrado <- grid[sf::st_intersects(grid, cerrado, sparse = FALSE)]
 grid_spatial <- sf::st_sf(geometry = grid_cerrado)
 
-grid_spatial$grid_id <- 1:nrow(grid_spatial)
+#plot(st_geometry(grid_spatial), add = TRUE)
 
+# total records per grid cell ---------------------------------------------
+grid_spatial$total_points <- lengths(st_intersects(grid_spatial, db_spatial))
+
+st_write(grid_spatial, here::here("outputs", "cerrado_records.gpkg"), delete_dsn = TRUE)
+
+# species richness by suborders and total ---------------------------------
+grid_spatial$grid_id <- 1:nrow(grid_spatial)
 intersection <- sf::st_join(db_spatial, grid_spatial, join = sf::st_intersects)
 head(intersection)
-
 
 attribute_data <- sf::st_drop_geometry(intersection) #speed up data processing
 attribute_data <- attribute_data[!is.na(attribute_data$grid_id), ] # remove NAs
@@ -58,7 +64,6 @@ for (col in richness_columns) {
 }
 
 sf::st_write(final_grid, here::here("outputs", "cerrado_reptile_richness.gpkg"), delete_dsn = TRUE)
-
 
 
 # endemic species richness versus new endemics species --------------------
