@@ -179,28 +179,52 @@ write.table(list_br, here::here("data", "processed", "lists", "br_reptiles.txt")
 ###########################################################################
 # selecting only Cerrado species from the Brazilian list ------------------
 ###########################################################################
-
 list_cerrado <- list_br[list_br$cerrado_sp =="yes",]
 
-table(list_cerrado$cerrado_endemic) #127/436 = 29.1% reptiles
+# exploring Cerrado species list ------------------------------------------
+head(list_cerrado)
+table(list_cerrado$cerrado_endemic) #127/438 = 28.9% reptiles
 
-table(list_cerrado$cerrado_endemic, list_cerrado$suborder)
+list_cerrado[list_cerrado$order=="Crocodylia",] # one family, three genus, six species
 
-127/(127+286) #127/410 = 30.7% Squamata
 
-list_cerrado[list_cerrado$order=="Crocodylia",] # ok
-list_cerrado[list_cerrado$order=="Testudines",] # ok
+list_cerrado[list_cerrado$order=="Testudines",]
+table(list_cerrado$family[list_cerrado$order=="Testudines"])
+table(list_cerrado$genus[list_cerrado$order=="Testudines"])
 
-head(list_br)
-a <- list_br[,c(4, 5, 7, 8)]
+guarino <- c("Podocnemis expansa",
+             "Podocnemis unifilis",
+             "Chelus fimbriata",
+             "Phrynops geoffroanus",
+             "Mesoclemmys gibba",
+             "Mesoclemmys vanderhaegei",
+             "Platemys platycephala",
+             "Kinosternon scorpioides",
+             "Chelonoidis carbonarius",
+             "Chelonoidis denticulatus")
 
-db_reptiles_br <- merge(db_reptiles_br, a, by = "species", all.x = TRUE)
-head(db_reptiles_br)
 
-write.csv(db_reptiles_br, here::here("data", "processed","distribution", "reptiles_salve_cerrado.csv"), row.names = FALSE)
+table(list_cerrado$order)
+table(list_cerrado$family[list_cerrado$order=="Testudines"])
 
+list_cerrado[list_cerrado$order=="Testudines" & !list_cerrado$species %in% guarino,]
+
+list_cerrado[list_cerrado$species=="Mesoclemmys vanderhaegei",]
+
+
+# exploring proportion of distribution in other biomes --------------------
+cerrado_testudines_matrix <- prop_matrix[,colnames(prop_matrix) %in% list_cerrado$species[list_cerrado$order=="Testudines"]] #from D_analyses line 45
+
+testudines_domain_prop <- as.data.frame(t(round(cerrado_testudines_matrix*100, digits = 2)))
+write.csv(testudines_domain_prop, here::here("outputs", "tables", "testudines_domain_prop.csv"), row.names = TRUE)
+
+summary(testudines_domain_prop$Cerrado)
 
 # ENDEMISM ----------------------------------------------------------------
+table(list_cerrado$cerrado_endemic, list_cerrado$suborder)
+127/(127+286) #127/410 = 30.7% Squamata
+
+
 new_endemics <- list_cerrado[list_cerrado$cerrado_endemic=="yes" & list_cerrado$year >= 2010,] #described since Nogueira et al 2010
 
 

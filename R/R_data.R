@@ -15,9 +15,6 @@ sppRich <- read.table(here::here("data", "raw", "squamata_endemism.csv"), h = T,
 #db_testudines <- read.table(here::here("data", "raw","distribution", "testudines.csv"), header = TRUE, sep = ",")
 db_reptiles_br <- read.table(here::here("data", "processed","distribution", "reptiles_salve.csv"), header = TRUE, sep = ",") # 830 BR reptiles: nomenclature ok
 
-
-
 # shapes ------------------------------------------------------------------
-brazil <- sf::st_read(here::here("data", "raw", "shapes", "brazil.shp"))
 biomes <- sf::st_read(here::here("data", "raw", "shapes", "biomas.shp"))
 

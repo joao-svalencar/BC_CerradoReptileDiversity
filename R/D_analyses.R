@@ -56,8 +56,8 @@ sim_pa <- (round(sim_pa, digits = 3))
 sim_pa <- cbind(sim_pa, TOTAL = rowSums(sim_pa))
 sim_pa
 
-write.csv(sim_pa, here::here("outputs", "table 1_reptWDC.csv"))
-#write.csv(sim_pa, here::here("outputs", "table S1_squamWDC.csv"))
+write.csv(sim_pa, here::here("outputs", "tables", "table 1_reptWDC.csv"))
+#write.csv(sim_pa, here::here("outputs", "tables", "table S1_squamWDC.csv"))
 
 # NDMS with prop matrix
 nmds_res <- metaMDS(prop_matrix, distance = "bray", k = 2, trymax = 100)
