@@ -213,10 +213,19 @@ list_cerrado[list_cerrado$species=="Mesoclemmys vanderhaegei",]
 
 
 # exploring proportion of distribution in other biomes --------------------
-cerrado_testudines_matrix <- prop_matrix[,colnames(prop_matrix) %in% list_cerrado$species[list_cerrado$order=="Testudines"]] #from D_analyses line 45
+cerrado_testudines_prop <- prop_matrix[,colnames(prop_matrix) %in% list_cerrado$species[list_cerrado$order=="Testudines"]] #from D_analyses line 45
 
-testudines_domain_prop <- as.data.frame(t(round(cerrado_testudines_matrix*100, digits = 2)))
+testudines_domain_prop <- as.data.frame(t(round(cerrado_testudines_prop*100, digits = 2)))
+
+cerrado_testudines_count <- counts_matrix[,colnames(counts_matrix) %in% list_cerrado$species[list_cerrado$order=="Testudines"]] #from D_analyses line 32
+testudines_domain_prop <- cbind(testudines_domain_prop,
+                                as.data.frame(colSums(cerrado_testudines_count)))
+
+names(testudines_domain_prop)[7] <- "N (Records)"
+
 write.csv(testudines_domain_prop, here::here("outputs", "tables", "testudines_domain_prop.csv"), row.names = TRUE)
+
+
 
 summary(testudines_domain_prop$Cerrado)
 
