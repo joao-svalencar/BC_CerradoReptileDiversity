@@ -192,7 +192,7 @@ list_cerrado[list_cerrado$order=="Crocodylia",] # ok
 list_cerrado[list_cerrado$order=="Testudines",] # ok
 
 head(list_br)
-a <- list_br[,c(4, 7)]
+a <- list_br[,c(4, 5, 7, 8)]
 
 db_reptiles_br <- merge(db_reptiles_br, a, by = "species", all.x = TRUE)
 head(db_reptiles_br)
