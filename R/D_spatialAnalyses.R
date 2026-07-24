@@ -77,7 +77,7 @@ richness_summary <- data.frame(
   crocodylia_richness = sapply(split_grid_list, function(df) length(unique(df$species[df$order == "Crocodylia"]))),
   squamata_richness   = sapply(split_grid_list, function(df) length(unique(df$species[df$order == "Squamata"]))),
   endemic_richness   = sapply(split_grid_list, function(df) length(unique(df$species[df$cerrado_end == "yes"]))),
-  new2002_endemic_richness = sapply(split_grid_list, function(df) length(unique(df$species[df$year >= 2002]))),
+  new2002_endemic_richness = sapply(split_grid_list, function(df) length(unique(df$species[df$year >= 2002 & df$year<2010]))),
   new2010_endemic_richness = sapply(split_grid_list, function(df) length(unique(df$species[df$year >= 2010])))
 )
 
@@ -90,3 +90,4 @@ for (col in cols_to_zero_rich) {
 }
 
 sf::st_write(final_grid_richness, here::here("outputs", "shapes", "cerrado_reptile_richness.gpkg"), delete_dsn = TRUE)
+sf::st_write(final_grid_richness, "/Users/jvieiradeale/Downloads/cerrado_reptile_richness.gpkg", delete_dsn = TRUE)
