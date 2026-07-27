@@ -1,0 +1,64 @@
+I checked the species listed in the SALVE system and compared the list with that provided in the Reptile Database for reptile species occurring in Brazil. 
+
+Three species included in SALVE are not regarded as occurring in Brazil according to the Reptile Database:
+
+- Apostolepis ambiniger: removed from our analyses following Entiauspe-Neto et al (2021)
+- Philodryas patagoniensis: removed from our analyses following Di Pietro et al. (2026)
+
+- Neusticurus medemi: kept in our analyses following Marques-Souza et al (2018)
+- Plica plica: kept in our analyses following Ribeiro-Junior and Amaral (2016)
+
+Species in the list of RDB but not included:
+
+"Anolis porcatus", "Anolis sagrei", "Bachia alleni", "Gekko gecko", "Gonatodes concinnatus", "Hemidactylus mabouia", "Leiosaurus paronae", "Lepidodactylus lugubris",
+"Ophiodes vertebralis", "Pantherophis guttatus", "Pelodiscus sinensis", "Phalotris spegazzinii", "Plica kathleenae", "Trachemys scripta", "Trachylepis maculata",
+"Tropidurus guarani", "Tropidurus spinulosus", "Urotheca multilineata"
+
+Most are introduced species or does not have proof of occurrence in the Brazilian territory.
+
+Species of Testudines discarded from occurence in the Cerrado even though SALVE consider them as present:
+
+"Caretta caretta", "Chelonia mydas", "Dermochelys coriacea", "Eretmochelys imbricata", "Lepidochelys olivacea", "Platemys platycephala"
+
+Most are marine species or do not have records in the Cerrado
+
+Species with marginal records in the Cerrado not considered to occur in the Biome in our analyses:
+
+
+"Apostolepis nigrolineata": one marginal record with the bulk of records in the Amazon
+"Copeoglossum arajara": one marginal record with the bulk of records in the Caatinga
+"Helicops nentur": one marginal record with the bulk of records in the Atlantic Forest
+"Platemys platycephala": one marginal record in Mato Grosso
+"Tropidurus sertanejo": very restricted range within the Caatinga but records fall in the Cerrado shapefile. Authors describe locations as Caatinga only.
+"Zonateris lanei": three very marginal records in contact with the Pantanal fall within the Cerrado shapefile.
+
+Species not previously considered to occur in the Cerrado (according to SALVE), but with records within the biome:
+
+"Ameivula pyrrhogularis": two records in the Cerrado. Min distance ~50km, Max distance ~110km from the nearest border with Caatinga
+"Amphisbaena darwinii": three records in the Cerrado. One in Paraná and two in São Paulo. 
+"Colobosauroides cearensis": two records ~50km away from the border with the Caatinga in northern Piauí
+"Micrurus carvalhoi": plenty of records within the biome.
+"Oxyrhopus melanogenys": five records within the Cerrado near the Amazonian border. Min distance 20km, further records ~100km away from the border
+
+Updated distributions:
+
+Records of Chironius xaraes and C. laurenti were extracted from Figure 9 of Sudré et al. (2026) using QGIS georeferencer
+
+New records of Enyalius capetinga were extracted from Figure X of Ishihara et al. (2022) using QGIS georeferencer
+
+Testudines dataset were merged with the records extracted from TTWG 2025 (see R/D_sampleTestudinesTTWG.R).
+
+References:
+
+Di Pietro D.O., Sánchez J., Poljak S. & Alcalde L. (2026) Morphological and molecular variation reveal cryptic diversity in the racer Philodryas patagoniensis (Girard, 1858) (Squamata: Colubridae). Vertebrate Zoology 76: 93-119. https://doi.org/10.3897/vz.76.e169219
+
+Entiauspe-Neto O.M., Koch C., Harvey M.B., Colli G.R., Guedes T.B. (2021) Redescription of Apostolepis ambiniger (Peters, 1869) (Serpentes: Dipsadidae: Elapomorphini). Vertebrate Zoology 71: 231-251. https://doi.org/10.3897/vz.71.e65097
+
+Ishihara, M.A., Domingos, F.M.C.B., Gomides, S.C., Novelli, I.A., Colli, G.R. & Vargas, S.M. (2022) Genetic structure of Enyalius capetinga (Squamata, Liosauridae) in Central Cerrado and transitional areas between the Cerrado an the Atlantic Forest, with updated geographic distribution. Genetica, 150, 367–377. https://doi.org/10.1007/s10709-022-00170-w
+
+Marques-Souza S., Prates I., Fouquet A., et al. Reconquering the water: Evolution and systematics of South and Central American aquatic lizards (Gymnophthalmidae). Zool Scr. 2018;47:255–265. https://doi.org/10.1111/zsc.12273
+
+Sudré, V., Ceríaco, L.M.P., Torres-Carvajal, O., Strüssman, C., Curcio, F.F., Colli, G.R., & Passos, P. (2026) Systematics of Chironius laurenti Dixon, Wiest and Cei 1993 (Serpentes: Colubridae) reveals unexpected taxonomic insights. Organisms Diversity Evolution 26, 197–228 (2026). https://doi.org/10.1007/s13127-026-00698-1
+
+Ribeiro-Júnior, M., & Amaral, S. (2016). Diversity, distribution, and conservation of lizards (Reptilia: Squamata) in the Brazilian Amazonia. Neotropical Biodiversity, 2(1), 195–421. https://doi.org/10.1080/23766808.2016.1236769
+

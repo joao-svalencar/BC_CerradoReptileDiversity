@@ -1,0 +1,130 @@
+﻿family,genus,species,author,range,year,latitude,longitude
+Alopoglossidae,Alopoglossus,Alopoglossus collii,"Ribeiro-Junior et al., 2020",Restricted,2020,-11.8626,-60.9383
+Teiidae,Ameiva,Ameiva jacuba,"Giugliano et al., 2013",Restricted,2013,-18.2189,-52.7714
+Teiidae,Ameiva,Ameiva parecis,"(Colli et al., 2003)",Restricted,2003,-12.5353,-60.4267
+Teiidae,Ameivula,Ameivula cipoensis,"Arias et al., 2014a",Restricted,2014,-19.2900,-43.5486
+Teiidae,Ameivula,Ameivula jalapensis,"(Colli et al., 2009)",Restricted,2009,-10.3000,-46.9500
+Teiidae,Ameivula,Ameivula mumbuca,"(Colli et al., 2003)",Restricted,2003,-10.2628,-46.5655
+Teiidae,Ameivula,Ameivula xacriaba,"Arias et al., 2014b ",Restricted,2014,-15.1547,-44.3050
+Amphisbaenidae,Amphisbaena,Amphisbaena absaberi,"(Strüssmann & Carvalho, 2001)",Restricted,2001,-16.1667,-57.2333
+Amphisbaenidae,Amphisbaena,Amphisbaena acrobeles,"(Ribeiro et al., 2009)",Restricted,2009,-10.5946,-46.7707
+Amphisbaenidae,Amphisbaena,Amphisbaena anaemariae,"Vanzolini, 1997",Partial,1997,-11.0333,-48.2167
+Amphisbaenidae,Amphisbaena,Amphisbaena bedai,"(Vanzolini, 1991)",Restricted,1991,-20.7677,-55.6076
+Amphisbaenidae,Amphisbaena,Amphisbaena brevis,"Strüssmann & Mott, 2009",Restricted,2009,-14.9557,-55.8662
+Amphisbaenidae,Amphisbaena,Amphisbaena carli,"Pinna et al., 2010",Restricted,2010,-14.0167,-45.9000
+Amphisbaenidae,Amphisbaena,Amphisbaena crisae,"Vanzolini, 1997",Partial,1997,-11.8333,-50.3333
+Amphisbaenidae,Amphisbaena,Amphisbaena cuiabana,"(Strüssmann & Carvalho, 2001)",Restricted,2001,-15.5961,-56.0967
+Amphisbaenidae,Amphisbaena,Amphisbaena filiformis," Ribeiro et al., 2016",Restricted,2016,-7.2458,-47.7675
+Amphisbaenidae,Amphisbaena,Amphisbaena kraoh,"(Vanzolini, 1971)",Restricted,1971,-8.9675,-48.1747
+Amphisbaenidae,Amphisbaena,Amphisbaena leeseri,"Gans, 1964",Restricted,1964,-19.2167,-57.5500
+Amphisbaenidae,Amphisbaena,Amphisbaena maranhensis,"Gomes & Maciel, 2012",Restricted,2012,-7.1525,-45.3039
+Amphisbaenidae,Amphisbaena,Amphisbaena mebengokre,"Ribeiro et al., 2019",Restricted,2019,-16.4569,-51.3781
+Amphisbaenidae,Amphisbaena,Amphisbaena neglecta,"Dunn & Piatt, 1936",Restricted,1936,-15.4529,-55.7392
+Amphisbaenidae,Amphisbaena,Amphisbaena persephone,"Pinna et al., 2014",Restricted,2014,-13.8833,-45.7000
+Amphisbaenidae,Amphisbaena,Amphisbaena sanctaeritae,"Vanzolini, 1994",Restricted,1994,-21.7312,-47.4959
+Amphisbaenidae,Amphisbaena,Amphisbaena saxosa,"(Castro-Mello, 2003)",Restricted,2003,-9.7500,-48.3500
+Amphisbaenidae,Amphisbaena,Amphisbaena silvestrii,"Boulenger, 1902",Partial,1902,-15.5989,-56.0949
+Amphisbaenidae,Amphisbaena,Amphisbaena steindachneri,"Strauch, 1881",Restricted,1881,-16.0500,-57.3833
+Amphisbaenidae,Amphisbaena,Amphisbaena talisiae,"Vanzolini, 1995",Partial,1995,-15.8167,-52.1667
+Dactyloidae,Anolis,Anolis meridionalis,"Boettger, 1885",Wide,1885,-23.7167,-55.5000
+Dipsadidae,Apostolepis,Apostolepis adhara,"França et al., 2018",Restricted,2018,-12.8053,-48.2199
+Dipsadidae,Apostolepis,Apostolepis albicollaris,"Lema, 2002",Restricted,2002,-15.8475,-47.9364
+Dipsadidae,Apostolepis,Apostolepis assimilis,"(Reinhardt, 1861)",Partial,1861,-19.9833,-43.4500
+Dipsadidae,Apostolepis,Apostolepis barrioi,Lema 1978,Partial,1978,-23.4667,-56.5167
+Dipsadidae,Apostolepis,Apostolepis cerradoensis,"Lema, 2003",Restricted,2003,-13.8098,-48.3491
+Dipsadidae,Apostolepis,Apostolepis christineae,"Lema, 2002",Restricted,2002,-15.6540,-57.2140
+Dipsadidae,Apostolepis,Apostolepis flavotorquata,"(Duméril et al., 1854)",Partial,1854,NA,NA
+Dipsadidae,Apostolepis,Apostolepis goiasensis,"Prado, 1942",Partial,1942,-17.7981,-50.9281
+Dipsadidae,Apostolepis,Apostolepis intermedia,"Koslowsky, 1898",Partial,1898,NA,NA
+Dipsadidae,Apostolepis,Apostolepis kikoi,"Santos et al., 2018",Restricted,2018,-15.4608,-55.7500
+Dipsadidae,Apostolepis,Apostolepis lineata,"Cope, 1887",Restricted,1887,-15.3000,-55.8500
+Dipsadidae,Apostolepis,Apostolepis longicaudata,"Amaral, 1921",Restricted,1921,-9.1122,-45.9222
+Dipsadidae,Apostolepis,Apostolepis nelsonjorgei,"Lema & Renner, 2004",Partial,2004,-13.8098,-48.3491
+Dipsadidae,Apostolepis,Apostolepis phillipsae,"Harvey, 1999",Restricted,1999,-14.7500,-61.0000
+Dipsadidae,Apostolepis,Apostolepis polylepis,"Amaral, 1921",Partial,1921,-9.1122,-45.9222
+Dipsadidae,Apostolepis,Apostolepis sanctaeritae,"Werner, 1924",Partial,2005,-11.0087,-44.5582
+Dipsadidae,Apostolepis,Apostolepis serrana,"Lema & Renner, 2006",Restricted,2006,-12.8500,-51.7667
+Dipsadidae,Apostolepis,Apostolepis striata,"Lema, 2004",Restricted,2004,-12.6137,-60.0881
+Dipsadidae,Apostolepis,Apostolepis tertulianobeui,"Lema, 2004",Partial,2004,-18.9186,-48.2772
+Dipsadidae,Apostolepis,Apostolepis vittata,"(Cope, 1887)",Restricted,1887,-15.4610,-55.7503
+Dipsadidae,Atractus,Atractus albuquerquei,"Cunha & Nascimento, 1983",Partial,1983,-2.4189,-48.1522
+Dipsadidae,Atractus,Atractus edioi,"Silva Jr. et al., 2005",Restricted,2005,-13.5333,-48.2417
+Dipsadidae,Atractus,Atractus pantostictus,"Fernandes and Puorto, 1993",Partial,1993,-23.3217,-46.7269
+Dipsadidae,Atractus,Atractus spinalis,"Passos et al., 2013",Restricted,2013,-19.2469,-43.5097
+Dipsadidae,Atractus,Atractus stygius,"Passos et al., 2019",Partial,2019,-12.4972,-57.8750
+Gymnophthalmidae,Bachia,Bachia bresslaui,"(Amaral, 1935)",Partial,1935,NA,NA
+Gymnophthalmidae,Bachia,Bachia cacerensis,"Castrillon & Strüssmann, 1998",Restricted,1998,-16.3863,-57.9170
+Gymnophthalmidae,Bachia,Bachia didactyla,"Freitas et al., 2011",Restricted,2011,-13.5329,-58.7996
+Gymnophthalmidae,Bachia,Bachia geralista,"Teixeira et al., 2012",Restricted,2012,-15.1500,-44.3000
+Gymnophthalmidae,Bachia,Bachia micromela,"Rodrigues et al., 2007",Restricted,2007,-8.6333,-48.4167
+Gymnophthalmidae,Bachia,Bachia oxyrhina,"Rodrigues et al., 2008",Restricted,2008,-10.8661,-46.8192
+Gymnophthalmidae,Bachia,Bachia psamophila,"Rodrigues et al., 2007",Restricted,2007,-10.0333,-48.3833
+Viperidae,Bothrops,Bothrops itapetiningae,"(Boulenger, 1907)",Partial,1907,-23.5917,-48.0531
+Viperidae,Bothrops,Bothrops marmoratus,"Silva & Rodrigues, 2008",Partial,2008,-17.7167,-48.1500
+Viperidae,Bothrops,Bothrops moojeni,"Hoge, 1966",Wide,1866,-15.8858,-47.9983
+Viperidae,Bothrops,Bothrops pauloensis,"Amaral, 1925",Partial,1925,-22.1833,-47.3833
+Colubridae,Chironius,Chironius brazili,"Hamdan & Fernandes, 2015",Partial,2015,-20.0747,-43.4075
+Sphaerodactylidae,Coleodactylus,Coleodactylus brachystoma,"(Amaral, 1935)",Partial,1935,-13.5000,-48.3500
+Gymnophthalmidae,Colobosaura,Colobosaura modesta,"(Reinhardt & Lütken, 1862)",Wide,1862,-18.5333,-44.6000
+Colubridae,Drymoluber,Drymoluber brazili,"(Gomes, 1918)",Wide,1918,-19.7483,-47.9319
+Leiosauridae,Enyalius,Enyalius capetinga,"Breitman et al., 2018",Restricted,2018,-15.9467,-47.8686
+Boidae,Epicrates,Epicrates crassus,"Cope, 1862",Wide,1862,NA,NA
+Leptotyphlopidae,Epictia,Epictia clinorostris,"Arredondo & Zaher, 2010",Restricted,2010,-15.2389,-53.2431
+Dipsadidae,Erythrolamprus,Erythrolamprus maryellenae,"(Dixon, 1985)",Partial,1985,-16.3267,-48.9528
+Tropiduridae,Eurolophosaurus,Eurolophosaurus nanuzae,"(Rodrigues, 1981)",Restricted,1981,-19.1888,-43.6450
+Phyllodactylidae,Gymnodactylus,Gymnodactylus amarali,"Barbour, 1925",Partial,1925,-9.1000,-45.9167
+Phyllodactylidae,Gymnodactylus,Gymnodactylus guttulatus,"Vanzolini, 1982",Restricted,1982,-18.2500,-43.6667
+Dipsadidae,Helicops,Helicops boitata,"Moraes-da-Silva et al., 2019",Restricted,2019,-16.4226,-56.6702
+Dipsadidae,Helicops,Helicops gomesi,"Amaral, 1921",Partial,1921,-22.7253,-47.6492
+Dipsadidae,Helicops,Helicops phantasma,"Moraes-da-Silva et al., 2021 ",Partial,2021,-15.3597,-52.4689
+Gymnophthalmidae,Heterodactylus,Heterodactylus lundii,"Reinhardt & Luetken, 1862",Restricted,1862,-17.6667,-44.5833
+Hoplocercidae,Hoplocercus,Hoplocercus spinosus,"Fitzinger, 1843",Partial,1843,NA,NA
+Teiidae,Kentropyx,Kentropyx paulensis,"Boettger, 1893",Partial,1893,NA,NA
+Teiidae,Kentropyx,Kentropyx vanzoi,"Gallagher & Dixon, 1980",Partial,1980,-12.8167,-51.7667
+Amphisbaenidae,Leposternon,Leposternon cerradensis,"Ribeiro et al., 2008",Restricted,2008,-18.6634,-51.8716
+Amphisbaenidae,Leposternon,Leposternon maximus,"Ribeiro et al., 2011",Restricted,2011,-14.3537,-46.1941
+Amphisbaenidae,Leposternon,Leposternon mineiro,"Ribeiro et al., 2018",Restricted,2018,-17.7631,-46.1533
+Anomalepididae,Liotyphlops,Liotyphlops schubarti,"Vanzolini, 1948",Restricted,1948,-21.9961,-47.4258
+Anomalepididae,Liotyphlops,Liotyphlops taylori,"Marra-Santos & Reis, 2018",Restricted,2018,-15.6500,-57.2121
+Dipsadidae,Lygophis,Lygophis paucidens,"(Hoge, 1953)",Partial,1953,-11.2167,-50.6667
+Scincidae,Maciola,Manciola guaporicola,"(Dunn, 1935)",Partial,1935,-15.0000,-59.9500
+Gymnophthalmidae,Micrablepharus,Micrablepharus atticolus,"Rodrigues, 1996",Partial,1996,-17.3000,-53.2000
+Elapidae,Micrurus,Micrurus brasiliensis,"Roze, 1967",Partial,1967,-12.1528,-44.9900
+Elapidae,Micrurus,Micrurus tricolor,"Hoge, 1956",Partial,1956,-19.8000,-57.1667
+Dipsadidae,Phalotris,Phalotris cerradensis,"Silveira, 2020",Restricted,2020,-14.8210,-45.9731
+Dipsadidae,Phalotris,Phalotris concolor,"Ferrarezzi, 1994",Restricted,1994,-16.8003,-42.8622
+Dipsadidae,Phalotris,Phalotris labiomaculatus,"Lema, 2002",Restricted,2002,-6.3383,-47.3992
+Dipsadidae,Phalotris,Phalotris lativittatus,"Ferrarezzi, 1994",Partial,1994,-21.6033,-48.3658
+Dipsadidae,Phalotris,Phalotris matogrossensis,"Lema et al., 2005",Partial,2005,-15.5961,-56.0967
+Dipsadidae,Phalotris,Phalotris mertensi,"(Hoge, 1955)",Partial,1955,-21.3108,-47.5656
+Dipsadidae,Phalotris,Phalotris multipunctatus,"Puorto & Ferrarezzi, 1994",Partial,1994,-22.2451,-48.0635
+Dipsadidae,Phalotris,Phalotris nasutus,"(Gomes, 1915)",Partial,1915,-19.7500,-47.9167
+Dipsadidae,Philodryas,Philodryas livida,"(Amaral, 1923)",Partial,1923,-20.0833,-56.7500
+Dipsadidae,Philodryas,Philodryas mattogrossensis,"Koslowsky, 1898",Partial,1898,-20.2406,-56.3783
+Gymnophthalmidae,Placosoma,Placosoma cipoense,"Cunha, 1966",Restricted,1966,-19.3333,-43.5333
+Gymnophthalmidae,Psilops,Psilops seductus,"Rodrigues et al., 2017",Restricted,2017,-13.8833,-45.7000
+Dipsadidae,Rhachidelus,Rhachidelus brazili,"Boulenger, 1908",Partial,1908,NA,NA
+Gymnophthalmidae,Rhachisaurus,Rhachisaurus brachylepis,"(Dixon, 1974)",Restricted,1974,-19.2281,-43.5769
+Teiidae,Salvator,Salvator duseni,"(Lönnberg, 1910)",Partial,1910,NA,NA
+Leptotyphlopidae,Siagonodon,Siagonodon acutirostris,"Pinto & Curcio, 2011",Restricted,2011,-11.5736,-47.1703
+Colubridae,Simophis,Simophis rhinostoma,"(Schlegel, 1837)",Partial,1837,NA,NA
+Tropiduridae,Stenocercus,Stenocercus albolineatus,"Teixeira et al., 2016",Restricted,2015,-15.1167,-58.9500
+Tropiduridae,Stenocercus,Stenocercus canastra,"Avila-Pires et al., 2019",Restricted,2019,-20.2439,-46.5489
+Tropiduridae,Stenocercus,Stenocercus quinarius,"Nogueira & Rodrigues, 2006",Restricted,2006,-15.2536,-45.8889
+Tropiduridae,Stenocercus,Stenocercus sinesaccus,"Torres-Carvajal, 2005",Partial,2005,-15.4333,-55.7500
+Dipsadidae,Thamnodynastes,Thamnodynastes rutilus,"(Prado, 1942)",Partial,1942,-22.2914,-49.5528
+Leptotyphlopidae,Trilepida,Trilepida brasiliensis,"(Laurent, 1949)",Wide,1949,-12.1528,-44.9900
+Leptotyphlopidae,Trilepida,Trilepida fuliginosa,"(Passos et al., 2006)",Partial,2006,-16.2013,-46.3211
+Leptotyphlopidae,Trilepida,Trilepida jani,"(Pinto & Fernandes, 2012)",Restricted,2012,-19.9208,-43.9378
+Leptotyphlopidae,Trilepida,Trilepida koppesi,"(Amaral, 1955)",Partial,1955,-20.4422,-54.8603
+Tropidophiidae,Tropidophis,Tropidophis preciosus,"Curcio et al., 2012",Restricted,2012,-18.2833,-43.9833
+Tropiduridae,Tropidurus,Tropidurus callathelys,"Harvey & Gutberlet, 1998",Restricted,1998,-13.6000,-60.9000
+Tropiduridae,Tropidurus,Tropidurus chromatops,"Harvey & Gutberlet, 1998",Restricted,1998,-13.6000,-60.9000
+Tropiduridae,Tropidurus,Tropidurus itambere,"Rodrigues, 1987",Partial,1987,-23.5017,-47.4581
+Tropiduridae,Tropidurus,Tropidurus montanus,"Rodrigues, 1987",Partial,1987,-19.2946,-43.5944
+Tropiduridae,Tropidurus,Tropidurus oreadicus,"Rodrigues, 1987",Partial,1987,-15.6178,-46.4233
+Teiidae,Tupinambis,Tupinambis matipu,"Silva et al., 2018",Partial,2018,-13.0596,-52.3813
+Teiidae,Tupinambis,Tupinambis quadrilineatus,"Manzani & Abe, 1997",Partial,1997,-16.2167,-51.4167
+Gymnophthalmidae,Vanzosaura,Vanzosaura savanicola,"Recoder et al., 2014",Partial,2014,-11.2333,-46.9167
+Dipsadidae,Xenodon,Xenodon matogrossensis,"(Scrocchi & Cruz, 1993)",Partial,1993,-20.2406,-56.3783
+Dipsadidae,Xenodon,Xenodon nattereri,"(Steindachner, 1867)",Wide,1867,NA,NA
