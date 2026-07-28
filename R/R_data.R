@@ -4,6 +4,7 @@
 
 #list_br_rdb <- read.table(here::here("data", "processed", "lists", "br_reptiles_rdb.txt"), h = T, sep = "\t") # 896 species, downloaded on July 10th, 2026
 list_br <- read.table(here::here("data", "processed", "lists", "br_reptiles.txt"), h = T, sep = "\t") # 880 species, checked and updated on July 10th, 2026
+nog10 <- read.table(here::here("data", "raw", "lists", "nog2010.csv"), h = T, sep = ",")
 
 sppRich <- read.table(here::here("data", "raw", "squamata_endemism.csv"), h = T, sep = ",") # 880 species, checked and updated on July 10th, 2026
 

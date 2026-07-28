@@ -232,9 +232,14 @@ summary(testudines_domain_prop$Cerrado)
 # ENDEMISM ----------------------------------------------------------------
 table(list_cerrado$cerrado_endemic, list_cerrado$suborder)
 127/(127+286) #127/410 = 30.7% Squamata
-
-
 new_endemics <- list_cerrado[list_cerrado$cerrado_endemic=="yes" & list_cerrado$year >= 2010,] #described since Nogueira et al 2010
+
+
+# Comparing data with Nogueira et al. 2010 --------------------------------
+head(nog10)
+
+
+
 
 
 

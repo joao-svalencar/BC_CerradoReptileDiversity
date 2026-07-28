@@ -463,3 +463,101 @@ for(i in 1:length(sync$query[sync$status=="updated"]))
 write.csv(db, here::here("data", "processed", "distribution", "db_reviewed.csv"), row.names = FALSE)
 
 length(unique(db$species)) #787 species
+
+
+# harmonizing Nogueira et al 2010 -----------------------------------------
+
+library(letsRept)
+
+comp <- reptCompare(nog10)
+
+review <- reptCompare(nog10, filter = "review")
+
+sync <- reptSync(review, solveAmbiguity = TRUE, cores = 9)
+
+table(sync$status)
+
+
+# not_found ---------------------------------------------------------------
+reptTidySyn(sync, filter = "not_found")
+
+sync$RDB[sync$query=="Bothropoides marmoratus"] <- "Bothrops marmoratus"
+sync$status[sync$query=="Bothropoides marmoratus"] <- "spell_change"
+
+# updated_typo ------------------------------------------------------------
+sync$status[sync$status=="updated_typo"] <- "spell_change"
+
+# ambiguous ---------------------------------------------------------------
+reptTidySyn(sync, filter = "ambiguous")
+
+sync$RDB[sync$query=="Cnemidophorus ocellifer"] <- "Ameivula ocellifera"
+sync$status[sync$query=="Cnemidophorus ocellifer"] <- "genus_change"
+
+sync$RDB[sync$query=="Corallus hortulanus"] <- "Corallus hortulana"
+sync$status[sync$query=="Corallus hortulanus"] <- "spell_change"
+
+sync$RDB[sync$query=="Leposternon microcephalum"] <- "Leposternon microcephalus"
+sync$status[sync$query=="Leposternon microcephalum"] <- "spell_change"
+
+sync$RDB[sync$query=="Leptotyphlops dimidiatus"] <- "Trilepida jani"
+sync$status[sync$query=="Leptotyphlops dimidiatus"] <- "split_change"
+
+sync$RDB[sync$query=="Clelia rustica"] <- "Paraphimophis rusticus"
+sync$status[sync$query=="Clelia rustica"] <- "genus_change"
+
+sync$RDB[sync$query=="Leptotyphlops albifrons"] <- "Epictia albifrons"
+sync$status[sync$query=="Leptotyphlops albifrons"] <- "genus_change"
+
+sync$RDB[sync$query=="Leptotyphlops koppesi"] <- "Trilepida koppesi"
+sync$status[sync$query=="Leptotyphlops koppesi"] <- "genus_change"
+
+sync$RDB[sync$query=="Liophis miliaris"] <- "Erythrolamprus miliaris"
+sync$status[sync$query=="Liophis miliaris"] <- "genus_change"
+
+sync$RDB[sync$query=="Liophis reginae"] <- "Erythrolamprus reginae"
+sync$status[sync$query=="Liophis reginae"] <- "genus_elev_change"
+
+sync$RDB[sync$query=="Sibynomorphus mikanii"] <- "Dipsas mikanii"
+sync$status[sync$query=="Sibynomorphus mikanii"] <- "genus_change"
+
+sync$RDB[sync$query=="Sibynomorphus mikanii"] <- "Dipsas mikanii"
+sync$status[sync$query=="Sibynomorphus mikanii"] <- "genus_change"
+
+sync$RDB[sync$query=="Taeniophallus occipitalis"] <- "Adelphostigma occipitalis"
+sync$status[sync$query=="Taeniophallus occipitalis"] <- "genus_change"
+
+sync$RDB[sync$query=="Mabuya nigropunctata"] <- "Copeoglossum nigropunctatum"
+sync$status[sync$query=="Mabuya nigropunctata"] <- "genus_split_change"
+
+# updated -----------------------------------------------------------------
+reptTidySyn(sync, filter = "updated")
+
+gen <- c("Anisolepis grillii", "Anops acrobeles", "Anops bilabialatus", "Bothropoides lutzi",
+         "Bothropoides mattogrossensis", "Bothropoides neuwiedi", "Bothropoides pauloensis", "Bronia bedai",
+         "Bronia kraoh", "Bronia saxosa", "Caudisona durissa", "Cercolophia absaberi", "Cercolophia cuiabana", "Cercolophia roberti", "Cercolophia steindachneri",
+         "Cnemidophorus jalapensis", "Cnemidophorus mumbuca", "Cnemidophorus parecis", "Leptotyphlops brasiliensis",
+         "Leptotyphlops cupinensis", "Leptotyphlops fuliginosus", "Mastigodryas bifossatus", "Philodryas viridissima",
+         "Phimophis iglesiasi", "Pseustes sulphureus", "Rhinocerophis alternatus", "Rhinocerophis itapetiningae",
+         "Sibynomorphus turgidus", "Sibynomorphus ventrimaculatus", "Thamnodynastes chaquensis", "Thamnodynastes hypoconia",
+         "Thamnodynastes rutilus", "Tupinambis duseni", "Tupinambis merianae", "Typhlops brongersmianus", "Xenodon rhabdocephalus")
+
+sync$status[sync$query %in% gen] <- "genus_change"
+sync$status[grepl("Liophis",sync$query) & sync$status=="updated"] <- "genus_change"
+sync$status[grepl("Mabuya",sync$query) & sync$status=="updated"] <- "genus_change"
+
+spell <- c("Amphisbaena mertensi", "Chironius scurrulus", "Oxyrhopus petola", "Philodryas olfersi")
+sync$status[sync$query %in% spell] <- "spell_change"
+
+
+sync$status[sync$query=="Amphisbaena mensae"] <- "synonymized"
+sync$status[sync$query=="Amphisbaena wiedi"] <- "synonymized"
+sync$status[sync$query=="Apostolepis ammodites"] <- "synonymized"
+sync$status[sync$query=="Apostolepis cerradoensis"] <- "synonymized"
+sync$status[sync$query=="Apostolepis tertulianobeui"] <- "synonymized"
+sync$status[sync$query=="Cercosaura albostrigata"] <- "synonymized"
+sync$status[sync$query=="Hydrodynastes melanogigas"] <- "synonymized"
+sync$status[sync$query=="Liotyphlops beui"] <- "synonymized"
+
+# done --------------------------------------------------------------------
+table(sync$status)
+
