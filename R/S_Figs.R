@@ -48,8 +48,8 @@ fig1a <- ggplot(data = sppRich,
   theme_classic() +
   theme(
     plot.margin = margin(t = 1, r = 1, b = 2, l = 1, unit = "mm"),
-    #aspect.ratio = 1.3/1,
     
+    # legend
     legend.position = "inside",
     legend.direction = "vertical",
     legend.text = element_text(size = 8), 
@@ -58,12 +58,13 @@ fig1a <- ggplot(data = sppRich,
     legend.background = element_blank(),
     legend.key = element_blank(),
     
+    # facet_wrap box
     strip.text.x = element_text(size = 8, face = "bold"), 
     strip.background = element_blank(),
     
+    # axis
     axis.title = element_text(size = 10), 
     axis.text = element_text(size = 8),
-    
     axis.line.x = element_blank(),
     axis.title.x = element_blank(),
     axis.text.x  = element_blank(),
@@ -88,7 +89,6 @@ fig1b <- ggplot2::ggplot(data=sppRich, aes(x=year, y=richness, fill=endemism))+
   theme_classic()+
   theme(
     plot.margin = margin(t = 2, r = 1, b = 1, l = 1, unit = "mm"),
-    #aspect.ratio = 1.3/1,
     legend.position='none',
     
     strip.text = element_blank(),
@@ -101,10 +101,9 @@ fig1b
 
 
 fig1 <- cowplot::plot_grid(fig1a, fig1b,
-                           nrow=2, ncol=1, align = 'v', #axis='lr',
+                           nrow=2, ncol=1, align = 'v',
                            labels = c('A', 'B'), label_size=10,
                            vjust=3,hjust=0, rel_heights = c(1,1))
-
 
 
 ggsave("Fig 1.png",
