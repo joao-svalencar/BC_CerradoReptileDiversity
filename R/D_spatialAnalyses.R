@@ -44,11 +44,6 @@ head(split_grid_list)
 
 
 # extracting N of records and richness for modelling ----------------------
-# model_data <- data.frame(
-#   grid_id  = as.integer(names(split_grid_list)),
-#   n_records = sapply(split_grid_list, nrow),
-#   richness  = sapply(split_grid_list, function(df) length(unique(df$species)))
-# )
 
 long_grid_list <- lapply(split_grid_list, function(df) {
   split_by_order <- split(df, df$order)
@@ -82,8 +77,13 @@ summary(mod)
 dev_r2 <- 1 - (mod$deviance / mod$null.deviance)
 dev_r2
 
-# Visualizar as primeiras linhas
-head(model_data)
+
+# extracting model date for residual mapping ------------------------------
+residuals_vec <- residuals(mod, type = "deviance")
+model_data$residuals <- residuals_vec
+grid_residuals <- merge(grid_spatial, model_data, by = "grid_id", all.x = TRUE)
+
+sf::st_write(grid_residuals, here::here("outputs","shapes","cerrado_model_residuals.gpkg"), delete_dsn = TRUE)
 
 # creating grids: N of records and richness -------------------------------
 # species records ---------------------------------------------------------
