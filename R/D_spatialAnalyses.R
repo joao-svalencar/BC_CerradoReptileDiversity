@@ -9,6 +9,9 @@ head(toFilter)
 db_reptiles_br <- merge(db_reptiles_br, toFilter, by = "species", all.x = TRUE)
 head(db_reptiles_br)
 
+#db_reptiles_br <- db_reptiles_br[,c(-6)]
+#write.csv(db_reptiles_br, here::here("data", "processed", "distribution","br_reptiles_cerradoFilter.csv"), row.names = FALSE)
+
 db_cerrado <- db_reptiles_br[db_reptiles_br$cerrado_sp=="yes",]
 
 length(unique(db_cerrado$species)) #438 species OK
