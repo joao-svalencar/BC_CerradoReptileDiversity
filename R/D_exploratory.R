@@ -13,9 +13,9 @@ missing$species
 # selecting species to drop from RDB Brazilian list -----------------------
 # most are invasive, the other have poor evidence of occurrence in Brazilian territory
 
-br_drop <- c("Anolis porcatus",
-             "Anolis sagrei",
-             "Bachia alleni",
+br_drop <- c("Anolis porcatus", #introduced
+             "Anolis sagrei", #not native
+             "Bachia alleni", #granadine islands
              "Gekko gecko",
              "Gonatodes concinnatus",
              "Hemidactylus mabouia",
@@ -112,8 +112,17 @@ list_cerrado <- rbind(list_cerrado, new_species)
 tail(list_cerrado)
 list_cerrado <- list_cerrado[order(list_cerrado$species),] #439
 
-list_br <- rbind(list_br, new_species)
+new_species <- data.frame(order = "Squamata",
+                          suborder = "Serpentes",
+                          family = "Colubridae",
+                          genus = "Oxybelis",
+                          species = "Oxybelis rutherfordi", # from Costa et al. 2026
+                          year = "2020",
+                          biomes = "Amazônia",
+                          cerrado_sp = "no",
+                          cerrado_endemic = "no")
 
+list_br <- rbind(list_br, new_species)
 
 # Inspecting and selecting missing species to add -------------------------
 head(list_br)
@@ -171,6 +180,8 @@ list_br <- list_br[,c(2, 7, 8, 1, 9, 4, 5, 6)]
 head(list_br)
 names(list_br)[3] <- "family"
 
+list_br <- list_br[order(list_br$species),]
+
 write.table(list_br, here::here("data", "processed", "lists", "br_reptiles.txt"),
             fileEncoding = "UTF8",
             sep= "\t",
@@ -187,7 +198,6 @@ table(list_cerrado$cerrado_endemic) #127/438 = 28.9% reptiles
 
 list_cerrado[list_cerrado$order=="Crocodylia",] # one family, three genus, six species
 
-
 list_cerrado[list_cerrado$order=="Testudines",]
 table(list_cerrado$family[list_cerrado$order=="Testudines"])
 table(list_cerrado$genus[list_cerrado$order=="Testudines"])
@@ -202,7 +212,6 @@ guarino <- c("Podocnemis expansa",
              "Kinosternon scorpioides",
              "Chelonoidis carbonarius",
              "Chelonoidis denticulatus")
-
 
 table(list_cerrado$order)
 table(list_cerrado$family[list_cerrado$order=="Testudines"])
@@ -225,8 +234,6 @@ names(testudines_domain_prop)[7] <- "N (Records)"
 
 write.csv(testudines_domain_prop, here::here("outputs", "tables", "testudines_domain_prop.csv"), row.names = TRUE)
 
-
-
 summary(testudines_domain_prop$Cerrado)
 
 # ENDEMISM ----------------------------------------------------------------
@@ -234,12 +241,23 @@ table(list_cerrado$cerrado_endemic, list_cerrado$suborder)
 127/(127+286) #127/410 = 30.7% Squamata
 new_endemics <- list_cerrado[list_cerrado$cerrado_endemic=="yes" & list_cerrado$year >= 2010,] #described since Nogueira et al 2010
 
+table(new_endemics$suborder)
 
 # Comparing data with Nogueira et al. 2010 --------------------------------
-head(nog10)
+table(nog10_review$status)
 
+reptTidySyn(nog10_review, filter = c("synonymized"))
+reptTidySyn(nog10_review, filter = c("new_from_split"))
 
+list_cerrado[list_cerrado$species %in% unique(nog10_review$RDB[nog10_review$status=="new_from_split"]),]
 
+table(list_cerrado$suborder)
 
+table(list_cerrado$suborder[list_cerrado$year>=2010])
+table(list_cerrado$cerrado_endemic[list_cerrado$year>=2010])
 
+list_cerrado[list_cerrado$year>=2010,]
 
+toShow <- list_cerrado[list_cerrado$year>=2010,c(2,3,5,6,9)]
+
+write.csv(toShow, here::here("outputs", "tables", "newspecies.csv"), row.names = FALSE)

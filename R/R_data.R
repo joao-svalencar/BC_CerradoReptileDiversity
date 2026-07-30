@@ -1,10 +1,11 @@
 #list_raw <- read.csv(here::here("data", "raw", "lists", "salve-publico-exportacao-fichas-planilha28-06-2026-20-49-24.csv"), encoding = "UTF8") #requires namenclature harmonization
 #list_simple <- read.table(here::here("data", "processed", "lists", "salve-simplified.txt"), h = T, sep = "\t") #requires namenclature harmonization
 #list <- read.table(here::here("data", "processed", "lists", "salve-taxonomy-reviewed.txt"), h = T, sep = "\t") #835 29-06
+#nog10_raw <- read.table(here::here("data", "raw", "lists", "nog2010.csv"), h = T, sep = ",")
 
 #list_br_rdb <- read.table(here::here("data", "processed", "lists", "br_reptiles_rdb.txt"), h = T, sep = "\t") # 896 species, downloaded on July 10th, 2026
-list_br <- read.table(here::here("data", "processed", "lists", "br_reptiles.txt"), h = T, sep = "\t") # 880 species, checked and updated on July 10th, 2026
-nog10 <- read.table(here::here("data", "raw", "lists", "nog2010.csv"), h = T, sep = ",")
+list_br <- read.table(here::here("data", "processed", "lists", "br_reptiles.txt"), h = T, sep = "\t") # 881 species, checked and updated on July 30h, 2026
+
 
 sppRich <- read.table(here::here("data", "raw", "squamata_endemism.csv"), h = T, sep = ",") # 880 species, checked and updated on July 10th, 2026
 

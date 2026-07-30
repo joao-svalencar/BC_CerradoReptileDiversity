@@ -472,6 +472,7 @@ library(letsRept)
 comp <- reptCompare(nog10)
 
 review <- reptCompare(nog10, filter = "review")
+matched <- reptCompare(nog10, filter = "matched")
 
 sync <- reptSync(review, solveAmbiguity = TRUE, cores = 9)
 
@@ -561,3 +562,67 @@ sync$status[sync$query=="Liotyphlops beui"] <- "synonymized"
 # done --------------------------------------------------------------------
 table(sync$status)
 
+# split_check -------------------------------------------------------------
+split <- reptSplitCheck(matched, pubDate = 2010, cores = 9)
+table(split$status)
+
+reptTidySyn(split, filter = "check_split")
+
+list_cerrado <- list_br[list_br$cerrado_sp == "yes",]
+
+
+pattern <- paste(unique(list_cerrado$species), collapse = "|")
+
+up_to <- unique(split$RDB[split$status=="check_split"])[grep(pattern, unique(split$RDB[split$status=="check_split"]))]
+pattern_up <- paste(up_to, collapse = "|")
+
+split$status[grepl(pattern_up, split$RDB)] <- "up_to_date"
+
+table(split$status)
+reptTidySyn(split, filter = "check_split")
+
+#Oxybelis inkaterra
+#Oxybelis koehleri
+
+split$status[split$RDB == "Ameiva pantherina"] <- "not_cerrado_nor_br"
+split$status[split$status=="check_split"] <- "not_cerrado"
+
+table(split$status)
+
+nog10_status <- rbind(sync, split)
+
+nog10_review <- merge(nog10, nog10_status, by.x="species", by.y="query")
+nog10_review <- nog10_review[,c(1,5,6,7)]
+head(nog10_review)
+
+table(nog10_review$status)
+
+reptTidySyn(nog10_review, filter = "not_cerrado")
+nog10_review$RDB[nog10_review$status=="not_cerrado"] <- nog10_review$query[nog10_review$status=="not_cerrado"]
+nog10_review$status[nog10_review$status=="not_cerrado"] <- "up_to_date"
+nog10_review$status[nog10_review$status=="not_cerrado_nor_br"] <- "up_to_date"
+
+
+new <- list_cerrado$species[list_cerrado$species %in%
+                      unique(nog10_review$RDB[nog10_review$status=="up_to_date" & nog10_review$query!=nog10_review$RDB])]
+
+table(nog10_review$status)
+
+nog10_review$status[nog10_review$status=="up_to_date" & 
+               nog10_review$query!=nog10_review$RDB &
+               nog10_review$RDB %in% new] <- "new_from_split"
+
+nog10_review$status[nog10_review$status=="split_change"] <- "new_from_split"
+
+reptTidySyn(nog10_review, filter = "genus_split_change")
+nog10_review$status[nog10_review$status=="genus_split_change"] <- "genus_change"
+
+reptTidySyn(nog10_review, filter = "genus_elev_change")
+nog10_review$status[nog10_review$status=="genus_elev_change"] <- "genus_change"
+
+list_br[grepl("dimidiata", list_br$species),]
+
+reptSearch("Erythrolamprus reginae")
+reptSpecies(reptAdvancedSearch(synonym = "Liophis reginae"), taxonomicInfo = TRUE)
+
+#write.csv(nog10, here::here("data", "processed", "lists", "nog10_reviewed.csv"), row.names = FALSE)

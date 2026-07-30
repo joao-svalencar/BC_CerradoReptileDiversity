@@ -16,6 +16,9 @@ Species in the list of RDB but not included:
 
 Most are introduced species or does not have proof of occurrence in the Brazilian territory.
 
+Species added to the Brazilian list following Costa et al. (2026):
+"Oxybelis rutherfordi"
+
 Species of Testudines discarded from occurence in the Cerrado even though SALVE consider them as present:
 
 "Caretta caretta", "Chelonia mydas", "Dermochelys coriacea", "Eretmochelys imbricata", "Lepidochelys olivacea", "Platemys platycephala"
@@ -23,7 +26,6 @@ Species of Testudines discarded from occurence in the Cerrado even though SALVE 
 Most are marine species or do not have records in the Cerrado
 
 Species with marginal records in the Cerrado not considered to occur in the Biome in our analyses:
-
 
 "Apostolepis nigrolineata": one marginal record with the bulk of records in the Amazon
 "Copeoglossum arajara": one marginal record with the bulk of records in the Caatinga
