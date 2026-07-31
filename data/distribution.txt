@@ -46,11 +46,15 @@ Updated distributions:
 
 Records of Chironius xaraes and C. laurenti were extracted from Figure 9 of Sudré et al. (2026) using QGIS georeferencer
 
+Records of Tropidurus madeiramamore obtained from Carvalho et al. (2023) Supp Mat File-S18
+
 New records of Enyalius capetinga were extracted from Figure X of Ishihara et al. (2022) using QGIS georeferencer
 
 Testudines dataset were merged with the records extracted from TTWG 2025 (see R/D_sampleTestudinesTTWG.R).
 
 References:
+
+Carvalho, A.L.G., Paredero, R.C.B., Villalobos-Chaves, D., Ferreira, E., Rodrigues, M.T., Curcio, F.F, (2023) A highly polymorphic South American collared lizard (Tropiduridae: Tropidurus) reveals that open–dry refugia from South-western Amazonia staged allopatric speciation. Zoological Journal of the Linnean Society, 201(2), 493–533. https://doi.org/10.1093/zoolinnean/zlad138
 
 Di Pietro D.O., Sánchez J., Poljak S. & Alcalde L. (2026) Morphological and molecular variation reveal cryptic diversity in the racer Philodryas patagoniensis (Girard, 1858) (Squamata: Colubridae). Vertebrate Zoology 76: 93-119. https://doi.org/10.3897/vz.76.e169219
 

@@ -8,12 +8,12 @@ biomes$Bioma <- c("Amazon", "Caatinga", "Cerrado", "Atlantic Forest", "Pampa", "
 
 # squamate dataset --------------------------------------------------------
 head(db_reptiles_br)
-db_squam <- db_reptiles_br[db_reptiles_br$order =="Squamata",] #filtering dataset for only squamata species
-length(unique(db_squam$species)) #798 species in the dataset: missing 39 in comparison with spp list
+#db_squam <- db_reptiles_br[db_reptiles_br$order =="Squamata",] #filtering dataset for only squamata species
+#length(unique(db_squam$species)) #798 species in the dataset: missing 39 in comparison with spp list
 
 # conversion to spatial object (modify accordingly) -----------------------
 db_spatial <- sf::st_as_sf(db_reptiles_br, coords = c("longitude", "latitude"), crs = 4326) #for reptiles
-db_spatial <- sf::st_as_sf(db_squam, coords = c("longitude", "latitude"), crs = 4326) #for squamata only
+#db_spatial <- sf::st_as_sf(db_squam, coords = c("longitude", "latitude"), crs = 4326) #for squamata only
 
 db_spatial <- sf::st_transform(db_spatial, crs = 4674) #SIRGAS
 
@@ -103,9 +103,13 @@ null_sharing_cerrado <- apply(simulated_matrices, 3, wdc, interest_bioma = "Cerr
 # simulated wdc summary
 print(summary(null_sharing_cerrado))
 
-# calculating p-value
-p_value <- sum(null_sharing_cerrado >= observed_sharing_cerrado) / 10000
-cat("\n Permutation test p-value (Swap):", p_value, "\n")
+# calculating two-tailed p-value
+p_upper <- sum(null_sharing_cerrado >= observed_sharing_cerrado) / length(null_sharing_cerrado)
+p_lower <- sum(null_sharing_cerrado <= observed_sharing_cerrado) / length(null_sharing_cerrado)
+
+p_value <- 2 * min(p_upper, p_lower) #two-tailed
+
+cat("\n Two-tailed p-value (Swap):", p_value, "\n")
 
 # to create figure S1: histogram of simulated wdcs + observed Cerrado wdc
 df_null <- data.frame(wdc = null_sharing_cerrado)

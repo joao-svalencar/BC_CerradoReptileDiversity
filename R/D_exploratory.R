@@ -261,3 +261,7 @@ list_cerrado[list_cerrado$year>=2010,]
 toShow <- list_cerrado[list_cerrado$year>=2010,c(2,3,5,6,9)]
 
 write.csv(toShow, here::here("outputs", "tables", "newspecies.csv"), row.names = FALSE)
+
+length(list_cerrado$species[list_cerrado$year>=2002])
+length(list_cerrado$species[list_cerrado$year>=2002 & list_cerrado$year<=2010])
+
