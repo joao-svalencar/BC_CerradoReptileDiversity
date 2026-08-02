@@ -117,12 +117,12 @@ df_null <- data.frame(wdc = null_sharing_cerrado)
 figS1 <- ggplot(df_null, aes(x = wdc)) +
   geom_histogram(bins = 30, fill = "lightblue", color = "white") +
   geom_vline(xintercept = observed_sharing_cerrado, 
-             color = "red", linetype = "dashed", size = 1) +
+             color = "red", linetype = "dashed", linewidth = 1) +
   coord_cartesian(xlim = c(min(c(null_sharing_cerrado, observed_sharing_cerrado)) - 0.001,
                            max(c(null_sharing_cerrado, observed_sharing_cerrado)) * 1.01)) +
   labs(
     title = "Permutation Test (Swap)",
-    x = "Weighted Degree Centrality (WDC)",
+    x = "Centrality Degree (CD)",
     y = "Frequency"
   ) +
   theme_classic()
