@@ -20,3 +20,4 @@ db_reptiles_br <- read.table(here::here("data", "processed","distribution", "br_
 # shapes ------------------------------------------------------------------
 biomes <- sf::st_read(here::here("data", "raw", "shapes", "biomas.shp"))
 
+res_count <- read.csv(here::here("outputs", "tables", "residuals_count.csv"), head = TRUE, row.names = 1)

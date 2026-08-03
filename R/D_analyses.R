@@ -52,7 +52,10 @@ dist_pa <- vegdist(pa_matrix, method = "jaccard")
 sim_pa <- as.matrix(1- dist_pa)
 sim_pa <- (round(sim_pa, digits = 3))
 
-sim_pa <- cbind(sim_pa, TOTAL = rowSums(sim_pa))
+sim_pa <- cbind(sim_pa,
+                TOTAL = rowSums(sim_pa),
+                Mean = round((rowSums(sim_pa)/5), digits = 3), 
+                SD = round(apply(sim_pa, 1, function(row){sd(row[row !=0])}),digits = 3))
 sim_pa
 
 write.csv(sim_pa, here::here("outputs", "tables", "table 1_reptWDC.csv"))
@@ -138,3 +141,10 @@ ggsave("Fig S1.png",
        units = "mm",
        dpi = 1000,
 )
+
+
+# model residuals and sampling effort analysis ----------------------------
+
+chisq.test(res_count)
+chisq.test(res_count)$residuals
+
