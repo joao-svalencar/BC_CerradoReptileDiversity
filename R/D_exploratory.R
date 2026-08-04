@@ -144,7 +144,10 @@ list_br <- list_br[!duplicated(list_br$species),]
 # reviewing Cerrado turtles and tortoises (TTWG 2025) ---------------------
 list_br[list_br$order =="Testudines" & list_br$cerrado_sp =="yes",]
 
-drop_cerrado_turtles <- c("Caretta caretta", "Chelonia mnydas", "Dermochelys coriacea", "Eretmochelys imbricata", "Lepidochelys olivacea", "Platemys platycephala")
+
+drop_cerrado_turtles <- c("Caretta caretta", "Chelonia mydas", "Dermochelys coriacea", "Eretmochelys imbricata", "Lepidochelys olivacea")
+
+names(which(pa_matrix[4,]==1))[!colnames(pa_matrix) %in% drop_cerrado_turtles]
 
 list_br$cerrado_sp[list_br$species %in% drop_cerrado_turtles] <- "no"
 
@@ -181,6 +184,10 @@ head(list_br)
 names(list_br)[3] <- "family"
 
 list_br <- list_br[order(list_br$species),]
+
+list_br[list_br$species=="Helicops boitata",]
+list_br[list_br$species=="Alopoglossus collii",9] <- "no"
+list_br[list_br$species=="Stenocercus albolineatus",9] <- "no"
 
 write.table(list_br, here::here("data", "processed", "lists", "br_reptiles.txt"),
             fileEncoding = "UTF8",
@@ -237,11 +244,17 @@ write.csv(testudines_domain_prop, here::here("outputs", "tables", "testudines_do
 summary(testudines_domain_prop$Cerrado)
 
 # ENDEMISM ----------------------------------------------------------------
-table(list_cerrado$cerrado_endemic, list_cerrado$suborder)
-127/(127+286) #127/410 = 30.7% Squamata
-new_endemics <- list_cerrado[list_cerrado$cerrado_endemic=="yes" & list_cerrado$year >= 2010,] #described since Nogueira et al 2010
+table(list_cerrado$order)
 
-table(new_endemics$suborder)
+table(list_cerrado$cerrado_endemic, list_cerrado$suborder)
+124/(412) #30% among Squamate
+
+table(list_cerrado$cerrado_endemic[list_cerrado$year>=2002]) #endemics after Colli et al., 2002
+
+table(list_cerrado$cerrado_endemic[list_cerrado$year>=2002&list_cerrado$year<2010]) #endemics between Colli et al., 2002 and Nogueira et a.,l 2010
+
+table(list_cerrado$cerrado_endemic[list_cerrado$year>=2010]) #endemics after Nogueira et al., 2010
+
 
 # Comparing data with Nogueira et al. 2010 --------------------------------
 table(nog10_review$status)

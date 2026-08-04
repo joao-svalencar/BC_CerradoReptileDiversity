@@ -8,12 +8,12 @@ biomes$Bioma <- c("Amazon", "Caatinga", "Cerrado", "Atlantic Forest", "Pampa", "
 
 # squamate dataset --------------------------------------------------------
 head(db_reptiles_br)
-#db_squam <- db_reptiles_br[db_reptiles_br$order =="Squamata",] #filtering dataset for only squamata species
+db_squam <- db_reptiles_br[db_reptiles_br$order =="Squamata",] #filtering dataset for only squamata species
 #length(unique(db_squam$species)) #798 species in the dataset: missing 39 in comparison with spp list
 
 # conversion to spatial object (modify accordingly) -----------------------
 db_spatial <- sf::st_as_sf(db_reptiles_br, coords = c("longitude", "latitude"), crs = 4326) #for reptiles
-#db_spatial <- sf::st_as_sf(db_squam, coords = c("longitude", "latitude"), crs = 4326) #for squamata only
+db_spatial <- sf::st_as_sf(db_squam, coords = c("longitude", "latitude"), crs = 4326) #for squamata only
 
 db_spatial <- sf::st_transform(db_spatial, crs = 4674) #SIRGAS
 
@@ -35,7 +35,7 @@ pa_matrix <- counts_matrix
 pa_matrix[pa_matrix >0] <- 1
 
 pa_matrix <- as.matrix(as.data.frame.matrix(pa_matrix))
-#pa_matrix[, 1:5]
+rowSums(pa_matrix)
 
 # prop_matrix -------------------------------------------------------------
 prop_matrix <- sweep(counts_matrix, 2, colSums(counts_matrix), "/")
@@ -55,10 +55,10 @@ sim_pa <- (round(sim_pa, digits = 3))
 sim_pa <- cbind(sim_pa,
                 TOTAL = rowSums(sim_pa),
                 Mean = round((rowSums(sim_pa)/5), digits = 3), 
-                SD = round(apply(sim_pa, 1, function(row){sd(row[row !=0])}),digits = 3))
+                SE = round(apply(sim_pa, 1, function(row){sd(row[row !=0])/sqrt(5)}),digits = 3))
 sim_pa
 
-write.csv(sim_pa, here::here("outputs", "tables", "table 1_reptWDC.csv"))
+write.csv(sim_pa, here::here("outputs", "tables", "table 1_squamMDC.csv"))
 #write.csv(sim_pa, here::here("outputs", "tables", "table S1_squamWDC.csv"))
 
 # NDMS with prop matrix
@@ -68,7 +68,8 @@ nmds_res$stress #below 0.2 means good ordering #go to S_ndms for NDMS Figure
 # calculating weighted  degree centrality (WDC) ---------------------------
 wdc <- function(pa_matrix, interest_bioma = "Cerrado") {
   biomes <- rownames(pa_matrix)
-  total_jaccard <- 0
+  #total_jaccard <- 0
+  jaccard_vec <- numeric()
   
   interest_vector <- pa_matrix[interest_bioma, ]
   
@@ -81,11 +82,14 @@ wdc <- function(pa_matrix, interest_bioma = "Cerrado") {
       union       <- sum(interest_vector == 1 | neighbor_vector == 1)
       
       jaccard <- intersection / union
-      total_jaccard <- total_jaccard + jaccard
+      #total_jaccard <- total_jaccard + jaccard #for sum
+      jaccard_vec <- c(jaccard_vec, jaccard) #for mean
     }
   }
-  return(total_jaccard)
+  #return(total_jaccard) #for sum
+  return(mean(jaccard_vec)) #for mean
 }
+
 
 # permutation test --------------------------------------------------------
 observed_sharing_cerrado <- wdc(pa_matrix, "Cerrado")

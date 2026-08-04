@@ -14,8 +14,8 @@ head(db_reptiles_br)
 
 db_cerrado <- db_reptiles_br[db_reptiles_br$cerrado_sp=="yes",]
 
-length(unique(db_cerrado$species)) #438 species OK
-length(unique(db_cerrado$species[db_cerrado$cerrado_endemic=="yes"])) #127 endemic species OK
+length(unique(db_cerrado$species)) #437 species OK
+length(unique(db_cerrado$species[db_cerrado$cerrado_endemic=="yes"])) #124 endemic species OK
 
 db_spatial <- sf::st_as_sf(db_cerrado, coords = c("longitude", "latitude"), crs = 4326)
 db_spatial <- sf::st_transform(db_spatial, crs = 4674) #SIRGAS
@@ -125,8 +125,10 @@ richness_summary <- data.frame(
   crocodylia_richness = sapply(split_grid_list, function(df) length(unique(df$species[df$order == "Crocodylia"]))),
   squamata_richness   = sapply(split_grid_list, function(df) length(unique(df$species[df$order == "Squamata"]))),
   endemic_richness   = sapply(split_grid_list, function(df) length(unique(df$species[df$cerrado_end == "yes"]))),
-  new2002_endemic_richness = sapply(split_grid_list, function(df) length(unique(df$species[df$year >= 2002 & df$year<2010]))),
-  new2010_endemic_richness = sapply(split_grid_list, function(df) length(unique(df$species[df$year >= 2010])))
+  new2002_richness = sapply(split_grid_list, function(df) length(unique(df$species[df$year >= 2002 & df$year<2010]))),
+  new2010_richness = sapply(split_grid_list, function(df) length(unique(df$species[df$year >= 2010]))),
+  new2002_endemic_richness = sapply(split_grid_list, function(df) length(unique(df$species[df$year >= 2002 & df$year<2010 & df$cerrado_end == "yes"]))),
+  new2010_endemic_richness = sapply(split_grid_list, function(df) length(unique(df$species[df$year >= 2010 & df$cerrado_end == "yes"])))
 )
 
 final_grid_richness <- merge(grid_spatial, richness_summary, by = "grid_id", all.x = TRUE)
@@ -137,5 +139,5 @@ for (col in cols_to_zero_rich) {
   final_grid_richness[[col]][is.na(final_grid_richness[[col]])] <- 0
 }
 
-sf::st_write(final_grid_richness, here::here("outputs", "shapes", "cerrado_reptile_richness.gpkg"), delete_dsn = TRUE)
-sf::st_write(final_grid_richness, "/Users/jvieiradeale/Downloads/cerrado_reptile_richness.gpkg", delete_dsn = TRUE)
+sf::st_write(final_grid_richness, here::here("outputs", "shapes", "cerrado_reptile_richnessNEW.gpkg"), delete_dsn = TRUE)
+

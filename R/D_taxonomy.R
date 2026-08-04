@@ -469,10 +469,10 @@ length(unique(db$species)) #787 species
 
 library(letsRept)
 
-comp <- reptCompare(nog10)
+comp <- reptCompare(nog10_raw)
 
-review <- reptCompare(nog10, filter = "review")
-matched <- reptCompare(nog10, filter = "matched")
+review <- reptCompare(nog10_raw, filter = "review")
+matched <- reptCompare(nog10_raw, filter = "matched")
 
 sync <- reptSync(review, solveAmbiguity = TRUE, cores = 9)
 
@@ -591,7 +591,7 @@ table(split$status)
 
 nog10_status <- rbind(sync, split)
 
-nog10_review <- merge(nog10, nog10_status, by.x="species", by.y="query")
+nog10_review <- merge(nog10_raw, nog10_status, by.x="species", by.y="query")
 nog10_review <- nog10_review[,c(1,5,6,7)]
 head(nog10_review)
 
@@ -607,6 +607,8 @@ new <- list_cerrado$species[list_cerrado$species %in%
                       unique(nog10_review$RDB[nog10_review$status=="up_to_date" & nog10_review$query!=nog10_review$RDB])]
 
 table(nog10_review$status)
+
+reptTidySyn(nog10_review, filter = "new_from_split")
 
 nog10_review$status[nog10_review$status=="up_to_date" & 
                nog10_review$query!=nog10_review$RDB &
@@ -626,3 +628,10 @@ reptSearch("Erythrolamprus reginae")
 reptSpecies(reptAdvancedSearch(synonym = "Liophis reginae"), taxonomicInfo = TRUE)
 
 #write.csv(nog10, here::here("data", "processed", "lists", "nog10_reviewed.csv"), row.names = FALSE)
+
+
+
+list_cerrado$species[!list_cerrado$species[list_cerrado$order=="Squamata"&list_cerrado$year<2010] %in% nog10_review$species[nog10_review$status=="up_to_date"]]
+
+
+
