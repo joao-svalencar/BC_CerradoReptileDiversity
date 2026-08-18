@@ -7,7 +7,7 @@ nog10_raw <- read.table(here::here("data", "raw", "lists", "nog2010.csv"), h = T
 list_br <- read.table(here::here("data", "processed", "lists", "br_reptiles.txt"), h = T, sep = "\t") # 881 species, checked and updated on July 30h, 2026
 
 
-sppRich <- read.table(here::here("data", "raw", "squamata_endemism.csv"), h = T, sep = ",") # 880 species, checked and updated on July 10th, 2026
+listsppRich <- read.table(here::here("data", "raw", "squamata_endemism.csv"), h = T, sep = ",") # 880 species, checked and updated on July 10th, 2026
 
 #end <- read.table(here::here("data", "processed", "lists", "cerrado_endemics_list.txt"), h = T, sep = "\t") #125 29-06 from Vieira-Alencar et al 2023 with current nomenclature
 

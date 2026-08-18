@@ -50,6 +50,8 @@ Records of Tropidurus madeiramamore obtained from Carvalho et al. (2023) Supp Ma
 
 New records of Enyalius capetinga were extracted from Figure X of Ishihara et al. (2022) using QGIS georeferencer
 
+New records of Dipsas bucephala were extracted from the results section of Lima et al. (2026) using standard coordinates conversor
+
 Testudines dataset were merged with the records extracted from TTWG 2025 (see R/D_sampleTestudinesTTWG.R).
 
 References:
@@ -63,6 +65,8 @@ Entiauspe-Neto O.M., Koch C., Harvey M.B., Colli G.R., Guedes T.B. (2021) Redesc
 Ishihara, M.A., Domingos, F.M.C.B., Gomides, S.C., Novelli, I.A., Colli, G.R. & Vargas, S.M. (2022) Genetic structure of Enyalius capetinga (Squamata, Liosauridae) in Central Cerrado and transitional areas between the Cerrado an the Atlantic Forest, with updated geographic distribution. Genetica, 150, 367–377. https://doi.org/10.1007/s10709-022-00170-w
 
 Marques-Souza S., Prates I., Fouquet A., et al. Reconquering the water: Evolution and systematics of South and Central American aquatic lizards (Gymnophthalmidae). Zool Scr. 2018;47:255–265. https://doi.org/10.1111/zsc.12273
+
+Lima, L. F., Queiroz, P. P., Wassouf, K. Z. B., Coimbra, M. A., Brandao, R. A. (2026) New recods of Dipsas bucephala (Shaw, 1802) (Squamata, Dipsadidae, Dipsadini) from the Brazilian Central Plateau, with the first report from the Distrito Federal, Brazil. CheckList, 22(4), 733-738. https://doi.org/10.15560/22.4.733
 
 Sudré, V., Ceríaco, L.M.P., Torres-Carvajal, O., Strüssman, C., Curcio, F.F., Colli, G.R., & Passos, P. (2026) Systematics of Chironius laurenti Dixon, Wiest and Cei 1993 (Serpentes: Colubridae) reveals unexpected taxonomic insights. Organisms Diversity Evolution 26, 197–228 (2026). https://doi.org/10.1007/s13127-026-00698-1
 
